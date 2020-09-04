@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const LandingPageStyle = styled.div`
     .homeTopSection {
-        margin-top: 10em;
+        margin-top: 13em;
         display:flex;
         flex-wrap: wrap;
         background-color: #C1BDB5;
@@ -72,7 +72,7 @@ const LandingPageStyle = styled.div`
     }
     .promptBtn {
         display: flex;
-        margin-top: 6rem;
+        margin-top: 4rem;
         margin-bottom: 1rem;
         flex-wrap: wrap;        
         justify-content: space-around;

@@ -4,40 +4,59 @@ const Style = styled.div`
   h3 {
     margin-top: 5em; 
     padding: 0.5em;
+    margin-bottom: 1rem;
   }
-  .classContacts{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;  
-    margin: 5%; 
+  h6 {
+    color: white;
+    font-size: 0.6rem;
   }
-  .classContents {
+  .contactContainer{
     display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    margin-right: 7%;
-    margin-bottom: 10%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 5px solid gray;
+    height: 80%;    
+    background-color: #C1BDB5;
+    color: white;
+    padding: 3rem;
+  }
+  .socialMediaSection {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    color: white;
+    width: 16.7rem;
+    height: 45%;
+    transform: skew(20deg);
+    background: orange;
   }
   .classIcon {
-    width: 2.5em;
-    height: 2.5em;
-    margin: 2%;
+    width: 2em;
+    height: 2em;
     color: black;
-    margin: auto;
+  }
+  .socialMediaIconClass {
+    margin-top: 50%;  
+  }
+  .contactFormSection {
+    height: 80%;
+  }
+  .toolTip {
+    margin-right: 1rem;
   }
   .classTooltip {
     display: none;
   }
   .toolTip:hover .classTooltip { 
     display: block;
-    padding: 0.3em;
+    padding: 0.2rem;
     position: absolute;
     font-size: 12px;
   }
- span {
+  span {
    line-height: 3em;
    font-size: 12px;
- }
+  }
 `;
 
 export default Style;

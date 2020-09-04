@@ -26,7 +26,7 @@ export default createGlobalStyle`
     font: 14px 'Roboto', sans-serif;
   }
   h3 {
-    border-bottom: 0.1px solid darkgreen;
+    // border-bottom: 0.1px solid darkgreen;
   }
   a {
     text-decoration: none;

@@ -7,12 +7,14 @@ const Style = styled.div`
         width: 100%;        
         justify-content: space-between;
         padding: 2rem;
+        margin-top: 30%;
     }
     .allRights {
         display: flex;
         flex-direction: column;
         color: white;
         font-family: sans-serif;
+        margin-left: 2%;
     }
     .allRights span {
         color: gray;
@@ -20,6 +22,7 @@ const Style = styled.div`
     .socialMediaLinks {
         display: flex;
         flex-wrap: wrap;
+        margin-right: 2%;
     }
     .classIcon {
         margin-left: 0.5rem;
