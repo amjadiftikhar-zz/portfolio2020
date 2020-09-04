@@ -32,7 +32,8 @@ export default function About() {
           <div className="contactClass">
             <div className="contactDetails">              
               <p>Name:<span style={{marginLeft:"5px"}}>Amjad Iftikhar</span></p>
-              <p>Email: <span style={{color:"orange", marginLeft:"5px"}}>amjadiftikhar_99@hotmail.com</span> </p>
+              <p>Email: <span style={{color:"orange", marginLeft:"5px"}}>
+                amjadiftikhar_99@hotmail.com</span> </p>
             </div>
             <div>
               <a className="downloadClass">Download resume</a>

@@ -3,6 +3,7 @@ import mealsharingImage from "../../images/mealsharing.jpg";
 import weatherAppImage from "../../images/weatherApp.jpg";
 import githubSearch from "../../images/githubSearch.jpg";
 import giphySearch from "../../images/giphySearch.jpg";
+import oldPortfolioImage from "../../images/oldPortfolio.jpg";
 
 const projectObj = [
     {
@@ -52,6 +53,16 @@ const projectObj = [
     projectImage: giphySearch,
     githubLink:"https://github.com/amjadiftikhar/my_SPAs/tree/master/giphy-App",
     herokuLink:"https://github.com/amjadiftikhar/my_SPAs/tree/master/giphy-App",
+    description:"description comes here, description comes here"
+  }, 
+  {
+    projectTitle:"Portfolio Application", 
+    stackList:["Javascript", "React", "Bootstrap", "HTML", "CSS", 
+                "Github", "Git"
+              ], 
+    projectImage: oldPortfolioImage,
+    githubLink:"https://github.com/amjadiftikhar/my-portfolio",
+    herokuLink:"http://amjadportfolio.herokuapp.com/",
     description:"description comes here, description comes here"
   }
   ]
