@@ -50,7 +50,6 @@ function Education() {
             </div>
             <h3>
                 <FaCertificate style={{marginRight:"0.4vw", fontSize:"1.6vw"}}/>
-                {/* <img src={certificateIcon} alt=""/> */}
                 Certifications
             </h3>            
             <h4>Microsoft Certified Professional, MCP ID: 8074395</h4>

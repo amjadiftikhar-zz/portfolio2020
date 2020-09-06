@@ -53,4 +53,4 @@ const Style = styled.div`
   }
 `;
 
-export default Style;
+export default Style; 

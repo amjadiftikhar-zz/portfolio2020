@@ -1,16 +1,22 @@
 import styled from "styled-components";
 
 const Style = styled.div`
+
+// project section styling where all projects are displayed
+
   .projectSection {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 5%;
+    margin-top: 3%;
   }
   h3 {
-    margin-top: 5em;
+    margin-top: 6em;
     padding: 0.2em;
   }
+
+  // heading for each project 
+
   h5 {
     width: 100%;
     text-align: center;
@@ -20,20 +26,29 @@ const Style = styled.div`
     font-size: 1rem;
     letter-spacing: 0.05rem;   
   }
+
+  //image used for each project
+
   .projectImage {
     width:20em;
     height: 20em;    
     animation: mymove 5s infinite;
   } 
-  @keyframes mymove {
-    50% {border-bottom-right-radius: 150px;}
-  }
+  // @keyframes mymove {
+  //   50% {border-bottom-right-radius: 150px;}
+  // }
+
+  // styling of each item in the project card
+
   .projectContents {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
   }
+
+  // styling of Icons used in project section and project card
+
   .iconSection {
     padding: 15%;
     display: flex; 
@@ -43,12 +58,15 @@ const Style = styled.div`
     width: 2em;
     height: 2em;
     color: black;
-  }
+  }  
   .projectIcon {
     width: 0.5em;
     height: 0.5em;
     margin-right: 0.3em;
   }
+
+  // Styling of Tooltip used for icons 
+
   .classTooltip {
     display: none;
   }
@@ -62,6 +80,28 @@ const Style = styled.div`
   .classSpan {
     margin-right: 20%;
   }
+
+  // Tooltip for project description, shows up on description Icon
+
+  .classToolTipBubble {
+    display: none;
+    margin: 0.5rem;
+    -webkit-border-radius: 2rem;
+  }
+  .classToolTipBubble span {
+    width: 12rem;
+    height: 12rem;
+  }
+  #description {
+    border: 1px solid white;
+  }
+  .toolTip:hover .classToolTipBubble { 
+    display: block;
+    font-size: 0.8rem;
+  }
+
+  // styling of flip related effect of project image 
+
   .flipBox {
     width: 20em;
     height: 20em;
@@ -72,7 +112,7 @@ const Style = styled.div`
     position: relative;
     width: 100%;
     height: 100%;
-    transition: transform 0.8s;
+    transition: transform 0.9s;
     transform-style: preserve-3d;
   }  
   .flipBox:hover .flipBox-inner {
@@ -90,6 +130,9 @@ const Style = styled.div`
     color: white;
     transform: rotateY(180deg);
   }
+
+  // styling on the backside of a project image
+
   .techStackClass {
     display: flex;
     flex-wrap: wrap;

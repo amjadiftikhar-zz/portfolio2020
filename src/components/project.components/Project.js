@@ -2,13 +2,16 @@ import React from 'react';
 import {Card} from "react-bootstrap";
 import {FaGithub, FaExternalLinkSquareAlt} from "react-icons/fa"
 import {MdDescription} from "react-icons/md";
+import ReactTooltip from 'react-tooltip';
 
 function Project(props) {
 return (
   <Card className="bg-light" style={{ width: '18rem', marginBottom:"7%", 
     borderBottom:"5px solid gray" }}>
+      {/* main div of the project designed */}
     <div className="projectContents">
       <h5>{props.projectTitle}</h5>
+      {/* main div to implement flipping on hover over*/}
       <div className="flipBox">
         <div className="flipBox-inner">
           <div className="flipBox-front">
@@ -22,6 +25,7 @@ return (
           </div>
         </div>
       </div>
+      {/* icons' section of the project starts from here*/}
       <div className="iconSection">
         <span className="classSpan">
           <a className="toolTip" href={props.githubLink}>
@@ -36,10 +40,17 @@ return (
           </a>
         </span>
         <span className="classSpan">
-          <a className="toolTip" href="#">
-            <MdDescription className="classIcon toolTip"/>
-            <span className="classTooltip">Description</span> 
-          </a>
+          {/* Div for the Tooltip designed for the project description  */}
+          <div className="toolTip">  
+            <MdDescription data-tip data-for='description' id="sadFace" 
+              className="classIcon toolTip"/>
+            <ReactTooltip id='description' className="classToolTipBubble" type='warning' 
+              effect='solid'>
+              <span className=" classToolTipBubble">
+                {props.description}
+              </span> 
+            </ReactTooltip>
+          </div>
         </span>
       </div>
     </div>

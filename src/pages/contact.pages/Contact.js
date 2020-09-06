@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container} from "react-bootstrap";
 import Style from "./contact.style";
+// import "./contact.style.js";
 import { GrContactInfo } from 'react-icons/gr';
 import {MdEmail} from "react-icons/md";
 import {FaLinkedin, FaGithubSquare, FaPhoneSquare, 
@@ -10,16 +11,17 @@ import ContactUs from "../../components/contactUs.components/ContactUs";
 export default function Contact() {
   return (
     <Style>
-    <Container style={{height: "150vh"}}>
+    <Container style={{height: "150vh", marginTop:"10rem"}}>
       <h3><GrContactInfo className="contactBookIcon"/> Contact Details</h3>
       <div className="contactContainer">        
         <div className="socialMediaSection">
-          <span style={{marginBottom:"1rem"}}>Contact me <FaRegHandPointDown/></span>
+          <span style={{marginBottom:"1rem"}}>Contact me <FaRegHandPointDown 
+          style={{fontSize:"1.7rem"}}/></span>
           <div className="emailClass">
             <h6><MdEmail className="classIcon" /> amjadiftikhar_99@hotmail.com</h6>
           </div>
           <div className="phoneNumber">
-            <h8><FaPhoneSquare className="classIcon"/> +45 529 209 45</h8>
+            <h6><FaPhoneSquare className="classIcon"/> +45 529 209 45</h6>
           </div>
           <div className="socialMediaIconClass">
               <a className="classIcon toolTip" 

@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 const Style = styled.div`
   h3 {
-    margin-top: 5em; 
-    padding: 0.5em;
     margin-bottom: 1rem;
   }
   h6 {
@@ -49,14 +47,11 @@ const Style = styled.div`
   }
   .toolTip:hover .classTooltip { 
     display: block;
-    padding: 0.2rem;
+    padding: 0.1rem;
     position: absolute;
     font-size: 12px;
-  }
-  span {
-   line-height: 3em;
-   font-size: 12px;
+    color: white;
   }
 `;
 
-export default Style;
+export default Style; 
