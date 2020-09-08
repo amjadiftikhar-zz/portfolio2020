@@ -9,9 +9,11 @@ export default function ContactUs() {
     emailjs.sendForm('service_yh0l2gh', 'template_5hqobku', 
       e.target, 'user_Ane2n8QteW2k8F4HWdDKu')
       .then((result) => {
-          console.log(result.text + 'funciona');
+        alert('Thank you for reaching out')
+        console.log(result.text + 'funciona');
       }, (error) => {
-          console.log(error.text + 'no funciona');
+        alert("Please try again!")
+        console.log(error.text + 'no funciona');
       });
       e.target.reset();
   }

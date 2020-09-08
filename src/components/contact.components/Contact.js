@@ -1,12 +1,11 @@
 import React from 'react';
 import {Container} from "react-bootstrap";
 import Style from "./contact.style";
-// import "./contact.style.js";
 import { GrContactInfo } from 'react-icons/gr';
 import {MdEmail} from "react-icons/md";
 import {FaLinkedin, FaGithubSquare, FaPhoneSquare, 
-  FaRegHandPointDown} from "react-icons/fa"
-import ContactUs from "../../components/contactUs.components/ContactUs";
+  FaRegHandPointDown} from "react-icons/fa";
+import ContactUs from "../contactUs.components/ContactUs";
 
 export default function Contact() {
   return (
@@ -18,10 +17,12 @@ export default function Contact() {
           <span style={{marginBottom:"1rem"}}>Contact me <FaRegHandPointDown 
           style={{fontSize:"1.7rem"}}/></span>
           <div className="emailClass">
-            <h6><MdEmail className="classIcon" /> amjadiftikhar_99@hotmail.com</h6>
+            <p className="contactElements"><MdEmail className="classIcon" /> 
+              amjadiftikhar_99@hotmail.com
+            </p>
           </div>
           <div className="phoneNumber">
-            <h6><FaPhoneSquare className="classIcon"/> +45 529 209 45</h6>
+            <p className="contactElements"><FaPhoneSquare className="classIcon"/> +45 529 209 45</p>
           </div>
           <div className="socialMediaIconClass">
               <a className="classIcon toolTip" 

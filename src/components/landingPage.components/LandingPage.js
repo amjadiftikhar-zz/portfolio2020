@@ -10,7 +10,7 @@ import Typical from "react-typical";
 function LandingPageComponent() {
     return (
         <LandingPageStyle>
-        <Container className="container-fluid">
+        <Container style={{marginTop:"10rem"}} className="container-fluid">
             <div className="homeTopSection">
                 <div className="leftSection"  >
                     <Image className="profilePic" src={profilePic} roundedCircle/>
@@ -35,7 +35,7 @@ function LandingPageComponent() {
                                 loop={Infinity}
                                 wrapper="b"
                                 steps={["Full Stack Developer", 1000, "Freelancer", 1000 ,
-                                        1000, "energetic", "motivated person", 1000 ]}
+                                        1000, "Frontend developer", "React developer", 1000 ]}
                             />                    
                         </p>
                     </div>

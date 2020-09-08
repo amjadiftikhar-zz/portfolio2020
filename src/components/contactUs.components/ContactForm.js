@@ -1,8 +1,8 @@
 import React from 'react';
 
 function ContactForm(props) {
-    return (
-        <form className="form-control-sm" onSubmit={props.sendEmail}>
+  return (
+    <form className="form-control-sm" onSubmit={props.sendEmail}>
       <div className="form-group row">
         <label className="col-sm-2 col-form-label col-form-label-sm">Phone</label>
         <div className="col-sm-9">
@@ -38,7 +38,7 @@ function ContactForm(props) {
         </div>
       </div> 
     </form>
-    )
+  )
 }
 
 export default ContactForm;

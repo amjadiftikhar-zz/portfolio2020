@@ -7,7 +7,6 @@ const Style = styled.div`
         width: 100%;        
         justify-content: space-between;
         padding: 2rem;
-        margin-top: 30%;
     }
     .allRights {
         display: flex;

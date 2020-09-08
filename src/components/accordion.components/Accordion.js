@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import {FaAngleRight} from "react-icons/fa";
 import "./accordion.style.css";
 
-
 function Accordion(props) {
     const [active, setActive] = useState(false);
     const contentRef = useRef(null);
@@ -28,7 +27,7 @@ function Accordion(props) {
                 {props.children}
             </div>            
         </div>
-    )
+    );
 }
 
 export default Accordion

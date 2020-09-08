@@ -6,15 +6,8 @@ const Style = styled.div`
     height: 0.9em;
     margin-right: 0.3em;
   }
-  {    
-    margin-bottom: 10%;
-  }
-  h3 {
-    margin-top: 5em;
-    padding: 0.2em;
-  }
   .aboutMeSection {
-    margin-top: 5%;
+    margin-top: 1.5rem;
     display: flex; 
   }
   .contentClass {
@@ -32,7 +25,7 @@ const Style = styled.div`
     flex-wrap: wrap;
     box-sizing: border-box;
   }
-  p {
+  .pClass {
     font-family: sans-serif;
     color: black;
     font-size: 14px;

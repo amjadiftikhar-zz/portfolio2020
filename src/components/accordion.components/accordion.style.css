@@ -1,10 +1,12 @@
 .accordionSection {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1.5rem;
 }
 .accordionTitle {
     display: flex;
     padding: 1.5rem;
+    font-size: 1.5rem;
     align-items: center;
     background-color:#C1BDB5;
     cursor: pointer;
@@ -16,12 +18,18 @@
 .active {
     background-color: rgb(175, 171, 171);
 }
+.accordionTitle:focus{
+    outline: none;
+}
 .accordionIcon {
     margin-left: auto;
     transition: transform 0.6s ease;
+    border-radius: 50%;
+    font-size: 1.5rem;
 }
 .rotate {
     transform: rotate(90deg);
+    ;
 }  
 .accordionContent {
     overflow: hidden;

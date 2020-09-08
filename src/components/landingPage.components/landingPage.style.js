@@ -2,13 +2,11 @@ import styled from "styled-components";
 
 const LandingPageStyle = styled.div`
     .homeTopSection {
-        margin-top: 13em;
         display:flex;
         flex-wrap: wrap;
         background-color: #C1BDB5;
         min-height: 150vh;
         width: 100%;
-        margin-bottom: 10%;
     }
     .rightSection {
         display: flex;
@@ -45,16 +43,16 @@ const LandingPageStyle = styled.div`
         height: 9vw;     
     }
     .leftSection {
-        margin-top: 3em;
+        margin-top: 3rem;
         display: flex;
         flex-direction: column; 
         width: 20%;
         min-height: 100vh;
         align-items: center;        
     }
-    h6{
-        margin-top: 0.7em;
-        font-size: 1.4vw;
+    h6 {
+        margin-top: 0.7rem;
+        font-size: 1.5vw;
     }
     .classContact {
         display: flex;
@@ -68,7 +66,8 @@ const LandingPageStyle = styled.div`
         border-radius: 50%;
     }
     .classContact a {
-        margin-right: 1rem;
+        margin-right: 0.4rem;
+        margin-left: 0.4rem;
     }
     .promptBtn {
         display: flex;
@@ -85,7 +84,7 @@ const LandingPageStyle = styled.div`
         text-decoration: none;
         color: black;
         text-align: center;
-        margin-right: 0.3rem;
+        margin: 0.3rem;
     }
 `;
 

@@ -7,20 +7,20 @@ function Experience() {
     
     return (
         <Style>
-        <Container>
+        <Container style={{marginTop:"10rem"}}>
             <h3>
             <BsBriefcaseFill style={{marginRight:"0.6vw", fontSize:"1.6vw"}}/>
                 Work Experience</h3>
             <h4>Student Volunteer</h4>
             <div className="experienceSection">
                 <div className="experienceContents">
-                    <p>Organization</p>
+                    <p className="pItalic">Organization</p>
                     <h5>Hack Your Future Copenhagen</h5>
                     <p>08/2019 – Present</p>                    
                 </div>
                 <div className="experienceContents">
                     <div>
-                        <p>
+                        <p className="pItalic">
                             Copenhagen, Denmark
                         </p>
                     </div>
@@ -29,13 +29,13 @@ function Experience() {
             <h4>Cab Driver</h4>
             <div className="experienceSection">
                 <div className="experienceContents">
-                    <p>Company</p>
+                    <p className="pItalic">Company</p>
                     <h5>Taxa 4x35 Copenhagen</h5>
-                    <p>02/2014 – 05/2020</p>                    
+                    <p className="pItalic">02/2014 – 05/2020</p>                    
                 </div>
                 <div className="experienceContents">
                     <div>
-                        <p>
+                        <p className="pItalic">
                             Copenhagen, Denmark
                         </p>
                     </div>
@@ -44,13 +44,13 @@ function Experience() {
             <h4>Transcriber & IT Supporter</h4>
             <div className="experienceSection">
                 <div className="experienceContents">
-                    <p>Company</p>
+                    <p className="pItalic">Company</p>
                     <h5>SpaceTech Medical Transcription <br/> Company Pvt.Ltd</h5>
-                    <p>04/2006 – 05/2007</p>                    
+                    <p className="pItalic">04/2006 – 05/2007</p>                    
                 </div>
                 <div className="experienceContents">
                     <div>
-                        <p>
+                        <p className="pItalic">
                             Rawalpindi, Pakistan
                         </p>                            
                     </div>

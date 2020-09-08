@@ -8,11 +8,7 @@ const Style = styled.div`
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 3%;
-  }
-  h3 {
-    margin-top: 6em;
-    padding: 0.2em;
+    margin-top: 1.5rem;
   }
 
   // heading for each project 
@@ -34,9 +30,6 @@ const Style = styled.div`
     height: 20em;    
     animation: mymove 5s infinite;
   } 
-  // @keyframes mymove {
-  //   50% {border-bottom-right-radius: 150px;}
-  // }
 
   // styling of each item in the project card
 

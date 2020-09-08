@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 const Style = styled.div`
   h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
-  h6 {
+  .contactElements {
     color: white;
     font-size: 0.6rem;
   }
@@ -16,7 +16,7 @@ const Style = styled.div`
     height: 80%;    
     background-color: #C1BDB5;
     color: white;
-    padding: 3rem;
+    padding: 2rem;
   }
   .socialMediaSection {
     display: flex;

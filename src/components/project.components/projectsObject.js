@@ -28,8 +28,7 @@ const projectObj = [
   }, 
   {
     projectTitle:"Weather Application", 
-    stackList:["Javascript", "HTML", "CSS",  "Github", "Git", "REST API"
-              ], 
+    stackList:["Javascript", "HTML", "CSS",  "Github", "Git", "REST API"], 
     projectImage: weatherAppImage,
     githubLink:"https://github.com/amjadiftikhar/myProjects",
     herokuLink:"https://htmlpreview.github.io/?https://github.com/amjadiftikhar/my_SPAs/blob/master/weather-App/index.html",
@@ -37,9 +36,7 @@ const projectObj = [
   }, 
   {
     projectTitle:"Search Github Users", 
-    stackList:["Javascript", "React", "HTML", "CSS", 
-                "Github", "Git", "RESTful API"
-              ], 
+    stackList:["Javascript", "React", "HTML", "CSS", "Github", "Git", "RESTful API"], 
     projectImage: githubSearch,
     githubLink:"https://github.com/amjadiftikhar/searchUsers_github",
     herokuLink:"https://github.com/amjadiftikhar/searchUsers_github",
@@ -47,9 +44,7 @@ const projectObj = [
   }, 
   {
     projectTitle:"Giphy Search", 
-    stackList:["Javascript", "HTML", "CSS", 
-                "Github", "Git", "RESTful API"
-              ], 
+    stackList:["Javascript", "HTML", "CSS", "Github", "Git", "RESTful API"], 
     projectImage: giphySearch,
     githubLink:"https://github.com/amjadiftikhar/my_SPAs/tree/master/giphy-App",
     herokuLink:"https://github.com/amjadiftikhar/my_SPAs/tree/master/giphy-App",
@@ -57,9 +52,7 @@ const projectObj = [
   }, 
   {
     projectTitle:"Portfolio Application", 
-    stackList:["Javascript", "React", "Bootstrap", "HTML", "CSS", 
-                "Github", "Git"
-              ], 
+    stackList:["Javascript", "React", "Bootstrap", "HTML", "CSS", "Github", "Git"], 
     projectImage: oldPortfolioImage,
     githubLink:"https://github.com/amjadiftikhar/my-portfolio",
     herokuLink:"http://amjadportfolio.herokuapp.com/",
