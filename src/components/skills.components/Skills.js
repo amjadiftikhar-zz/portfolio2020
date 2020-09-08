@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { Collapse, TabPane, CardBody, Card } from 'reactstrap';
+import { Card } from 'reactstrap';
 import PrimarySkills from "./PrimarySkills";
 import primarySkillsObj from "./primarySkillsObj";
 import {AiOutlineFileDone} from "react-icons/ai";
-import {GrAdd} from "react-icons/gr";
-// import Style from "./skills.style";
-import "./skills.style.css"
+// import {GrAdd} from "react-icons/gr";
+import Accordion from "../../components/accordion.components/Accordion";
+import Style from "./skills.style";
+// import "./skills.style.js"
 
 const skillsArr = ["Javascript", "React","Storybook", "HTML5", "CSS3", "Node JS",  "Express",
  "NPM", "Webpack","MySql", "Github", "Postman", "Heroku"]
@@ -16,7 +17,7 @@ const Skills = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-        // <Style>
+        <Style>
             <div className="skillSection">
                 <h3><AiOutlineFileDone className="mySkills"/>My Skills</h3>
                 <p>I'm a creative problem solver. I build full stack web applications. 
@@ -31,26 +32,27 @@ const Skills = () => {
                         />
                     )}
                 </div>
-                <TabPane color="primary" onClick={toggle} style={{ marginBottom: '1rem', padding:"1rem", backgroundColor:"#C1BDB5" }}><GrAdd style={{marginRight:"0.5rem"}} />
-                    My key Skills
-                </TabPane>
-                <Collapse isOpen={isOpen}>
+                <Accordion title="My key skills">
                     <div className="skillsList">
                         {skillsArr.map(skill => 
-                        <Card border="info" style={{margin:"1.5rem"}} className="col-md- col-sm-2   bg-light offset-md-1"> 
+                        <Card border="info" style={{margin:"1.5rem"}} 
+                            className="col-md- col-sm-2   bg-light offset-md-1"> 
                             <span key={skill} className="sectionElement">
                                 {skill}
                             </span>
                         </Card>  
                         )}
                     </div> 
-                </Collapse>
+                </Accordion>
             </div>         
-        // </Style>
+        </Style>
     );
 }
 
 export default Skills;
+
+               
+
 
 
 

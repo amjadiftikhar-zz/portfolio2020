@@ -5,6 +5,7 @@ import About from "../../pages/about.pages/About";
 import Education from "../../pages/education.pages/Education";
 import Experience from "../../pages/experience.pages/Experience";
 import Projects from "../../pages/projects.pages/Projects";
+import Accordion from "../../components/accordion.components/Accordion";
 // import Button from "../../components/button.component/Button";
 // import { useHistory } from 'react-router-dom';
 
@@ -19,9 +20,13 @@ export default function Home() {
     <Container className="container-fluid">
       <LandingPageComponent/>
       <About/>
-      <Projects/> 
-      <Education/>
-      <Experience/>
+      <Projects/>
+      <Accordion title="Education">
+        <Education/>      
+      </Accordion> 
+      <Accordion title="Experience">
+        <Experience/>      
+      </Accordion> 
     </Container> 
   );
 }

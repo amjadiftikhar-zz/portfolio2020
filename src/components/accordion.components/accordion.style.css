@@ -1,0 +1,29 @@
+.accordionSection {
+    display: flex;
+    flex-direction: column;
+}
+.accordionTitle {
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+    background-color:#C1BDB5;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.6s ease;    
+}
+.accordionTitle:hover,
+.active {
+    background-color: rgb(175, 171, 171);
+}
+.accordionIcon {
+    margin-left: auto;
+    transition: transform 0.6s ease;
+}
+.rotate {
+    transform: rotate(90deg);
+}  
+.accordionContent {
+    overflow: hidden;
+    transition: max-height 0.6s ease;
+}
