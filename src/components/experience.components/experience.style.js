@@ -11,7 +11,8 @@ const Style = styled.div`
         display: flex;
         justify-content: space-around;
         margin-bottom: 2rem;
-        background-color: #C1BDB5;
+        background-color: #ececec;
+        border-bottom: 0.8rem solid gray;
     }
     .experienceContents {
         margin: 1rem;

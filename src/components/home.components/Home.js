@@ -7,14 +7,18 @@ import Experience from "../experience.components/Experience";
 import Projects from "../project.components/Projects";
 import Accordion from "../accordion.components/Accordion";
 // import Button from "../../components/button.component/Button";
-// import { useHistory } from 'react-router-dom';
+import ButtonComponent from "../../components/button.component/Button";
+import { useHistory } from 'react-router-dom';
 
 export default function Home() {
-  // const history = useHistory();
-  // const onclickHandle = () => {
-  // let path = `/`;
-  // history.push(path);
-  // }
+
+  const history = useHistory();
+  const onclickHandle = () => {
+    // e.preventDefault();
+    alert('back button clicked')
+  let path = `/`;
+  history.push(path);
+  }
 
   return (
     <Container className="container-fluid">
@@ -27,6 +31,7 @@ export default function Home() {
       <Accordion title="Experience">
         <Experience/>      
       </Accordion> 
+      <ButtonComponent title="Back to top" />
     </Container> 
   );
 }

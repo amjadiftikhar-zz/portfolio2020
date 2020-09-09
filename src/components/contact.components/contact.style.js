@@ -12,7 +12,7 @@ const Style = styled.div`
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    border-bottom: 5px solid gray;
+    border-bottom: 0.8rem solid gray;
     height: 80%;    
     background-color: #C1BDB5;
     color: white;

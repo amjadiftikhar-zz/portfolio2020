@@ -1,14 +1,15 @@
 import React from 'react';
-import Container from "react-bootstrap/Container";
+import {Container, Card} from "reactstrap";
 import Style from "./education.style";
 import {FaGraduationCap, FaCertificate} from "react-icons/fa";
 
 function Education() {
     return (
         <Style>
-        <Container style={{ marginTop:"10rem"}}>
+        <Container style={{ marginTop:"10rem", transition: '2s ease-out'}}>
             <h3><FaGraduationCap style={{marginRight:"0.6vw", fontSize:"1.6vw"}}/>Education</h3>
             <h4>Full Stack Web Development</h4>
+            {/* <Card className="cardClass"> */}
             <div className="educationSection">
                 <div className="educationContents">
                     <p className="pItalic">Institute</p>
@@ -23,6 +24,7 @@ function Education() {
                     </div>
                 </div>  
             </div>
+            {/* </Card> */}
             <h4>Masters in Computer Systems Engineering</h4>
             <div className="educationSection">
                 <div className="educationContents">
