@@ -4,6 +4,7 @@ import weatherAppImage from "../../images/weatherApp.jpg";
 import githubSearch from "../../images/githubSearch.jpg";
 import giphySearch from "../../images/giphySearch.jpg";
 import oldPortfolioImage from "../../images/oldPortfolio.jpg";
+import movieApp from "../../images/movieApp.png";
 
 const projectObj = [
   {
@@ -57,6 +58,16 @@ const projectObj = [
     githubLink:"https://github.com/amjadiftikhar/my-portfolio",
     herokuLink:"http://amjadportfolio.herokuapp.com/",
     description:"It was my first portfolio developed in React. I fully experienced working with  reuseable components and used hooks instead of class components. I used Javascript, React, React Bootstrap, HTML, CSS etc. Portfolio is available for live preview."
+  },
+  {
+    projectTitle:"Movie Catalogue",
+    stackList:["Javascript", "React", "HTML", "CSS", 
+                "Heroku", "Github", "Git"
+              ], 
+    projectImage: movieApp,
+    githubLink:"https://github.com/amjadiftikhar/movie-app",
+    herokuLink:"https://github.com/amjadiftikhar/movie-app",
+    description:"I developed Movie application, using Star Wars API fetched data for movies and movie characters and rendered it and its available for the preview. Tools used are API, Javascript, React, HTML and CSS."
   }
   ]
 
