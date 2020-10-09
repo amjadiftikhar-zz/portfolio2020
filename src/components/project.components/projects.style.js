@@ -119,7 +119,7 @@ const Style = styled.div`
     backface-visibility: hidden;
   }
   .flipBox-back {
-    background-color: dodgerblue;
+    background-color: orange;
     color: white;
     transform: rotateY(180deg);
   }

@@ -15,8 +15,8 @@ export default function About() {
           <img src={aboutMeImage} alt="" width="100%" />
         </div>    
         <div className="contentClass">
-          <p className="pClass" style = {{color:"orange"}}>Who I am?</p>
-          <h4>I'm Amjad, a Full Stack Web Developer</h4>
+          <p className="pClass">Who I am?</p>
+          <h4 style = {{color:"orange"}}>I'm Amjad, a Full Stack Web Developer</h4>
           <p className="pClass">
             <br/>I am a Software Developer based in Denmark. 
             I have developed an academic and some hobby projects recently. 

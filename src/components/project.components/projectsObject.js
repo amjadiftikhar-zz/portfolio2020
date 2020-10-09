@@ -67,7 +67,7 @@ const projectObj = [
     projectImage: movieApp,
     githubLink:"https://github.com/amjadiftikhar/movie-app",
     herokuLink:"https://github.com/amjadiftikhar/movie-app",
-    description:"I developed Movie application, using Star Wars API fetched data for movies and movie characters and rendered it and its available for the preview. Tools used are API, Javascript, React, HTML and CSS."
+    description:"Developed Movie application, using Star Wars API fetched data for movies and movie characters and rendered it and its available for the preview. Tools used are API, Javascript, React, HTML and CSS."
   }
   ]
 
