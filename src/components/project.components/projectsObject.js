@@ -61,13 +61,13 @@ const projectObj = [
   },
   {
     projectTitle:"Movie Catalogue",
-    stackList:["Javascript", "React", "HTML", "CSS", 
+    stackList:["Javascript", "React", "API", "HTML", "CSS", 
                 "Heroku", "Github", "Git"
               ], 
     projectImage: movieApp,
     githubLink:"https://github.com/amjadiftikhar/movie-app",
     herokuLink:"https://github.com/amjadiftikhar/movie-app",
-    description:"Developed Movie application, using Star Wars API fetched data for movies and movie characters and rendered it and its available for the preview. Tools used are API, Javascript, React, HTML and CSS."
+    description:"Developed Movie application, using Star Wars API fetched data for movies and movie characters and rendered it. Tools used are API, Javascript, React, HTML and CSS."
   }
   ]
 

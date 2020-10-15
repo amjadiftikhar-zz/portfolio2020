@@ -31,7 +31,6 @@ export default function Home() {
       <Accordion title="Experience">
         <Experience/>      
       </Accordion> 
-      <ButtonComponent title="Back to top" />
     </Container> 
   );
 }
