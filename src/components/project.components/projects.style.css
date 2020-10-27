@@ -59,7 +59,7 @@ h5 {
 .classToolTipBubble {
   display: none;
   margin: 0.5rem;
-  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
 }
 .classToolTipBubble span {
   width: 11rem;
