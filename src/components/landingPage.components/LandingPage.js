@@ -9,10 +9,12 @@ import "./landingPage.style.css";
 
 function LandingPageComponent() {
     return (
-        <Container style={{marginTop:"10rem"}} className="container-fluid">
+        <Container className="landingPage" style={{marginTop:"12rem"}} 
+            className="container-fluid">
             <div className="homeTopSection">
                 <div className="leftSection"  >
-                    <Image className="profilePic" src={profilePic} roundedCircle/>
+                    <Image className="profilePic" src={profilePic} 
+                    roundedCircle/>
                     <h6>Amjad Iftikhar</h6>
                     <div className="classContact">
                         <a href="https://www.linkedin.com/in/amjad-iftikhar-545aa331/">
@@ -33,14 +35,21 @@ function LandingPageComponent() {
                             <Typical
                                 loop={Infinity}
                                 wrapper="b"
-                                steps={["Full Stack Developer", 1000, "Freelancer", 1000 ,
-                                        1000, "Frontend developer", "React developer", 1000 ]}
+                                steps={[
+                                    "Full Stack Developer", 1000, 
+                                    "Freelancer", 1000,  "Frontend developer",
+                                    1000,"React developer", 1000 
+                                ]}
                             />                    
                         </p>
                     </div>
                     <div className="promptBtn">
-                        <a className="projectContactBtn" href="/Projects">Projects</a>
-                        <a className="projectContactBtn" href="/Contact">Contact</a>
+                        <a className="projectContactBtn" href="/Projects">
+                            Projects
+                        </a>
+                        <a className="projectContactBtn" href="/Contact">
+                            Contact
+                        </a>
                     </div>                
                 </div>
             </div> 

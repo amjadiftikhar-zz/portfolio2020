@@ -24,7 +24,7 @@ export default function Home() {
       </Accordion> 
       <div className="navigationBtn">
         <a className="previousBtn" href="/">Top</a>
-        <a className="previousBtn" href="/about">Next</a>
+        <a className="previousBtn" href="/contact">Next</a>
       </div>
     </Container> 
   );
