@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container} from "react-bootstrap";
-import Style from "./contact.style";
+import "./contact.style.css";
 import { GrContactInfo } from 'react-icons/gr';
 import {MdEmail} from "react-icons/md";
 import {FaLinkedin, FaGithubSquare, FaPhoneSquare, 
@@ -9,7 +9,6 @@ import ContactUs from "../contactUs.components/ContactUs";
 
 export default function Contact() {
   return (
-    <Style>
     <Container style={{height: "150vh", marginTop:"10rem"}}>
       <h3><GrContactInfo className="contactBookIcon"/> Contact Details</h3>
       <div className="contactContainer">        
@@ -40,7 +39,10 @@ export default function Contact() {
           <ContactUs/>
         </div>
       </div>
+      <div className="navigationBtn">
+        <a className="previousBtn" href="/experience">Back</a>
+        <a className="previousBtn" href="/">Home</a>
+      </div>
     </Container>
-    </Style>
   );
 }

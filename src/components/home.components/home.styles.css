@@ -1,0 +1,18 @@
+.navigationBtn {
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap; 
+    float: right;
+}
+.previousBtn {
+    padding:0.6rem;
+    width: 10rem;
+    border-radius: 5em;
+    background-color:  orange; 
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+    text-align: center;
+    margin: 0.3rem;
+} 

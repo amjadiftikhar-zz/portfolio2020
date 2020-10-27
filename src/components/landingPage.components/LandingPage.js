@@ -4,12 +4,11 @@ import Image from 'react-bootstrap/Image';
 import profilePic from "../../images/profilePic.png";
 import githubIcon from "../../images/github.png";
 import linkedinIcon from "../../images/linkedin.png";
-import LandingPageStyle from "./landingPage.style";
 import Typical from "react-typical";
+import "./landingPage.style.css";
 
 function LandingPageComponent() {
     return (
-        <LandingPageStyle>
         <Container style={{marginTop:"10rem"}} className="container-fluid">
             <div className="homeTopSection">
                 <div className="leftSection"  >
@@ -45,8 +44,7 @@ function LandingPageComponent() {
                     </div>                
                 </div>
             </div> 
-        </Container>       
-        </LandingPageStyle>
+        </Container> 
     )
 }
 

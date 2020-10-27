@@ -71,7 +71,7 @@ const Style = styled.div`
     color: black;    
   }
   .classSpan {
-    margin-right: 20%;
+    // margin-right: 20%;
   }
 
   // Tooltip for project description, shows up on description Icon

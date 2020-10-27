@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    background-color: #343a40;
+    width: 100%;        
+    justify-content: space-between;
+    padding: 2rem;
+}
+.allRights {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 2%;
+}
+.allRights span {
+    color: gray;
+}
+.socialMediaLinks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2%;
+}
+.footerIcon {
+    margin-left: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: white;
+}

@@ -82,6 +82,10 @@ function Education() {
                     </div>
                 </div>  
             </div>
+            {/* <div className="navigationBtn">
+                <a className="previousBtn" href="/projects">Back</a>
+                <a className="previousBtn" href="/experience">Next</a>
+            </div> */}
         </Container>
         </Style>
     )

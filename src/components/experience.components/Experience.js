@@ -1,12 +1,11 @@
 import React from 'react';
 import Container from "react-bootstrap/Container";
-import Style from "./experience.style";
+import "./experience.style.css";
 import {BsBriefcaseFill} from "react-icons/bs";
 
 function Experience() {
     
     return (
-        <Style>
         <Container style={{marginTop:"10rem", transition: '2s ease-out'}}>
             <h3>
             <BsBriefcaseFill style={{marginRight:"0.6vw", fontSize:"1.6vw"}}/>
@@ -55,9 +54,8 @@ function Experience() {
                         </p>                            
                     </div>
                 </div>  
-            </div>  
+            </div> 
         </Container>  
-        </Style>
     )
 }
 

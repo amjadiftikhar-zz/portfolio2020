@@ -3,11 +3,10 @@ import {Container} from "react-bootstrap";
 import aboutMeImage from "../../images/aboutMeImage.jpg";
 import Skills from "../../components/skills.components/Skills";
 import {BsFillInfoSquareFill} from "react-icons/bs";
-import Style from "./about.style";
+import "./about.style.css";
 
 export default function About() {
   return (
-    <Style>
     <Container style={{marginTop:"10rem"}}>
       <h3><BsFillInfoSquareFill className="aboutMeIcon"/>About me</h3>
       <div className="aboutMeSection">
@@ -20,9 +19,9 @@ export default function About() {
           <p className="pClass">
             <br/>I am a Software Developer based in Denmark. 
             I have developed an academic and some hobby projects recently. 
-            I have worked with several tech stacks and particularly excels in JavaScript, 
+            I have worked with several tech stacks and particularly excel in JavaScript, 
             React, Node JS, HTML, CSS and MySql.<br/> 
-            <br/>I have been contributing to open source projects to learn new 
+            <br/>I have been developing small projects to learn new 
             development  techniques and deepen my knowledge in Full-stack domain. 
             I am looking to discover 
             new ﬁelds in the domain of tech and development. <br/><br/>
@@ -47,6 +46,5 @@ export default function About() {
       </div>
       <Skills/>
     </Container>
-    </Style>
   );
 }

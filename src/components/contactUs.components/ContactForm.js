@@ -32,7 +32,9 @@ function ContactForm(props) {
       </div>
       <div className="form-group row">
         <div className="col-sm-10">
-          <button type="submit"  value="send" className="btn btn-primary mb-5 mt-3 float-right">
+          <button type="submit"  value="send" 
+            className="btn btn-primary mb-5 mt-3 float-right"
+          >
             Sign in
           </button>
         </div>

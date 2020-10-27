@@ -25,6 +25,10 @@ function Projects() {
             )}
           </div>
           </Style>
+          {/* <div className="navigationBtn">
+            <a className="previousBtn" href="/about">Back</a>
+            <a className="previousBtn" href="/education">Next</a>
+          </div> */}
         </Container> 
     )
   }
