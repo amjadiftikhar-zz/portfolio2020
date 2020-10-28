@@ -3,12 +3,16 @@ import {Card} from "react-bootstrap";
 import {FaGithub, FaExternalLinkSquareAlt} from "react-icons/fa"
 import {MdDescription} from "react-icons/md";
 import ReactTooltip from 'react-tooltip';
+import "./projects.style.css";
+
+// import Style from "./projects.style"
 
 function Project(props) {
 return (
   <Card className="bg-light" style={{ width: '18rem', marginBottom:"5%", 
     borderBottom:"5px solid gray" }}>
       {/* main div of the project designed */}
+      {/* <Style> */}
     <div className="projectContents">
       <h5>{props.projectTitle}</h5>
       {/* main div to implement flipping on hover over*/}
@@ -28,14 +32,14 @@ return (
       {/* icons' section of the project starts from here*/}
       <div className="iconSection">
         <span className="classSpan">
-          <a className="toolTip" href={props.githubLink}>
-            <FaGithub className="classIcon toolTip" />
+          <a className="toolTipp" href={props.githubLink}>
+            <FaGithub className="classIcon toolTipp" />
             <span className="classTooltip">Github</span>
           </a> 
         </span>
         <span className="classSpan">
-          <a className="toolTip" href={props.herokuLink}>
-            <FaExternalLinkSquareAlt className="classIcon toolTip"/>
+          <a className="toolTipp" href={props.herokuLink}>
+            <FaExternalLinkSquareAlt className="classIcon toolTipp"/>
             <span className="classTooltip">Preview</span> 
           </a>
         </span>
@@ -44,8 +48,8 @@ return (
           <div className="toolTip">  
             <MdDescription data-tip data-for='description' id="sadFace" 
               className="classIcon toolTip"/>
-            <ReactTooltip id='description' className="classToolTipBubble" type='warning' 
-              effect='solid'>
+            <ReactTooltip id='description' className="classToolTipBubble" 
+              type='warning'>
               <span className=" classToolTipBubble">
                 {props.description}
               </span> 
@@ -54,6 +58,7 @@ return (
         </span>
       </div>
     </div>
+    {/* </Style> */}
   </Card>
   )
 }

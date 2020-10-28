@@ -3,7 +3,7 @@ import {Container} from "react-bootstrap";
 import Project from "../../components/project.components/Project";
 import projectsObject from "./projectsObject.js";
 import {GrProjects} from "react-icons/gr";
-import "./projects.style.css";
+// import "./projects.style.css";
 
 function Projects() { 
     return (

@@ -37,6 +37,7 @@ h5 {
 .classIcon {
   width: 2em;
   height: 2em;
+  margin-left: 2rem;
   color: black;
 }  
 .projectIcon {
@@ -48,26 +49,29 @@ h5 {
 .classTooltip {
   display: none;
 }
-.toolTip:hover .classTooltip { 
+.toolTipp:hover .classTooltip { 
   display: block;
-  padding: 0.5em;
+  padding: 0.5rem 0 0 1.5rem;
   position: absolute;
   font-size: 0.8rem;
-  color: black; 
+  color:black; 
 }
 /* Tooltip for project description, shows up on description Icon */
 .classToolTipBubble {
   display: none;
-  margin: 0.5rem;
-  border-radius: 2rem;
 }
 .classToolTipBubble span {
-  width: 11rem;
-  height: 11rem;
+  width: 12rem;
+  height: 12rem;
 }
 .toolTip:hover .classToolTipBubble { 
   display: block;
   font-size: 0.8rem;
+}
+#description {
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  background-color: orange;
 }
 /* styling of flip related effect of project image  */
 .flipBox {
