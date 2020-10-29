@@ -8,7 +8,7 @@ import movieApp from "../../images/movieApp.png";
 
 const projectObj = [
   {
-    projectTitle:"Seasony Application",
+    projectTitle:"Seasony Dashboard Application",
     stackList:["Javascript", "Node JS", "React", "HTML", "CSS", "Storybook", 
                 "Express", "Knex", "Firebase", "Heroku", "Github", "Git", "MySQL", "Swagger"
               ], 

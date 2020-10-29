@@ -5,16 +5,13 @@ import {MdDescription} from "react-icons/md";
 import ReactTooltip from 'react-tooltip';
 import "./projects.style.css";
 
-// import Style from "./projects.style"
-
 function Project(props) {
 return (
   <Card className="bg-light" style={{ width: '18rem', marginBottom:"5%", 
     borderBottom:"5px solid gray" }}>
       {/* main div of the project designed */}
-      {/* <Style> */}
     <div className="projectContents">
-      <h5>{props.projectTitle}</h5>
+      <h5 className="projectName">{props.projectTitle}</h5>
       {/* main div to implement flipping on hover over*/}
       <div className="flipBox">
         <div className="flipBox-inner">
@@ -58,7 +55,6 @@ return (
         </span>
       </div>
     </div>
-    {/* </Style> */}
   </Card>
   )
 }

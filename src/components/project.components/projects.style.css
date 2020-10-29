@@ -6,7 +6,7 @@
   margin-top: 1.5rem;
 }
 /* heading for each project  */
-h5 {
+.projectName {
   width: 100%;
   text-align: center;
   margin-bottom: 1em;
