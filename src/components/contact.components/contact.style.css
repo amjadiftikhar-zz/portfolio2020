@@ -13,7 +13,7 @@ h3 {
   height: 80%;    
   background-color: #C1BDB5;
   color: white;
-  padding: 2rem;
+  padding: 3rem;
 }
 .socialMediaSection {
   display: flex;
@@ -29,9 +29,10 @@ h3 {
   width: 2em;
   height: 2em;
   color: black;
+  margin-right: 0.3em;
 }
 .socialMediaIconClass {
-  margin-top: 40%; 
+  margin-top: 35%; 
   display: flex; 
 }
 .contactFormSection {
@@ -51,3 +52,78 @@ h3 {
   font-size: 12px;
   color: white;
 }
+@media only screen and (max-width: 1024px) {
+  .socialMediaSection {
+    transform: none;
+    margin-bottom: 2em;
+    height: 70%;
+  }
+  .contactContainer{
+    height: 40vh; 
+  }
+  .socialMediaIconClass {
+    justify-content: center;
+  }
+  .classIcon {
+    margin-left: -0.3em;
+  }
+} 
+@media (min-width: 769px) and (max-width: 1000px) {
+  .socialMediaSection {
+    width: 30%;
+    min-height: 50%;
+    word-break: break-all;
+  }
+  .contactContainer{
+    height: 35%; 
+  }
+}
+@media only screen and (max-width: 768px) {
+  .socialMediaSection {
+    transform: none;
+    margin-bottom: 2em;
+    width: 37%;
+    min-height: 50%;
+  }
+  .contactContainer{
+    height: 32%; 
+  }
+  .socialMediaIconClass {
+    justify-content: center;
+  }
+  .classIcon {
+    margin-left: -0.3em;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {  
+  .socialMediaSection {
+    transform: none;
+    word-break: break-all;
+    margin-bottom: 2em;
+    min-width: 19em;
+  }
+  .contactContainer{
+    min-height: 160vh;  
+  }
+  .socialMediaIconClass {
+    justify-content: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {  
+  .socialMediaSection {
+    transform: none;
+    word-break: break-all;
+    width: 100%;
+    height: 8em;
+  }
+  .contactContainer{
+    height: 165vh; 
+  }
+  .socialMediaIconClass {
+    justify-content: center;
+  }
+  .classIcon {
+    margin-left: -0.3em;
+  }  
+}
+

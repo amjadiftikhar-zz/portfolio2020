@@ -4,38 +4,44 @@ function ContactForm(props) {
   return (
     <form className="form-control-sm" onSubmit={props.sendEmail}>
       <div className="form-group row">
-        <label className="col-sm-2 col-form-label col-form-label-sm">Phone</label>
+        <label className="col-sm-2 col-form-label col-form-label-sm">
+          Phone</label>
         <div className="col-sm-9">
           <input type="number" className="form-control form-control-md ml-3" 
-          name="contact_number" required />
+           placeholder="your number" name="contact_number" required />
         </div>
       </div>
       <div className="form-group row">
-        <label className="col-sm-2 col-form-label col-form-label-sm">Name</label>
+        <label className="col-sm-2 col-form-label col-form-label-sm">
+          Name</label>
         <div className="col-sm-9">
           <input type="text" className="form-control form-control-md ml-3" 
-          name="user_name" required />
+           placeholder="your name" name="user_name" required />
         </div>
       </div>
       <div className="form-group row">
-        <label className="col-sm-2 col-form-label col-form-label-sm">Email</label>
+        <label className="col-sm-2 col-form-label col-form-label-sm">
+          Email</label>
         <div className="col-sm-9">
           <input type="email" className="form-control form-control-md ml-3" 
-          name="user_email" required />
+           placeholder="your email" name="user_email" required />
         </div>
       </div>
       <div className="form-group row">
-        <label className="col-sm-2 col-form-label col-form-label-sm">Message</label>
+        <label className="col-sm-2 col-form-label col-form-label-sm">
+          Message</label>
         <div className="col-sm-9">
-          <textarea className="form-control form-control-md ml-3" name="message" required />
+          <textarea className="form-control form-control-md ml-3" 
+          placeholder="text here--" name="message" required />
         </div>
       </div>
       <div className="form-group row">
-        <div className="col-sm-10">
+        <div className="col-sm-9">
           <button type="submit"  value="send" 
-            className="btn btn-primary mb-5 mt-3 float-right"
+            className="btn mb-5 mt-3 float-right"
+            style={{background:"orange", color:"white"}}
           >
-            Sign in
+            Send
           </button>
         </div>
       </div> 

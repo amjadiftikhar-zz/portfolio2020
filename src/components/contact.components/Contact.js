@@ -9,9 +9,9 @@ import ContactUs from "../contactUs.components/ContactUs";
 
 export default function Contact() {
   return (
-    <Container style={{height: "150vh", marginTop:"10rem"}}>
+    <Container style={{height: "165vh", marginTop:"10rem"}}>
       <h3><GrContactInfo className="contactBookIcon"/> Contact Details</h3>
-      <div className="contactContainer">        
+      <div className="contactContainer">             
         <div className="socialMediaSection">
           <span style={{marginBottom:"1rem"}}>Contact me <FaRegHandPointDown 
           style={{fontSize:"1.7rem"}}/></span>
@@ -21,7 +21,10 @@ export default function Contact() {
             </p>
           </div>
           <div className="phoneNumber">
-            <p className="contactElements"><FaPhoneSquare className="classIcon"/> +45 529 209 45</p>
+            <p className="contactElements">
+              <FaPhoneSquare className="classIcon"/> 
+              +45 529 209 45
+            </p>
           </div>
           <div className="socialMediaIconClass">
               <a className="classIcon toolTip" 
@@ -29,7 +32,8 @@ export default function Contact() {
                 <FaLinkedin className="classIcon" />
                 <span className="classTooltip">Linkedin</span>
               </a>
-              <a className="classIcon toolTip" href="https://github.com/amjadiftikhar">
+              <a className="classIcon toolTip" 
+                href="https://github.com/amjadiftikhar">
                 <FaGithubSquare className="classIcon" />
                 <span className="classTooltip">Github</span>
               </a>
