@@ -18,9 +18,9 @@ h3 {
 .socialMediaSection {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 1.5rem;
   color: white;
-  width: 16.7rem;
+  width: 17.5rem;
   height: 45%;
   transform: skew(20deg);
   background: orange;
@@ -31,7 +31,8 @@ h3 {
   color: black;
 }
 .socialMediaIconClass {
-  margin-top: 50%;  
+  margin-top: 40%; 
+  display: flex; 
 }
 .contactFormSection {
   height: 80%;
@@ -41,6 +42,7 @@ h3 {
 }
 .classTooltip {
   display: none;
+  margin-left: 2rem;
 }
 .toolTip:hover .classTooltip { 
   display: block;
