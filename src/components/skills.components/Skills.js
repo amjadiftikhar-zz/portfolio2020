@@ -6,8 +6,9 @@ import {AiOutlineFileDone} from "react-icons/ai";
 import Accordion from "../../components/accordion.components/Accordion";
 import Style from "./skills.style";
 
-const skillsArr = ["Javascript", "React","Storybook", "HTML5", "CSS3", "Node JS",  
-    "Express", "NPM", "Webpack","MySql", "Github", "Postman", "Heroku"]
+const skillsArr = ["Javascript", "Typescript", "React","Storybook", "HTML5", 
+    "CSS3", "Node JS", "Bootstrap","Material UI", "Express", "NPM", "Webpack",
+    "MySql", "Github", "Postman", "Heroku"]
 
 const Skills = () => {
   const [isOpen, setIsOpen] = useState(false);
