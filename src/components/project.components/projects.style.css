@@ -39,7 +39,13 @@
   height: 2em;
   margin-left: 2rem;
   color: black;
-}  
+}
+/* media query for iPad Pro and small screens */
+@media only screen and (max-width: 1024px) {
+  .classSpan {
+    margin-left: 2em;
+  }    
+} 
 .projectIcon {
   width: 0.5em;
   height: 0.5em;
@@ -51,9 +57,10 @@
 }
 .toolTipp:hover .classTooltip { 
   display: block;
-  padding: 0.5rem 0 0 1.5rem;
+  padding: 0.5rem 0 0 0;
   position: absolute;
   font-size: 0.8rem;
+  font-weight: bold;
   color:black; 
 }
 /* Tooltip for project description, shows up on description Icon */
@@ -111,4 +118,12 @@
 .techElements {
   padding: 0.5em;
   text-align: center;
+}
+@media only screen and (max-width: 320px) {
+  .flipBox {
+    width: 100%;
+  }  
+  .projectImage {
+    width:100%;    
+  } 
 }

@@ -3,10 +3,9 @@
     flex-direction: column;
     align-items: center;
     background-color: #f3f3f3;
-    height: 38em;
     width: 100%;
 }
-.rightSection {
+.lowerSection {
     display: flex;
     flex-direction: column;  
     color: white;
@@ -16,7 +15,6 @@
     flex-wrap: wrap;
 }
 .firstName{
-    /* color: white; */
     color: #C1BDB5;
     font-weight: bold;
     font-size: 3rem;
@@ -39,7 +37,7 @@
     width: 12vw;
     height: 12vw;
 }
-.leftSection {
+.topImageSection {
     margin-top: 3rem;
     display: flex;
     flex-direction: column; 
@@ -47,29 +45,74 @@
     min-height: 40vh;
     align-items: center;        
 }
-h6 {
-    margin-top: 0.7rem;
-    font-size: 1.5vw;
-}
-/* .classContact {
-    display: flex;
-    padding: 5%;
-    border-bottom: 0.1px solid gray;
-}
-.socialMediaIcons {
-    width: 2.3vw;
-    height: 2.3vw;
-    color: black;
-    border-radius: 50%;
-}
-.classContact a {
-    margin-right: 0.4rem;
-    margin-left: 0.4rem;
-} */
+/* Media query for Ipad pro */
+@media only screen and (max-width: 1024px) {
+    .topImageSection {
+        min-height: 25vh;
+    }    
+  }
+/* media query for tablets and Ipad */
+@media only screen and (max-width: 768px) {
+    .topImageSection {
+        min-height: 35vh;
+    }
+    .profilePic {
+        width: 25vw;
+        height: 25vw;
+    }
+    .imageSection {
+        align-self: center;
+    }
+    .firstName{
+        font-size: 2.5rem;
+    }
+    .lastName {
+        font-size: 2.5rem;
+    }
+  }
+/* media query for IphoneX */
+@media only screen and (max-width: 414px) {
+    .topImageSection {
+        min-height: 25vh;
+    }
+    .profilePic {
+        width: 25vw;
+        height: 25vw;
+    }
+    .imageSection {
+        align-self: center;
+    }
+    .firstName{
+        font-size: 2rem;
+    }
+    .lastName {
+        font-size: 2rem;
+    }
+  }
+/* media query for small cell phones like 5SE */
+@media only screen and (max-width: 376px) {
+    .topImageSection {
+        min-height: 20vh;
+    }
+    .profilePic {
+        width: 25vw;
+        height: 25vw;
+    }
+    .imageSection {
+        align-self: center;
+    }
+    .firstName{
+        font-size: 1.6rem;
+    }
+    .lastName {
+        font-size: 1.6rem;
+    }
+  }
+/* styling buttons in the landing page */
 .promptBtn {
     display: flex;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
     flex-wrap: wrap;        
     justify-content: space-around;
 }
@@ -80,7 +123,7 @@ h6 {
     background-color: white;
     color: black;
     text-align: center;
-    margin: 0.3rem;
+    margin: 0.4rem;
 }
 .contactBtn {
     background-color: #C1BDB5;
