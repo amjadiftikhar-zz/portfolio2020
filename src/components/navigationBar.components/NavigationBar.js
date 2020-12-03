@@ -9,9 +9,11 @@ export default function NavigationBar() {
     <NavigationBarStyles>
       <Navbar fixed="top" expand="lg">
         <Navbar.Brand href="/">
-          <AiOutlineHome className="classIcon" src={homeIcon} alt="home page image" />
+          <AiOutlineHome className="classHomeIcon" src={homeIcon} 
+            alt="home page image" />
         </Navbar.Brand>
-        <Navbar.Toggle className="toggle" aria-controls="navbar-toggle"/>
+        <Navbar.Toggle className="toggle bg-light" 
+          aria-controls="navbar-toggle"/>
         <Navbar.Collapse id="navbar-toggle">
           <Nav className="ml-auto">
             <Nav.Link href="/about">About</Nav.Link>
