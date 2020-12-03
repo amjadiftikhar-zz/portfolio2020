@@ -6,8 +6,8 @@
     float: right;
 }
 .previousBtn {
-    padding:0.6rem;
-    width: 10rem;
+    padding:0.4rem;
+    width: 11rem;
     border-radius: 5em;
     background-color:  orange; 
     text-decoration: none;
@@ -16,3 +16,9 @@
     text-align: center;
     margin: 0.3rem;
 } 
+.previousBtn:hover {
+    color: black;
+}
+.navigationBtn a:link {
+    text-decoration: none;
+}
