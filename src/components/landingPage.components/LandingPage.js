@@ -7,7 +7,7 @@ import "./landingPage.style.css";
 
 function LandingPageComponent() {
     return (
-        <Container className="landingPage" style={{marginTop:"12rem"}} 
+        <Container className="landingPage" style={{marginTop:"3rem"}} 
             className="container-fluid">
             <div className="homeTopSection">
                 <div className="topImageSection"  >
@@ -36,7 +36,8 @@ function LandingPageComponent() {
                         <a className="projectContactBtn" href="/Projects">
                             Projects
                         </a>
-                        <a className="projectContactBtn contactBtn" href="/Contact">
+                        <a className="projectContactBtn contactBtn" 
+                            href="/Contact">
                             Contact
                         </a>
                     </div>                

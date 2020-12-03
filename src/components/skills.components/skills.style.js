@@ -24,7 +24,7 @@ const Style = styled.div`
     align-items: center;
     justify-content: space-around;
     background-color: #f3f3f3;
-    margin-top: 2%;
+    margin-top: 3rem;
     padding: 2rem;
     transition: 2s ease-out;
   }

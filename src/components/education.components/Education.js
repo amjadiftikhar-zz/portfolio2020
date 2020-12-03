@@ -1,21 +1,22 @@
 import React from 'react';
-import {Container, Card} from "reactstrap";
+import {Container} from "reactstrap";
 import Style from "./education.style";
 import {FaGraduationCap, FaCertificate} from "react-icons/fa";
 
 function Education() {
     return (
         <Style>
-        <Container style={{ marginTop:"10rem", transition: '2s ease-out'}}>
-            <h3><FaGraduationCap style={{marginRight:"0.6vw", fontSize:"1.6vw"}}/>Education</h3>
+        <Container style={{ marginTop:"3rem", transition: '2s ease-out'}}>
+            <h3><FaGraduationCap style={{marginRight:"0.6vw", 
+                fontSize:"1.6vw"}}/>Education
+            </h3>
             <h4>Full Stack Web Development</h4>
-            {/* <Card className="cardClass"> */}
             <div className="educationSection">
                 <div className="educationContents">
                     <p className="pItalic">Institute</p>
                     <h5>Hack Your Future Copenhagen</h5>
-                    <p className="pItalic">Acquired skills are, HTML/CSS, JavaScript, 
-                    <br/>Node JS, MySql og React</p>
+                    <p className="pItalic">Acquired skills are, HTML/CSS, 
+                        JavaScript, <br/>Node JS, MySql og React</p>
                     <p className="pItalic">08/2019 – 04/2020</p>                    
                 </div>
                 <div className="educationContents">
@@ -24,7 +25,6 @@ function Education() {
                     </div>
                 </div>  
             </div>
-            {/* </Card> */}
             <h4>Masters in Computer Systems Engineering</h4>
             <div className="educationSection">
                 <div className="educationContents">
@@ -60,7 +60,8 @@ function Education() {
                 <div className="educationContents">
                     <p className="pItalic">Institute</p>
                     <h5>Microsoft</h5>
-                    <p className="pItalic">MCSE, MCSA, MCP and MCTS (windows 2007))</p>
+                    <p className="pItalic">MCSE, MCSA, MCP and 
+                        MCTS (windows 2007))</p>
                 </div>
                 <div className="educationContents">
                     <div>
@@ -73,8 +74,10 @@ function Education() {
                 <div className="educationContents">
                     <p className="pItalic"> Institute</p>
                     <h5>Cisco Academy, Halmstad</h5>
-                    <p className="pItalic"> CCNP (Cisco Certified Network Professional)</p>
-                    <p className="pItalic">CCNA (Cisco Certified Network Associate)</p>
+                    <p className="pItalic"> CCNP 
+                        (Cisco Certified Network Professional)</p>
+                    <p className="pItalic">CCNA 
+                        (Cisco Certified Network Associate)</p>
                 </div>
                 <div className="educationContents">
                     <div>
@@ -82,10 +85,6 @@ function Education() {
                     </div>
                 </div>  
             </div>
-            {/* <div className="navigationBtn">
-                <a className="previousBtn" href="/projects">Back</a>
-                <a className="previousBtn" href="/experience">Next</a>
-            </div> */}
         </Container>
         </Style>
     )

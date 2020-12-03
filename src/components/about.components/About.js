@@ -7,7 +7,7 @@ import "./about.style.css";
 
 export default function About() {
   return (
-    <Container style={{marginTop:"10rem"}}>
+    <Container style={{marginTop:"3rem"}}>
       <h3><BsFillInfoSquareFill className="aboutMeIcon"/>About me</h3>
       <div className="aboutMeSection">
         <div className="imageSection">

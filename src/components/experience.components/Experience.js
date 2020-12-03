@@ -6,7 +6,7 @@ import {BsBriefcaseFill} from "react-icons/bs";
 function Experience() {
     
     return (
-        <Container style={{marginTop:"10rem", transition: '2s ease-out'}}>
+        <Container style={{marginTop:"3rem", transition: '2s ease-out'}}>
             <h3 className="experienceHeader">
             <BsBriefcaseFill style={{marginRight:"0.6vw", fontSize:"1.6vw"}}/>
                 Work Experience</h3>
@@ -44,7 +44,8 @@ function Experience() {
             <div className="experienceSection">
                 <div className="experienceContents">
                     <p className="pItalic">Company</p>
-                    <h5>SpaceTech Medical Transcription <br/> Company Pvt.Ltd</h5>
+                    <h5>SpaceTech Medical Transcription <br/> 
+                        Company Pvt.Ltd</h5>
                     <p className="pItalic">04/2006 – 05/2007</p>                    
                 </div>
                 <div className="experienceContents">

@@ -3,11 +3,10 @@ import {Container} from "react-bootstrap";
 import Project from "../../components/project.components/Project";
 import projectsObject from "./projectsObject.js";
 import {GrProjects} from "react-icons/gr";
-// import "./projects.style.css";
 
 function Projects() { 
     return (
-      <Container style={{marginTop:"10rem"}}>
+      <Container style={{marginTop:"3rem"}}>
         <h3><GrProjects className="projectIcon"/>Projects</h3>
         <div className="projectSection">      
           {projectsObject.map(proj => <Project 

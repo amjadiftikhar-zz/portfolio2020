@@ -6,7 +6,7 @@ import Education from "../education.components/Education";
 import Experience from "../experience.components/Experience";
 import Projects from "../project.components/Projects";
 import Accordion from "../accordion.components/Accordion";
-import { useHistory } from 'react-router-dom';
+import MyKeySkills from '../skills.components/MyKeySkills';
 import "./home.styles.css";
 
 export default function Home() {
@@ -15,7 +15,12 @@ export default function Home() {
     <Container className="container-fluid">
       <LandingPageComponent/>
       <About/>
-      <Projects/>
+      <Accordion title="Key Skills">
+        <MyKeySkills/>     
+      </Accordion> 
+      <Accordion title="Projects">
+        <Projects/>     
+      </Accordion> 
       <Accordion title="Education">
         <Education/>      
       </Accordion> 
