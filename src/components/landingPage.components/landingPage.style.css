@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #f3f3f3;
-    height: 60em;
+    height: 38em;
     width: 100%;
 }
 .rightSection {
@@ -16,7 +16,8 @@
     flex-wrap: wrap;
 }
 .firstName{
-    color: white;
+    /* color: white; */
+    color: #C1BDB5;
     font-weight: bold;
     font-size: 3rem;
     letter-spacing: 0.2rem;
@@ -80,6 +81,10 @@ h6 {
     color: black;
     text-align: center;
     margin: 0.3rem;
+}
+.contactBtn {
+    background-color: #C1BDB5;
+    color: white;
 }
 .promptBtn a:link {
     text-decoration: none;

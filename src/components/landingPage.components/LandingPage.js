@@ -47,7 +47,7 @@ function LandingPageComponent() {
                         <a className="projectContactBtn" href="/Projects">
                             Projects
                         </a>
-                        <a className="projectContactBtn" href="/Contact">
+                        <a className="projectContactBtn contactBtn" href="/Contact">
                             Contact
                         </a>
                     </div>                
