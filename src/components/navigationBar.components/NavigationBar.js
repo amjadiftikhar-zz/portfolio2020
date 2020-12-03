@@ -7,7 +7,7 @@ import {AiOutlineHome} from "react-icons/ai";
 export default function NavigationBar() {
   return (
     <NavigationBarStyles>
-      <Navbar bg="dark" fixed="top" expand="lg">
+      <Navbar fixed="top" expand="lg">
         <Navbar.Brand href="/">
           <AiOutlineHome className="classIcon" src={homeIcon} alt="home page image" />
         </Navbar.Brand>

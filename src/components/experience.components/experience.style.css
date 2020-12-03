@@ -1,4 +1,4 @@
-h3 {
+.experienceHeader {
     margin-bottom: 1.5rem;    
 }
 h4 {
@@ -8,8 +8,7 @@ h4 {
     display: flex;
     justify-content: space-around;
     margin-bottom: 2rem;
-    background-color: #ececec;
-    border-bottom: 0.8rem solid gray;
+    background-color: #f3f3f3;
 }
 .experienceContents {
     margin: 1rem;

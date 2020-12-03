@@ -14,22 +14,24 @@ const Style = styled.div`
     flex-wrap: wrap;
     justify-content: space-around;        
   }
+  .skillCard {
+    background-color: #f3f3f3;
+    border: none;
+  }
   .skillsList {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    // background-color: #C1BDB5;
-    background-color: #ececec;
+    background-color: #f3f3f3;
     margin-top: 2%;
     padding: 2rem;
     transition: 2s ease-out;
   }
   .sectionElement {  
-    padding: 1.5em;
+    padding: 1em;
     font-weight: bold;
     text-align: center;
-    color: white;
   }
 `;
 

@@ -7,9 +7,9 @@ import "./projects.style.css";
 
 function Project(props) {
 return (
-  <Card className="bg-light" style={{ width: '18rem', marginBottom:"5%", 
-    borderBottom:"5px solid gray" }}>
-      {/* main div of the project designed */}
+  <Card style={{ width: '18rem', marginBottom:"5%", backgroundColor:"#f3f3f3",
+    border:"none"}}>
+    {/* main div of the project designed */}
     <div className="projectContents">
       <h5 className="projectName">{props.projectTitle}</h5>
       {/* main div to implement flipping on hover over*/}
@@ -19,7 +19,8 @@ return (
             <img className="projectImage" src={props.projectImage} alt=""/>
           </div>
           <div className="flipBox-back">
-            <h5 style={{fontWeight: "bolder", borderBottom:"1px solid white"}}>Tech Stack</h5>
+            <h5 style={{borderBottom:"1px solid white", padding:"0.6em",
+              textAlign:"center"}}>Tech Stack</h5>
             <div className="techStackClass">                
               {props.stackList} 
             </div>           

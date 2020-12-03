@@ -15,15 +15,15 @@ function LandingPageComponent() {
                 <div className="leftSection"  >
                     <Image className="profilePic" src={profilePic} 
                     roundedCircle/>
-                    <h6>Amjad Iftikhar</h6>
+                    {/* <h6>Amjad Iftikhar</h6>
                     <div className="classContact">
                         <a href="https://www.linkedin.com/in/amjad-iftikhar-545aa331/">
                             <img className="socialMediaIcons" src={linkedinIcon} alt=""/>
                         </a>
                         <a href="https://github.com/amjadiftikhar"> 
                             <img className="socialMediaIcons" src={githubIcon} alt=""/>
-                        </a>
-                    </div>                
+                        </a> 
+                    </div>    */}            
                 </div>
                 <div className="rightSection">                
                     <div className="imageSection">

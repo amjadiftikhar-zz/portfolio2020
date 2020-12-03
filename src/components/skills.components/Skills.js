@@ -32,11 +32,11 @@ const Skills = () => {
                         />
                     )}
                 </div>
-                <Accordion title="My key skills">
+                <Accordion style={{backgroundColor:"#f3f3f3"}} title="My key skills">
                     <div className="skillsList">
                         {skillsArr.map(skill => 
                         <Card border="info" style={{margin:"1.5rem"}} 
-                            className="col-md- col-sm-2   bg-secondary offset-md-1"> 
+                            className="col-md- col-sm-2 offset-md-1"> 
                             <span key={skill} className="sectionElement">
                                 {skill}
                             </span>

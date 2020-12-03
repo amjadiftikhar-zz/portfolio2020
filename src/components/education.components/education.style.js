@@ -11,8 +11,7 @@ const Style = styled.div`
         display: flex;
         justify-content: space-around;
         margin-bottom: 2rem;
-        background-color: #ececec;
-        border-bottom: 0.8rem solid gray;
+        background-color: #f3f3f3;
     }
     .educationContents {
         margin: 1rem;

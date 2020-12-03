@@ -7,7 +7,7 @@ function Experience() {
     
     return (
         <Container style={{marginTop:"10rem", transition: '2s ease-out'}}>
-            <h3>
+            <h3 className="experienceHeader">
             <BsBriefcaseFill style={{marginRight:"0.6vw", fontSize:"1.6vw"}}/>
                 Work Experience</h3>
             <h4>Student Volunteer</h4>

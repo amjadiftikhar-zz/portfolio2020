@@ -37,7 +37,7 @@ export default function About() {
                 amjadiftikhar_99@hotmail.com</span> 
               </p>
             </div>
-            <div>
+            <div className="aboutSectionBtn">
               <a className="downloadClass">Download resume</a>
               <a href="/projects" className="myWorkClass" >My Work</a>
             </div>
