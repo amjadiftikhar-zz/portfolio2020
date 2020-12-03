@@ -20,7 +20,7 @@ return (
           </div>
           <div className="flipBox-back">
             <h5 style={{borderBottom:"1px solid white", padding:"0.6em",
-              textAlign:"center"}}>Tech Stack</h5>
+              textAlign:"center", fontSize:"1rem"}}>Tech Stack</h5>
             <div className="techStackClass">                
               {props.stackList} 
             </div>           
