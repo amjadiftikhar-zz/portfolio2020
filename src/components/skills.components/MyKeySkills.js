@@ -10,10 +10,10 @@ function MyKeySkills() {
     return (
         <Style>
             <div className="skillsList">
-                {skillsArr.map(skill => 
-                <Card border="info" style={{margin:"1.5rem"}} 
+                {skillsArr.map((skill, index) => 
+                <Card key={index} border="info" style={{margin:"1.5rem"}} 
                     className="col-md- col-sm-2 offset-md-1"> 
-                    <span key={skill} className="sectionElement">
+                    <span  className="sectionElement">
                         {skill}
                     </span>
                 </Card>  

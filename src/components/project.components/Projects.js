@@ -9,8 +9,8 @@ function Projects() {
       <Container style={{marginTop:"3rem"}}>
         <h3><GrProjects className="projectIcon"/>Projects</h3>
         <div className="projectSection">      
-          {projectsObject.map(proj => <Project 
-            key={proj}
+          {projectsObject.map((proj, index) => <Project 
+            key={index}
             projectTitle={proj.projectTitle}
             stackList={proj.stackList.map(techStack => 
               <div key={techStack} className="techElements">{techStack}</div>

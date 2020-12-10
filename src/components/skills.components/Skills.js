@@ -9,12 +9,12 @@ import Style from "./skills.style";
 const Skills = () => {
 
     const skills = [
-        {id: 1, tool:"Javascript", value:50},
+        {id: 1, tool:"JS", value:50},
         {id: 2,tool:"React", value:50},
-        {id: 3,tool:"NodeJS", value:50},
-        {id: 4,tool:"Typescript", value:50},
-        {id: 5,tool:"HTML5", value:50}, 
-        {id: 6,tool:"CSS3", value:50},
+        {id: 3,tool:"Node", value:50},
+        {id: 4,tool:"TS", value:50},
+        {id: 5,tool:"HTML", value:50}, 
+        {id: 6,tool:"CSS", value:50},
         {id: 7,tool:"MySql", value:50}
       ];
       
@@ -34,8 +34,9 @@ const Skills = () => {
                     skills that I will bring to your project.
                 </p>
                 <div className="skillsContentSection">
-                    {primarySkillsObj.map(skill => 
+                    {primarySkillsObj.map((skill, index) => 
                         <PrimarySkills 
+                            key={index}
                             imageSrc={skill.imageSrc}
                             title={skill.title}
                             description={skill.description}

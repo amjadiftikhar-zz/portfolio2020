@@ -13,8 +13,8 @@ export const Slice = ({pieData, id, colors, arc}) => {
                 alignmentBaseline="middle"
                 transform={`translate(${arc.centroid(pieData)})`}  
                 fill="white"
-                fontWeight="bold"
-                fontSize="8" >
+                fontWeight="bolder"
+                fontSize="12" >
                 {pieData.data.tool}
             </text>
         </g>
