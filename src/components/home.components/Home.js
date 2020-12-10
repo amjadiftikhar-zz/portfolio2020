@@ -15,7 +15,7 @@ export default function Home() {
     <Container className="container-fluid">
       <LandingPageComponent/>
       <About/>
-      <Accordion title="Key Skills">
+      <Accordion title="Further Details">
         <MyKeySkills/>     
       </Accordion> 
       <Accordion title="Projects">
