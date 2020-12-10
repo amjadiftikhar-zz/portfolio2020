@@ -9,8 +9,8 @@ export default function NavigationBar() {
     <NavigationBarStyles>
       <Navbar fixed="top" expand="lg">
         <Navbar.Brand href="/">
-          <AiOutlineHome className="classHomeIcon" src={homeIcon} 
-            alt="home page image" />
+          <AiOutlineHome className="classHomeIcon" style={{fontSize:"2rem"}} 
+            src={homeIcon} alt="home page image" />
         </Navbar.Brand>
         <Navbar.Toggle className="toggle bg-light" 
           aria-controls="navbar-toggle"/>

@@ -33,11 +33,6 @@ const Style = styled.div`
     font-weight: bold;
     text-align: center;
   }
-  @media only screen and (max-width: 1440px) {
-    .sectionElement { 
-      font-size:1.3rem;
-    }
-  } 
   @media only screen and (max-width: 768px) {
     .sectionElement { 
       font-size: 0.9rem;
