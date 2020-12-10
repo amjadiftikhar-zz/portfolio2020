@@ -12,7 +12,7 @@ function MyKeySkills() {
             <div className="skillsList">
                 {skillsArr.map((skill, index) => 
                 <Card key={index} border="info" style={{margin:"1.5rem"}} 
-                    className="col-md- col-sm-2 offset-md-1"> 
+                    className="col-md- col-sm-3 offset-md-1"> 
                     <span  className="sectionElement">
                         {skill}
                     </span>

@@ -33,6 +33,63 @@ const Style = styled.div`
     font-weight: bold;
     text-align: center;
   }
+  @media only screen and (max-width: 1440px) {
+    .sectionElement { 
+      font-size:1.3rem;
+    }
+  } 
+  @media only screen and (max-width: 768px) {
+    .sectionElement { 
+      font-size: 0.9rem;
+    }
+  } 
+  @media only screen and (max-width: 750px) {
+    .sectionElement { 
+      font-size:0.5rem;
+    }
+  } 
+  @media only screen and (max-width: 540px) {
+    .sectionElement { 
+      font-size: 1rem;
+    }
+  } 
+  @media only screen and (max-width: 414px) {
+    .sectionElement { 
+      font-size:1rem;
+    }
+    .skillsList {
+      height: 100%;
+    }
+  }
+  @media only screen and (max-width: 376px) {
+    .sectionElement { 
+      font-size:0.9rem;
+    }
+    .skillsList {
+      height: 100%;
+    }
+  }  
+  @media only screen and (max-width: 360px) {
+    .skillsList {
+      height: 100%;
+    }
+  } 
+  @media only screen and (max-width: 320px) {
+    .sectionElement { 
+      font-size:0.8rem;
+    }
+    .skillsList {
+      height: 100%;
+    }
+  }  
+  @media only screen and (max-width: 280px) {
+    .sectionElement { 
+      font-size:0.5rem;
+    }
+    .skillsList {
+      height: 100%;
+    }
+  }  
 `;
 
 export default Style;

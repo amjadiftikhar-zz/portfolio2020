@@ -108,6 +108,11 @@ h3 {
     justify-content: center;
   }
 }
+@media only screen and (max-width: 541px) {
+  .socialMediaSection {
+    height: 30em;
+  }
+}
 @media (min-width: 320px) and (max-width: 480px) {  
   .socialMediaSection {
     transform: none;
