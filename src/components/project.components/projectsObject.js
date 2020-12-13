@@ -4,8 +4,9 @@ import weatherAppImage from "../../images/weatherApp.jpg";
 import githubSearch from "../../images/githubSearch.jpg";
 import giphySearch from "../../images/giphySearch.jpg";
 import oldPortfolioImage from "../../images/oldPortfolio.jpg";
+import assignmentProj from "../../images/assignmentProj.png";
 import movieApp from "../../images/movieApp.png";
-import mobilTilbud from "../../images/mobilTilbud.png"
+import mobilTilbud from "../../images/mobilTilbud.png";
 
 const projectObj = [
   {
@@ -69,6 +70,16 @@ const projectObj = [
     githubLink:"https://github.com/amjadiftikhar/my-portfolio",
     herokuLink:"http://amjadportfolio.herokuapp.com/",
     description:"Its a portfolio website developed in React. I worked with reuseable components and used hooks instead of class components. I used Javascript, React, React Bootstrap, HTML, CSS etc. Portfolio is available for preview."
+  }, 
+  {
+    projectTitle:"Test Application",
+    stackList:["Javascript", "React", "HTML", "CSS", 
+                "Github", "Git"
+              ], 
+    projectImage: assignmentProj,
+    githubLink:"https://github.com/amjadiftikhar/front-end-test",
+    herokuLink:"https://github.com/amjadiftikhar/front-end-test",
+    description:"Assignment to develop a provided design in React and in simple HTML5, CSS3 and Javascript. Responsiveness and mobile first layout approach been adopted. "
   }, 
   {
     projectTitle:"Movie Catalogue",
