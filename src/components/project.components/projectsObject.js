@@ -3,7 +3,7 @@ import mealsharingImage from "../../images/mealsharing.jpg";
 import weatherAppImage from "../../images/weatherApp.jpg";
 import githubSearch from "../../images/githubSearch.jpg";
 import giphySearch from "../../images/giphySearch.jpg";
-import oldPortfolioImage from "../../images/oldPortfolio.jpg";
+import oldPortfolioImage from "../../images/oldPortfolio.png";
 import assignmentProj from "../../images/assignmentProj.png";
 import movieApp from "../../images/movieApp.png";
 import mobilTilbud from "../../images/mobilTilbud.png";
