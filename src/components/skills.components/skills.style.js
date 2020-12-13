@@ -10,6 +10,7 @@ const Style = styled.div`
     margin-bottom: 1.5rem;
   }
   .skillsContentSection {
+    padding: 1em;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;        
