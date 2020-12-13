@@ -5,8 +5,19 @@ import githubSearch from "../../images/githubSearch.jpg";
 import giphySearch from "../../images/giphySearch.jpg";
 import oldPortfolioImage from "../../images/oldPortfolio.jpg";
 import movieApp from "../../images/movieApp.png";
+import mobilTilbud from "../../images/mobilTilbud.png"
 
 const projectObj = [
+  {
+    projectTitle:"MobilTilbud Application",
+    stackList:["Python", "Django", "HTML", "CSS", "Bootstrap", 
+                "Github", "Git", "MySQL"
+              ], 
+    projectImage: mobilTilbud,
+    githubLink:"https://github.com/faisalakhlaq/mobiletilbud",
+    herokuLink:"https://github.com/faisalakhlaq/mobiletilbud",
+    description:"An application developed in Python and Django, I am participating in this project developing frontend and deployment. My goal is to make a best user experience and in depth understanding of building real time projects as a team member."
+  },
   {
     projectTitle:"Seasony Dashboard Application",
     stackList:["Javascript", "Node JS", "React", "HTML", "CSS", "Storybook", 
