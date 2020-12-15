@@ -16,7 +16,7 @@ const projectObj = [
               ], 
     projectImage: mobilTilbud,
     githubLink:"https://github.com/faisalakhlaq/mobiletilbud",
-    herokuLink:"https://github.com/faisalakhlaq/mobiletilbud",
+    herokuLink:"https://www.mobiletilbud.dk/",
     description:"An application developed in Python and Django, I am participating in this project developing frontend and deployment. My goal is to make a best user experience and in depth understanding of building real time projects as a team member."
   },
   {
