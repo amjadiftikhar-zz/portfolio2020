@@ -14,21 +14,21 @@ import GlobalStyles from "./styles/global";
 export default function App() {
   return (
     <React.Fragment>
-      <NavigationBar/>
-      <Layout fluid={true}>
-        <Router>
-          <Switch>
+      <Router>
+        <NavigationBar/>
+        <Switch>
+          <Layout fluid={true}>
             <Route exact path="/"  component={Home} />
             <Route path="/about"  component={About} />
             <Route path="/projects"  component={Projects} />
             <Route path="/education"  component={Education} />
             <Route path="/experience"  component={Experience} />
             <Route path="/contact"  component={Contact} />
-          </Switch>
-          <GlobalStyles/>;
-        </Router>
-        <Footer/>
-      </Layout>        
+          </Layout>   
+        </Switch>
+        <GlobalStyles/>;
+      </Router>
+      <Footer/>
     </React.Fragment>
   );
 }

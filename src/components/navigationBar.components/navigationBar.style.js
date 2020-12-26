@@ -11,6 +11,7 @@ const NavigationStyles = styled.div`
     &:hover {
       color: red;
       background-color: #C1BDB5;
+      font-weight: 'bold';
     }
   }
   .toggle {
@@ -18,14 +19,7 @@ const NavigationStyles = styled.div`
   }
   .nav-link {
     margin-left:0.5rem;
-    font-size: 1rem;
-  }
-  .nav-link:nth-child(5) {
-    border-right: none; 
-  }
-  .navbar-brand {
-    border-right: none;
-    transform: none;
+    font-size: 0.85rem;
   }
 `;
 
