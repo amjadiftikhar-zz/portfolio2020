@@ -11,10 +11,15 @@ const Header = (props) => {
   return (
     <NavigationBarStyles>
       <Navbar fixed="top" expand="lg">
-        <Navbar.Brand href="/">
-          <AiOutlineHome className="classHomeIcon" style={{fontSize:"1.6rem"}} 
-            src={homeIcon} alt="home page image" />
-        </Navbar.Brand>
+        <LinkContainer exact to="/">
+          <Navbar.Brand >
+            <AiOutlineHome 
+              className="classHomeIcon" 
+              style={{fontSize:"1.6rem"}} 
+              src={homeIcon} alt="home page image" 
+            />
+          </Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle className="toggle bg-light" 
           aria-controls="navbar-toggle"/>
         <Navbar.Collapse id="navbar-toggle">

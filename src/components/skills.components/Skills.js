@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {Container, Card } from 'reactstrap';
-import PrimarySkills from "./PrimarySkills";
+import SkillsCard from "./SkillsCard";
 import primarySkillsObj from "./primarySkillsObj";
 import {AiOutlineFileDone} from "react-icons/ai";
 import {PieChart} from "../../components/chart.components/PieChart";
@@ -20,10 +20,6 @@ const Skills = () => {
       
     const [data, setData] = useState(skills)
     
-    // const [isOpen, setIsOpen] = useState(false);
-
-    // const toggle = () => setIsOpen(!isOpen);
-
     return (
         <Style>
             <Container style={{marginTop:"3rem"}}>
@@ -35,7 +31,7 @@ const Skills = () => {
                 </p>
                 <div className="skillsContentSection">
                     {primarySkillsObj.map((skill, index) => 
-                        <PrimarySkills 
+                        <SkillsCard 
                             key={index}
                             imageSrc={skill.imageSrc}
                             title={skill.title}
