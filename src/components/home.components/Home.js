@@ -7,6 +7,8 @@ import Experience from "../experience.components/Experience";
 import Projects from "../project.components/Projects";
 import Accordion from "../accordion.components/Accordion";
 import MyKeySkills from '../skills.components/MyKeySkills';
+import ScrollToTop from "../scroll.components/ScrollToTop";
+import ScrollToDown from "../scroll.components/ScrollToDown";
 import "./home.styles.css";
 
 export default function Home() {
@@ -15,6 +17,8 @@ export default function Home() {
     <Container className="container-fluid">
       <LandingPageComponent/>
       <About/>
+      <ScrollToDown/>
+      <ScrollToTop/>
       <Accordion title="Further Details">
         <MyKeySkills/>     
       </Accordion> 
