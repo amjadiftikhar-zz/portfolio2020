@@ -18,7 +18,7 @@ const projectObj = [
     projectImage: smartDevelopers,
     githubLink:"https://github.com/amjadiftikhar/smart-developers",
     herokuLink:"https://github.com/amjadiftikhar/smart-developers",
-    description:"The application is developed in React and the Smart Developers is a software development company committed to provide best services and user experiences."
+    description:"The application is developed in React and the Smart Developers is a software development company committed to provide best services and user experience."
   },
   {
     projectTitle:"MobilTilbud Application",
