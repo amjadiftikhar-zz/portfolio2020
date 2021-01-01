@@ -7,8 +7,19 @@ import oldPortfolioImage from "../../images/oldPortfolio.png";
 import assignmentProj from "../../images/assignmentProj.png";
 import movieApp from "../../images/movieApp.png";
 import mobilTilbud from "../../images/mobilTilbud.png";
+import smartDevelopers from "../../images/smartDevelopers.png";
 
 const projectObj = [
+  {
+    projectTitle:"Smart Developers",
+    stackList:["React", "HTML", "CSS", "Bootstrap", 
+                "Github", "Git"
+              ], 
+    projectImage: smartDevelopers,
+    githubLink:"https://github.com/amjadiftikhar/smart-developers",
+    herokuLink:"https://github.com/amjadiftikhar/smart-developers",
+    description:"The application is developed in React and the Smart Developers is a software development company committed to provide best services and user experiences."
+  },
   {
     projectTitle:"MobilTilbud Application",
     stackList:["Python", "Django", "HTML", "CSS", "Bootstrap", 
