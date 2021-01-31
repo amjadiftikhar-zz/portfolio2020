@@ -36,7 +36,7 @@ return (
           </a> 
         </span>
         <span className="classSpan">
-          <a className="toolTipp" href={props.herokuLink}>
+          <a className="toolTipp" href={props.herokuLink } target="_blank">
             <FaExternalLinkSquareAlt className="classIcon toolTipp"/>
             <span className="classTooltip">Preview</span> 
           </a>
