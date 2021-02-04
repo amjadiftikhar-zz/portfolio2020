@@ -23,7 +23,7 @@ const Style = styled.div`
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #f3f3f3;
     margin-top: 3rem;
     padding: 2rem;
