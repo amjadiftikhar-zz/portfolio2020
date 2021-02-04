@@ -8,8 +8,39 @@ function Experience() {
     return (
         <Container style={{marginTop:"3rem", transition: '2s ease-out'}}>
             <h3 className="experienceHeader">
-            <BsBriefcaseFill style={{marginRight:"0.6vw", fontSize:"1.6vw"}}/>
-                Work Experience</h3>
+                <BsBriefcaseFill style={{marginRight:"0.6vw", fontSize:"1.6vw"}}/>
+                Work Experience
+            </h3>
+            <h4>Frontend Developer</h4>
+            <div className="experienceSection">
+                <div className="experienceContents">
+                    <p className="pItalic">Organization</p>
+                    <h5>Molecular Quantum Solutions</h5>
+                    <p>01/2020 – Present</p>                    
+                </div>
+                <div className="experienceContents">
+                    <div>
+                        <p className="pItalic">
+                            Søborg, Denmark
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <h4>Frontend Developer (Intern)</h4>
+            <div className="experienceSection">
+                <div className="experienceContents">
+                    <p className="pItalic">Organization</p>
+                    <h5>Unifounder</h5>
+                    <p>11/2020 – 01/2021</p>                    
+                </div>
+                <div className="experienceContents">
+                    <div>
+                        <p className="pItalic">
+                            Frederiksberg, Denmark
+                        </p>
+                    </div>
+                </div>  
+            </div>
             <h4>Student Volunteer</h4>
             <div className="experienceSection">
                 <div className="experienceContents">
