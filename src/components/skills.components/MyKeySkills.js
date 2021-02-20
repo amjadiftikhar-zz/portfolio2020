@@ -3,7 +3,7 @@ import {Card } from 'reactstrap';
 import Style from "./skills.style";
 
 const skillsArr = ["Javascript", "Typescript", "React","Storybook", "HTML5", 
-    "CSS3", "Node JS", "Bootstrap","Material UI","D3.js", "Express", "NPM", "Webpack",
+    "CSS3", "Node JS", "Bootstrap","Material UI","D3.js", "Unit Testing", "Express", "NPM", "Webpack",
     "MySql", "Github", "Postman", "Heroku"]
 
 function MyKeySkills() {
