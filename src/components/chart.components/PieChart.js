@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 export const PieChart = (props) => {
     useEffect(() => {
-       Aos.init({duration: 3000})
+       Aos.init({duration: 2000})
     }, [])
 
     // initializing pie
@@ -25,7 +25,7 @@ export const PieChart = (props) => {
     const colors = d3.scaleOrdinal(d3.schemeCategory10)
 
     return (        
-        <svg height={props.height } width={props.width} data-aos='fade-up'>
+        <svg height={props.height } width={props.width} data-aos='fade-left'>
             {/* using grouping element tag */}
             <g transform={`translate(${props.outerRadius},
                 ${props.outerRadius})`}
