@@ -56,7 +56,7 @@ const projectObj = [
     projectImage: weatherAppImage,
     githubLink:"https://github.com/amjadiftikhar/myProjects",
     herokuLink:"https://htmlpreview.github.io/?https://github.com/amjadiftikhar/my_SPAs/blob/master/weather-App/index.html",
-    description:"A weather application to see the weather updates, using weather API and the app is available for the preview. Tools used are API, Javascript, HTML and CSS"
+    description:"A weather application for daily weather updates, using weather open weather API and the app is available for the preview. Tools used are API, Javascript, HTML and CSS"
   }, 
   {
     projectTitle:"Search Github Users", 
