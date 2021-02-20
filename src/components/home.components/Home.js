@@ -19,11 +19,11 @@ export default function Home() {
       <About/>
       <ScrollToDown/>
       <ScrollToTop/>
+      {/* <Accordion title="Projects"> */}
+        <Projects/>     
+      {/* </Accordion>  */}
       <Accordion title="Further Details">
         <MyKeySkills/>     
-      </Accordion> 
-      <Accordion title="Projects">
-        <Projects/>     
       </Accordion> 
       <Accordion title="Education">
         <Education/>      
