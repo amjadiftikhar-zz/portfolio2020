@@ -6,7 +6,7 @@ import {GrProjects} from "react-icons/gr";
 
 function Projects() { 
     return (
-      <Container style={{marginTop:"3rem"}}>
+      <Container>
         <h3><GrProjects className="projectIcon"/>Projects</h3>
         <div className="projectSection">      
           {projectsObject.map((proj, index) => <Project 
