@@ -16,16 +16,24 @@ function Footer() {
             </div> 
             <div className="socialMediaLinks">
                 <a className="footerIcon" 
-                    href="https://www.linkedin.com/in/amjad-iftikhar-545aa331/">
+                    href="https://www.linkedin.com/in/amjad-iftikhar-545aa331/"
+                    target='_blank'
+                >
                     <FaLinkedin className="footerIcon" />
                 </a>
-                <a className="footerIcon" href="https://github.com/amjadiftikhar">
+                <a className="footerIcon" href="https://github.com/amjadiftikhar"
+                    target='_blank'
+                >
                     <FaGithubSquare className="footerIcon" />
                 </a>
-                <a className="footerIcon" href="https://www.facebook.com/Parati4mg/">
+                <a className="footerIcon" href="https://www.facebook.com/Parati4mg/"
+                    target='_blank'
+                >
                     <FaFacebookSquare className="footerIcon"/>
                 </a>
-                <a className="footerIcon" href="https://twitter.com/parati_4mg">
+                <a className="footerIcon" href="https://twitter.com/parati_4mg"
+                    target='_blank'
+                >
                     <FaTwitterSquare className="footerIcon"/>
                 </a>
             </div>               
