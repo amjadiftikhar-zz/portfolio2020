@@ -7,8 +7,7 @@ import "./projects.style.css";
 
 function Project(props) {
 return (
-  <Card style={{ width: '18rem', marginBottom:"5%", backgroundColor:"#f3f3f3",
-    border:"none"}}>
+  <Card className='projectCard' style={{ }}>
     {/* main div of the project designed */}
     <div className="projectContents">
       <h5 className="projectName">{props.projectTitle}</h5>
