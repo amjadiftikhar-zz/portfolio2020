@@ -1,4 +1,43 @@
-{ 
+{
+    "primarySkills": [
+        { 
+            "imageSrc":"/images/frontendDev.jpg", 
+            "title":"Frontend Developer",
+            "description":"I use Javascript, React, HTML5 and CSS3 to build attractive responsive frontends for websites. My frontend work can be seen in project section. "
+        },
+        { 
+            "imageSrc":"/images/bootstrap.png", 
+            "title":"Bootstrap Frontend Design",
+            "description":"The great look and user experience is most important element in any project. I use bootstrap to bring an attractive design to the web project."
+        },
+        { 
+            "imageSrc":"/images/mysql.png", 
+            "title":"Database MySql Workbench",
+            "description":"Database development is critical to most projects. I am well versed in MySql development from queries to design."
+        }
+    ], 
+    "projects": [ 
+        {
+            "projectImage": "/images/mobilTilbud.jpg",
+            "projectTitle": "Mobile Tilbud",
+            "description": "MobileTilbud is a website serving danish mobile phone users. Danish telecom companies gets 700000 to 800000 online visiters via refering website and MobileTilbud is one among them. "
+        },
+        {
+            "projectImage": "/images/info1947.png",
+            "projectTitle": "1947",
+            "description": "1947 is an encyclopedia of information about hospitals, universities, tourist places, hotels, shopping centers, NGOs, political parties and  official sites. Website ensures all information on your fingertips."
+        },
+        {
+            "projectImage": "/images/qabros.png",
+            "projectTitle": "Recycling",
+            "description": "Q Recycling aims to reuse and recycle the mobile phone parts and LCDs. We helped Q Recycling develop a system to keep track of their inventory and an easy online solution sale and purchase."
+        },
+        {
+            "projectImage": "/images/cityCable.png",
+            "projectTitle": "Billing System",
+            "description": "City Cable Billing information system helps the company to keep track of all their customer payment, bills, expenses. Helping the user with automatically generating alerts for approaching or past due dates and generating reports."
+        }
+    ],
     "technologies": [ 
         {"id":0, "toolName": "Python", "toolImage": "/images/python.png" },
         {"id":1, "toolName": "Django", "toolImage": "/images/django.png" },
