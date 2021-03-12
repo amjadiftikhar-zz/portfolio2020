@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import {Container, Card } from 'reactstrap';
 import SkillsCard from "./SkillsCard";
-import primarySkillsObj from "./primarySkillsObj";
+// import primarySkillsObj from "./primarySkillsObj";
+import primarySkillsData from "../../assets/data.json";
 import {AiOutlineFileDone} from "react-icons/ai";
 import {PieChart} from "../../components/chart.components/PieChart";
 import Style from "./skills.style";  
@@ -30,7 +31,7 @@ const Skills = () => {
                     skills that I will bring to your project.
                 </p>
                 <div className="skillsContentSection">
-                    {primarySkillsObj.map((skill, index) => 
+                    {primarySkillsData.primarySkills.map((skill, index) => 
                         <SkillsCard 
                             key={index}
                             imageSrc={skill.imageSrc}

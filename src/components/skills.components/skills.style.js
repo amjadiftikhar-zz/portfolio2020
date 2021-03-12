@@ -13,11 +13,14 @@ const Style = styled.div`
     padding: 1em;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-around;        
+    justify-content: space-around;           
   }
   .skillCard {
     background-color: #f3f3f3;
     border: none;
+  }
+  .skillCard:hover {
+    box-shadow: 0px 0px 6px 0 #c6c6c6;
   }
   .skillsList {
     display: flex;
