@@ -7,7 +7,7 @@ function MyKeySkills() {
     return (
         <Style>
             <div className="skillsList">
-                {skillData.skillsArr.map((skill, index) => 
+                {skillData.skills.map((skill, index) => 
                 <Card key={index} border="info" style={{margin:"1.5rem"}} 
                     className="col-md- col-sm-3 offset-md-1"> 
                     <span  className="sectionElement">

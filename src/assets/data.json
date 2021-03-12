@@ -1,8 +1,8 @@
 {
-    "skillsArr" : ["Javascript", 
-        "Typescript", "React","Storybook", "HTML5", 
-        "CSS3", "Node JS", "Bootstrap","Material UI","D3.js", "Unit Testing", "Express", "NPM", "Webpack",
-        "MySql", "Github", "Postman", "Heroku"],
+    "skills" : ["Javascript", "Typescript", "React","Storybook", "HTML5", 
+        "CSS3", "Node JS", "Bootstrap","Material UI","D3.js", "Unit Testing", 
+        "Express", "NPM", "Webpack", "MySql", "Github", "Postman", "Heroku"
+    ],
     "primarySkills": [
         { 
             "imageSrc":"/images/frontendDev.jpg", 
