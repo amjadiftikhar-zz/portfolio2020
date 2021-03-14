@@ -3,23 +3,14 @@ import {Container, Card } from 'reactstrap';
 import SkillsCard from "./SkillsCard";
 // import primarySkillsObj from "./primarySkillsObj";
 import primarySkillsData from "../../assets/data.json";
+import skills from "../../assets/data.json";
 import {AiOutlineFileDone} from "react-icons/ai";
 import {PieChart} from "../../components/chart.components/PieChart";
 import Style from "./skills.style";  
 
 const Skills = () => {
-
-    const skills = [
-        {id: 1, tool:"JS", value:50},
-        {id: 2,tool:"React", value:50},
-        {id: 3,tool:"Node", value:50},
-        {id: 4,tool:"TS", value:50},
-        {id: 5,tool:"HTML", value:50}, 
-        {id: 6,tool:"CSS", value:50},
-        {id: 7,tool:"MySql", value:50}
-      ];
       
-    const [data, setData] = useState(skills)
+    const [data, setData] = useState(skills.keySkills)
     
     return (
         <Style>
