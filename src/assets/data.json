@@ -1,9 +1,5 @@
 {
-    "skills" : ["Javascript", "Typescript", "React","Storybook", "HTML5", 
-        "CSS3", "Node JS", "Bootstrap","Material UI","D3.js", "Unit Testing", 
-        "Express", "NPM", "Webpack", "MySql", "Github", "Postman", "Heroku"
-    ],
-    "primarySkills": [
+   "primarySkills": [
         { 
             "imageSrc":"/images/frontendDev.jpg", 
             "title":"Frontend Developer",
@@ -20,119 +16,102 @@
             "description":"Database development is critical to most projects. I am well versed in MySql development from queries to design."
         }
     ], 
-    "projects": [ 
-        {
-            "projectImage": "/images/mobilTilbud.jpg",
-            "projectTitle": "Mobile Tilbud",
-            "description": "MobileTilbud is a website serving danish mobile phone users. Danish telecom companies gets 700000 to 800000 online visiters via refering website and MobileTilbud is one among them. "
-        },
-        {
-            "projectImage": "/images/info1947.png",
-            "projectTitle": "1947",
-            "description": "1947 is an encyclopedia of information about hospitals, universities, tourist places, hotels, shopping centers, NGOs, political parties and  official sites. Website ensures all information on your fingertips."
-        },
-        {
-            "projectImage": "/images/qabros.png",
-            "projectTitle": "Recycling",
-            "description": "Q Recycling aims to reuse and recycle the mobile phone parts and LCDs. We helped Q Recycling develop a system to keep track of their inventory and an easy online solution sale and purchase."
-        },
-        {
-            "projectImage": "/images/cityCable.png",
-            "projectTitle": "Billing System",
-            "description": "City Cable Billing information system helps the company to keep track of all their customer payment, bills, expenses. Helping the user with automatically generating alerts for approaching or past due dates and generating reports."
-        }
+    "skills" : ["Javascript", "Typescript", "React","Storybook", "HTML5", 
+        "CSS3", "Node JS", "Bootstrap","Material UI","D3.js", "Unit Testing", 
+        "Express", "NPM", "Webpack", "MySql", "Github", "Postman", "Heroku"
     ],
-    "technologies": [ 
-        {"id":0, "toolName": "Python", "toolImage": "/images/python.png" },
-        {"id":1, "toolName": "Django", "toolImage": "/images/django.png" },
-        {"id":2, "toolName": "Java", "toolImage": "/images/java.png" },
-        {"id":3, "toolName": "PHP", "toolImage": "/images/php.png" },
-        {"id":4, "toolName": "Laravel", "toolImage": "/images/laravel.png" },
-        {"id":5, "toolName": "Javascript", "toolImage": "/images/javascript.png" },
-        {"id":6, "toolName": "Nodejs", "toolImage": "/images/nodejs.png" },
-        {"id":7, "toolName": "React", "toolImage": "/images/react.png" },
-        {"id":8, "toolName": "jQuery", "toolImage": "/images/jQuery.png" },
-        {"id":9, "toolName": "HTML5", "toolImage": "/images/html.png" },
-        {"id":10, "toolName": "CSS3", "toolImage": "/images/css.png" },
-        {"id":11, "toolName": "Bootstrap", "toolImage": "/images/bootstrap.png" },
-        {"id":12, "toolName": "Android", "toolImage": "/images/android.png" },
-        {"id":13, "toolName": "IOS", "toolImage": "/images/ios.png" },
-        {"id":14, "toolName": "MySql", "toolImage": "/images/mySql.png" },
-        {"id":15, "toolName": "Postgresql", "toolImage": "/images/postgresql.png" },
-        {"id":16, "toolName": "Github", "toolImage": "/images/github.png" }
-    ],    
-    "projects": [ 
+    "projects": [
         {
-            "projectImage": "/images/mobilTilbud.jpg",
-            "projectTitle": "Mobile Tilbud",
-            "description": "MobileTilbud is a website serving danish mobile phone users. Danish telecom companies gets 700000 to 800000 online visiters via refering website and MobileTilbud is one among them. "
+          "projectTitle":"Smart Developers",
+          "stackList":["React", "HTML", "CSS", "Bootstrap", 
+                      "Github", "Git"
+                    ], 
+          "projectImage": "/images/smartDevelopers.png",
+          "githubLink":"https://github.com/amjadiftikhar/smart-developers",
+          "herokuLink":"https://www.smartdeveloper.dk/",
+          "description":"The application is developed in React and the Smart Developers is a software development company committed to provide best services and user experience."
         },
         {
-            "projectImage": "/images/info1947.png",
-            "projectTitle": "1947",
-            "description": "1947 is an encyclopedia of information about hospitals, universities, tourist places, hotels, shopping centers, NGOs, political parties and  official sites. Website ensures all information on your fingertips."
+          "projectTitle":"MobilTilbud Application",
+          "stackList":["Python", "Django", "HTML", "CSS", "Bootstrap", 
+                      "Github", "Git", "MySQL"
+                    ], 
+          "projectImage": "/images/mobilTilbud.png",
+          "githubLink":"https://github.com/faisalakhlaq/mobiletilbud",
+          "herokuLink":"https://www.mobiletilbud.dk/",
+          "description":"An application developed in Python and Django, I am participating in this project developing frontend and deployment. My goal is to make a best user experience and in depth understanding of building real time projects as a team member."
         },
         {
-            "projectImage": "/images/qabros.png",
-            "projectTitle": "Recycling",
-            "description": "Q Recycling aims to reuse and recycle the mobile phone parts and LCDs. We helped Q Recycling develop a system to keep track of their inventory and an easy online solution sale and purchase."
+          "projectTitle":"Seasony Dashboard Application",
+          "stackList":["Javascript", "Node JS", "React", "HTML", "CSS", "Storybook", 
+                      "Express", "Knex", "Firebase", "Heroku", "Github", "Git", "MySQL", "Swagger"
+                    ], 
+          "projectImage": "/images/seasonyApp.jpg",
+          "githubLink":"https://github.com/HackYourFuture-CPH/FP-class11",
+          "herokuLink":"https://fp-class11.herokuapp.com/",
+          "description":"A dashboard application for seasony.dk, I was one of the team members in this project and we developed it from scratch to deployment and gain a in depth understanding of building real time projects with the collaboration of our highly skilled mentors."
         },
         {
-            "projectImage": "/images/cityCable.png",
-            "projectTitle": "Billing System",
-            "description": "City Cable Billing information system helps the company to keep track of all their customer payment, bills, expenses. Helping the user with automatically generating alerts for approaching or past due dates and generating reports."
-        },
+          "projectTitle":"Meal Sharing Application", 
+          "stackList":["Javascript", "Node JS", "HTML", "CSS", "Express", "Heroku", "Github",
+                      "Git", "MySQL"
+                    ], 
+          "projectImage": "/images/mealsharing.jpg",
+          "githubLink":"https://github.com/amjadiftikhar/myProjects",
+          "herokuLink":"https://my-meal-sharing-app.herokuapp.com/",
+          "description":"A meal sharing application with a MySql database to make reservations, submitting reviews and look through all meals available for reservation. Search option for the random meal is also available in the application and its available for a live preview."
+        }, 
         {
-            "projectImage": "/images/amgsac.png",
-            "projectTitle": "AMGSAC",
-            "description": "AMGSAC is a website built, designed, and maintained for a school. It presents information about the school, exam results, admission procedures, fee structure and much more."
-        },
+          "projectTitle":"Weather Application", 
+          "stackList":["Javascript", "HTML", "CSS",  "Github", "Git", "REST API"], 
+          "projectImage": "/images/weatherApp.jpg",
+          "githubLink":"https://github.com/amjadiftikhar/myProjects",
+          "herokuLink":"https://htmlpreview.github.io/?https://github.com/amjadiftikhar/my_SPAs/blob/master/weather-App/index.html",
+          "description":"A weather application for daily weather updates, using weather open weather API and the app is available for the preview. Tools used are API, Javascript, HTML and CSS"
+        }, 
         {
-            "projectImage": "/images/pakSiasat.png",
-            "projectTitle": "Pak Siasat",
-            "description": "Paksiasat is raising political awareness among people in particular through media and intellectual engagement with public affairs."
-        },
+          "projectTitle":"Search Github Users", 
+          "stackList":["Javascript", "React", "HTML", "CSS", "Github", "Git", "RESTful API"], 
+          "projectImage": "/images/githubSearch.jpg",
+          "githubLink":"https://github.com/amjadiftikhar/searchUsers_github",
+          "herokuLink":"https://github.com/amjadiftikhar/searchUsers_github",
+          "description":"An application to search the information about github users. Its one of the applications I developed in React. Tools used are React, Javascript, API, HTML and CSS"
+        }, 
         {
-            "projectImage": "/images/daniaz.png",
-            "projectTitle": "Daniaz Kitchen",
-            "description": "If you are a cooking enthusiast and want to share your experiment and experties to the world, we can help you develop a great blog. Daniazkitchen is a blog about cooking."
-        },
+          "projectTitle":"Giphy Search", 
+          "stackList":["Javascript", "HTML", "CSS", "Github", "Git", "RESTful API"], 
+          "projectImage": "/images/giphySearch.jpg",
+          "githubLink":"https://github.com/amjadiftikhar/my_SPAs/tree/master/giphy-App",
+          "herokuLink":"https://github.com/amjadiftikhar/my_SPAs/tree/master/giphy-App",
+          "description":"It is an application for the giphy search using giphy API and worked with DOM    manipulation. Tools used including API, Javascript, HTML and CSS."
+        }, 
         {
-            "projectImage": "/images/pkInsaf.png",
-            "projectTitle": "PK Insaf",
-            "description": "PKINSAF is an online news website featuring news articles and videos from different news and media sites."
-        },
+          "projectTitle":"Portfolio Application", 
+          "stackList":["Javascript", "React", "Bootstrap", "HTML", "CSS", "Github", "Git"], 
+          "projectImage": "/images/oldPortfolio.png",
+          "githubLink":"https://github.com/amjadiftikhar/my-portfolio",
+          "herokuLink":"http://amjadportfolio.herokuapp.com/",
+          "description":"Its a portfolio website developed in React. I worked with reuseable components and used hooks instead of class components. I used Javascript, React, React Bootstrap, HTML, CSS etc. Portfolio is available for preview."
+        }, 
         {
-            "projectImage": "/images/easyMoney.PNG",
-            "projectTitle": "Easy Transfer",
-            "description": "Commission Calculator is a solution for money transfer agents. An agent uses different schemes to send and receive customers money which can be thousands of transactions on a daily basis."
+          "projectTitle":"Test Application",
+          "stackList":["Javascript", "React", "HTML", "CSS", 
+                      "Github", "Git"
+                    ], 
+          "projectImage": "/images/assignmentProj.png",
+          "githubLink":"https://github.com/amjadiftikhar/front-end-test",
+          "herokuLink":"https://github.com/amjadiftikhar/front-end-test",
+          "description":"Assignment to develop a provided design in React and in simple HTML5, CSS3 and Javascript. Responsiveness and mobile first layout approach been adopted. "
+        }, 
+        {
+          "projectTitle":"Movie Catalogue",
+          "stackList":["Javascript", "React", "API", "HTML", "CSS", 
+                      "Heroku", "Github", "Git"
+                    ], 
+          "projectImage": "/images/movieApp.png",
+          "githubLink":"https://github.com/amjadiftikhar/movie-app",
+          "herokuLink":"https://github.com/amjadiftikhar/movie-app",
+          "description":"A Movie application, using Star Wars API fetched data for movies and movie characters and rendered it. Tools used are API, Javascript, React, HTML and CSS."
         }
-    ],
-    "profile": [
-        {
-            "profileImage": "/images/faisalAkhlaq.png",
-            "profileTitle": "Faisal Akhlaq",
-            "personalInfo": "Backend Developer"
-        },
-        {
-            "profileImage": "/images/amjadIftikhar.jpg",
-            "profileTitle": "Amjad Iftikhar",
-            "personalInfo": "Frontend Developer"
-        },
-        {
-            "profileImage": "/images/rahim.jpeg",
-            "profileTitle": "Rahim Ismaili",
-            "personalInfo": "Full Stack Developer"
-        },
-        {
-            "profileImage": "/images/rajaEjaz.jpg",
-            "profileTitle": "Raja Ejaz",
-            "personalInfo": "Full Stack Developer"
-        },
-        {
-            "profileImage": "/images/amirMajeed.JPG",
-            "profileTitle": "Amir Mehmood",
-            "personalInfo": "Full Stack Developer"
-        }
-    ]      
+    ]         
 } 
