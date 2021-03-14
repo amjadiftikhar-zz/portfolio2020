@@ -20,6 +20,15 @@
         "CSS3", "Node JS", "Bootstrap","Material UI","D3.js", "Unit Testing", 
         "Express", "NPM", "Webpack", "MySql", "Github", "Postman", "Heroku"
     ],
+    "keySkills": [
+        {"id": 1, "tool":"JS", "value":50},
+        {"id": 2,"tool":"React", "value":50},
+        {"id": 3,"tool":"Node", "value":50},
+        {"id": 4,"tool":"TS", "value":50},
+        {"id": 5,"tool":"HTML", "value":50}, 
+        {"id": 6,"tool":"CSS", "value":50},
+        {"id": 7,"tool":"MySql", "value":50}
+    ],
     "projects": [
         {
           "projectTitle":"Smart Developers",
