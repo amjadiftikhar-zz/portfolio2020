@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import {Container, Card } from 'reactstrap';
 import SkillsCard from "./SkillsCard";
-// import primarySkillsObj from "./primarySkillsObj";
 import primarySkillsData from "../../assets/data.json";
 import skills from "../../assets/data.json";
 import {AiOutlineFileDone} from "react-icons/ai";
