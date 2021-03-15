@@ -5,6 +5,7 @@ import projectsData from "../../assets/data.json";
 import {GrProjects} from "react-icons/gr";
 
 const Projects = () => { 
+
     return (
       <Container>
         <h3><GrProjects className="projectIcon"/>Projects</h3>
@@ -13,7 +14,9 @@ const Projects = () => {
             key={index}
             projectTitle={proj.projectTitle}
             stackList={proj.stackList.map(techStack => 
-              <div key={techStack} className="techElements">{techStack}</div>
+              <div key={techStack} className="techElements">
+                {techStack}
+              </div>
             )} 
             projectImage={proj.projectImage}
             githubLink={proj.githubLink}
