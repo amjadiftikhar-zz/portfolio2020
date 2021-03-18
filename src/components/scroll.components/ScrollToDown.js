@@ -19,8 +19,14 @@ function ScrollToDown() {
         return false;
     }
 
+    const scrollDown = () => {
+        window.scrollTo({top: 600, behavior:'smooth'});
+    }
+
     return (
-        <div className="scrollToDown cursorPointer text-center">
+        <div className="scrollToDown cursorPointer text-center"
+           onClick={scrollDown} 
+        >
             <FaArrowDown className="iconDown"/>
         </div>
     )
