@@ -24,7 +24,7 @@ function ScrollToDown() {
     }
 
     return (
-        <div className="scrollToDown cursorPointer text-center"
+        <div className="scrollToDown cursorPointer text-center" data-testid='scrollToDown'
            onClick={scrollDown} 
         >
             <FaArrowDown className="iconDown"/>
