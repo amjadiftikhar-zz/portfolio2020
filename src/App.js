@@ -17,7 +17,7 @@ export default function App() {
       <Router>
         <NavigationBar/>
         <Switch>
-          <Layout fluid={true}>
+          <Layout fluid={true} id="apps">
             <Route exact path="/"  component={Home} />
             <Route path="/about"  component={About} />
             <Route path="/projects"  component={Projects} />
