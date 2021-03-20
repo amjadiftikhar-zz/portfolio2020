@@ -25,7 +25,8 @@ export const PieChart = (props) => {
     const colors = d3.scaleOrdinal(d3.schemeCategory10)
 
     return (        
-        <svg height={props.height } width={props.width} data-aos='fade-left'>
+        <svg height={props.height } width={props.width} 
+            data-aos='fade-left' data-testid='pieChart'>
             {/* using grouping element tag */}
             <g transform={`translate(${props.outerRadius},
                 ${props.outerRadius})`}
