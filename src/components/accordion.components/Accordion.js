@@ -16,7 +16,7 @@ function Accordion(props) {
     }
 
     return (
-        <div className="accordionSection">
+        <div className="accordionSection" data-testid='accordion'>
             <button className="accordionTitle" onClick={toggleActive}>
                 <div>{props.title}</div>
                 <span className={active ? 'accordionIcon rotate' : 'accordionIcon'}>
