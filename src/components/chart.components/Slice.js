@@ -4,7 +4,7 @@ import React from "react";
 export const Slice = ({pieData, id, colors, arc}) => {     
 
     return ( 
-        <g className="this" key={id}>
+        <g className="this" key={id} data-testid='slice'>
             {/* creating colored arc for each element */}
             <path  d={arc(pieData)} fill={colors(id)} />
             {/* generating text for each skill */}
