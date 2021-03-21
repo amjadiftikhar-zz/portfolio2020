@@ -22,8 +22,9 @@ function ScrollToTop() {
     const scrollTop = () => window.scrollTo({top: 0, behavior: 'smooth' })
 
     return (
-        <div className="scrollToTop cursorPointer text-center"
-            onClick={scrollTop} >
+        <div className="scrollToTop cursorPointer text-center" data-testid='scrollToTopp' 
+            onClick={scrollTop} 
+        >
             <FaArrowUp className="icon"/>
         </div>
     )
