@@ -5,7 +5,7 @@ import {FaCopyright, FaRegSmile, FaLinkedin, FaGithubSquare,
 
 function Footer() {
     return (
-        <footer className="footer">
+        <footer className="footer" data-testid='footer'>
             <div className="allRights">
                 <FaCopyright style={{width:"1.5rem", height:"1.5rem"}}/>
                 <span>
