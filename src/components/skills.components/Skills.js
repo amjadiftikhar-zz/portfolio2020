@@ -13,7 +13,7 @@ const Skills = () => {
     
     return (
         <Style>
-            <Container style={{marginTop:"3rem"}}>
+            <Container style={{marginTop:"3rem"}} data-testid='skills'>
             <div className="skillSection">
                 <h3><AiOutlineFileDone className="mySkills"/>My Skills</h3>
                 <p>I'm a creative problem solver. I build full stack web 
