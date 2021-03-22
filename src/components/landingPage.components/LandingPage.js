@@ -15,7 +15,7 @@ function LandingPageComponent() {
 
     return (
         <Container className="landingPage" style={{marginTop:"3rem"}} 
-            data-aos="fade-up" className="container-fluid">
+            data-aos="fade-up" className="container-fluid" data-testid='landingPage'>
             <div className="homeTopSection">
                 <div className="topImageSection"  >
                     <Image className="profilePic" src={profilePic} 
