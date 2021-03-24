@@ -6,7 +6,7 @@ import {FaGraduationCap, FaCertificate} from "react-icons/fa";
 function Education() {
     return (
         <Style>
-        <Container style={{ marginTop:"3rem", transition: '2s ease-out'}}>
+        <Container style={{ marginTop:"3rem", transition: '2s ease-out'}} data-testid='education'>
             <h3><FaGraduationCap style={{marginRight:"0.6vw", 
                 fontSize:"1.6vw"}}/>Education
             </h3>
