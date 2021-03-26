@@ -9,7 +9,7 @@ import ContactUs from "../contactUs.components/ContactUs";
 
 export default function Contact() {
   return (
-    <Container style={{marginTop:"10rem"}}>
+    <Container style={{marginTop:"10rem"}} data-testid='contactId'>
       <h3><GrContactInfo className="contactBookIcon"/> Contact Details</h3>
       <div className="contactContainer">             
         <div className="socialMediaSection">
