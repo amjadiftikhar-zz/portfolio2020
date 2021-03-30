@@ -8,7 +8,8 @@ import {PieChart} from "../../components/chart.components/PieChart";
 import Style from "./skills.style";  
 
 const Skills = () => {
-      
+    
+    // state to store skills data from json
     const [data, setData] = useState(skills.keySkills)
     
     return (
@@ -21,6 +22,7 @@ const Skills = () => {
                     skills that I will bring to your project.
                 </p>
                 <div className="skillsContentSection">
+                    {/* loop through primarySkillsData */}
                     {primarySkillsData.primarySkills.map((skill, index) => 
                         <SkillsCard 
                             key={index}
@@ -29,6 +31,7 @@ const Skills = () => {
                             description={skill.description}
                         />
                     )}
+                    {/* pie component to show skills */}
                     <PieChart data={data} height={260} width={200}
                         innerRadius={5} outerRadius={100}
                     />
