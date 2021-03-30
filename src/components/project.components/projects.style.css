@@ -1,12 +1,12 @@
 /* project section styling where all projects are displayed */
 .projectSection {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 1.5rem;
 }
 .projectCard {
-  width: '18rem';
+  width: 18rem;
   margin-bottom: 5%;
   background-color:"#f3f3f3";
   border:"none";
