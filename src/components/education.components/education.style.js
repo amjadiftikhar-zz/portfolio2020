@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 const Style = styled.div`
+    .mainContainer {
+        margin-top: 3rem; 
+        transition: 2s ease-out;
+    }
     h3 {
         margin-bottom: 1.5rem;
     }
