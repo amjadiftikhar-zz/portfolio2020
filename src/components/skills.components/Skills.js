@@ -17,7 +17,8 @@ const Skills = () => {
             <Container style={{marginTop:"3rem"}} data-testid='skills'>
             <div className="skillSection">
                 <h3><AiOutlineFileDone className="mySkills"/>My Skills</h3>
-                <p>I'm a creative problem solver. I build full stack web 
+                <p>
+                    I'm a creative problem solver. I build full stack web 
                     applications. Here I have heighlighted my key technical 
                     skills that I will bring to your project.
                 </p>
