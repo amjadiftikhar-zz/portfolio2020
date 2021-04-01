@@ -6,7 +6,7 @@ import {BsBriefcaseFill} from "react-icons/bs";
 function Experience() {
     
     return (
-        <Container style={{marginTop:"3rem", transition: '2s ease-out'}} data-testid='experience'>
+        <Container className="mainContainer" data-testid='experience'>
             <h3 className="experienceHeader">
                 <BsBriefcaseFill style={{marginRight:"0.6vw", fontSize:"1.6vw"}}/>
                 Work Experience
