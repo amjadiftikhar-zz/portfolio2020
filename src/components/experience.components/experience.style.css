@@ -1,3 +1,7 @@
+.mainContainer {
+    margin-top: 3rem; 
+    transition: 2s ease-out;
+}
 .experienceHeader {
     margin-bottom: 1.5rem;    
 }
