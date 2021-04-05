@@ -5,10 +5,14 @@ const Style = styled.div`
         margin-top: 3rem; 
         transition: 2s ease-out;
     }
-    h3 {
+    .eduTitle {
         margin-bottom: 1.5rem;
     }
-    h4 {
+    .educationIcon {
+        margin-right: 0.6vw;
+        font-size: 1.6vw;
+    }
+    .subTitle {
         font-size: 1.2rem;
     }
     .educationSection {
