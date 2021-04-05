@@ -7,10 +7,11 @@ function Education() {
     return (
         <Style>
         <Container className="mainContainer" data-testid='education'>
-            <h3><FaGraduationCap style={{marginRight:"0.6vw", 
-                fontSize:"1.6vw"}}/>Education
+            <h3 className="eduTitle">
+                <FaGraduationCap className="educationIcon" />
+                Education
             </h3>
-            <h4>Full Stack Web Development</h4>
+            <h4 className="subTitle">Full Stack Web Development</h4>
             <div className="educationSection">
                 <div className="educationContents">
                     <p className="pItalic">Institute</p>
@@ -38,7 +39,7 @@ function Education() {
                     </div>
                 </div>  
             </div>
-            <h4>Bachelor's in Computer Science</h4>
+            <h4 className="subTitle">Bachelor's in Computer Science</h4>
             <div className="educationSection">
                 <div className="educationContents">
                     <p className="pItalic">Institute</p>
@@ -51,11 +52,13 @@ function Education() {
                     </div>
                 </div>  
             </div>
-            <h3>
+            <h3 className="eduTitle">
                 <FaCertificate style={{marginRight:"0.6vw", fontSize:"1.6vw"}}/>
                 Certifications
             </h3>            
-            <h4>Microsoft Certified Professional, MCP ID: 8074395</h4>
+            <h4 className="subTitle">
+                Microsoft Certified Professional, MCP ID: 8074395
+            </h4>
             <div className="educationSection">
                 <div className="educationContents">
                     <p className="pItalic">Institute</p>
@@ -69,7 +72,9 @@ function Education() {
                     </div>
                 </div>  
             </div>
-            <h4>Cisco Academic Certifications</h4>
+            <h4 className="subTitle">
+                Cisco Academic Certifications
+            </h4>
             <div className="educationSection">
                 <div className="educationContents">
                     <p className="pItalic"> Institute</p>
