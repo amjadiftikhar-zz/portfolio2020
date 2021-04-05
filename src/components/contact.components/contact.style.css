@@ -53,6 +53,7 @@ h3 {
   font-size: 12px;
   color: white;
 }
+
 /* Media query for Ipad pro max-width 1024px */
 @media only screen and (max-width: 1024px) {
   .socialMediaSection {
@@ -70,6 +71,7 @@ h3 {
     margin-left: -0.3em;
   }
 } 
+
 /* Media query for max-width 1000px */
 @media (min-width: 769px) and (max-width: 1000px) {
   .socialMediaSection {
@@ -81,6 +83,7 @@ h3 {
     height: 35%; 
   }
 }
+
 /* Media query for Ipad max-width 768px */
 @media only screen and (max-width: 768px) {
   .socialMediaSection {
@@ -99,6 +102,7 @@ h3 {
     margin-left: -0.3em;
   }
 }
+
 /* Media query for devices between 481px to max 767px */
 @media (min-width: 481px) and (max-width: 767px) {  
   .socialMediaSection {
@@ -115,6 +119,7 @@ h3 {
     justify-content: center;
   }
 }
+
 /* Media query for max-width 540px */
 @media only screen and (max-width: 540px) {
   .socialMediaSection {
@@ -125,6 +130,7 @@ h3 {
     height: 125vh; 
   }
 }
+
 /* Media query for max-width 414px */
 @media only screen and (max-width: 414px) {
   .socialMediaSection {
@@ -135,6 +141,7 @@ h3 {
     height: 110vh; 
   }
 }
+
 /* Media query for max-width 412px */
 @media only screen and (max-width: 412px) {
   .socialMediaSection {
@@ -145,6 +152,7 @@ h3 {
     height: 110vh; 
   }
 }
+
 /* Media query for Iphone 7 max-width 376px */
 @media only screen and (max-width: 376px) {
   .socialMediaSection {
@@ -156,6 +164,7 @@ h3 {
     height: 120vh; 
   }
 }
+
 /* Media query for max-width 361px */
 @media only screen and (max-width: 361px) {
   .socialMediaSection {
@@ -166,6 +175,7 @@ h3 {
     height: 125vh; 
   }
 }
+
 /* Media query for max-width 320px */
 @media only screen and (max-width: 320px) {
   .socialMediaSection {
@@ -177,6 +187,7 @@ h3 {
     height: 138vh; 
   }
 }
+
 /* Media query for max-width 281px */
 @media only screen and (max-width: 281px) {
   .contactContainer {
