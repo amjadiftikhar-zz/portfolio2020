@@ -8,7 +8,7 @@ const Experience = () => {
     return (
         <Container className="mainContainer" data-testid='experience'>
             <h3 className="experienceHeader">
-                <BsBriefcaseFill className="experienceIcon" style={{}}/>
+                <BsBriefcaseFill className="experienceIcon"/>
                 Work Experience
             </h3>
             <h4 className="jobTitle">Frontend Developer</h4>
