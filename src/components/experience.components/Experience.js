@@ -11,7 +11,7 @@ function Experience() {
                 <BsBriefcaseFill style={{marginRight:"0.6vw", fontSize:"1.6vw"}}/>
                 Work Experience
             </h3>
-            <h4>Frontend Developer</h4>
+            <h4 className="jobTitle">Frontend Developer</h4>
             <div className="experienceSection">
                 <div className="experienceContents">
                     <p className="pItalic">Organization</p>
@@ -26,7 +26,7 @@ function Experience() {
                     </div>
                 </div>  
             </div>
-            <h4>Frontend Developer (Intern)</h4>
+            <h4 className="jobTitle">Frontend Developer (Intern)</h4>
             <div className="experienceSection">
                 <div className="experienceContents">
                     <p className="pItalic">Organization</p>
