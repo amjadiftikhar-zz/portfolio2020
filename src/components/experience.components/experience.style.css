@@ -5,6 +5,10 @@
 .experienceHeader {
     margin-bottom: 1.5rem;    
 }
+.experienceIcon {
+    margin-right: 0.6vw; 
+    font-size: 1.6vw;
+}
 .jobTitle {
     font-size: 1.2rem;
 }
