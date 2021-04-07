@@ -56,7 +56,7 @@ const Experience = () => {
                     </div>
                 </div>  
             </div>
-            <h4>Cab Driver</h4>
+            <h4 className="jobTitle">Cab Driver</h4>
             <div className="experienceSection">
                 <div className="experienceContents">
                     <p className="pItalic">Company</p>
