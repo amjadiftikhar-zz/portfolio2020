@@ -30,7 +30,7 @@ const Experience = () => {
             <div className="experienceSection">
                 <div className="experienceContents">
                     <p className="pItalic">Organization</p>
-                    <h5>Unifounder</h5>
+                    <h5 className="subTitle">Unifounder</h5>
                     <p>11/2020 – 01/2021</p>                    
                 </div>
                 <div className="experienceContents">
