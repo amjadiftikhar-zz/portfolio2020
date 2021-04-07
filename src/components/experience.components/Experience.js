@@ -15,7 +15,7 @@ const Experience = () => {
             <div className="experienceSection">
                 <div className="experienceContents">
                     <p className="pItalic">Organization</p>
-                    <h5>Molecular Quantum Solutions</h5>
+                    <h5 className="subTitle">Molecular Quantum Solutions</h5>
                     <p>01/2020 – Present</p>                    
                 </div>
                 <div className="experienceContents">
