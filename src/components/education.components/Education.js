@@ -15,7 +15,7 @@ function Education() {
             <div className="educationSection">
                 <div className="educationContents">
                     <p className="pItalic">Institute</p>
-                    <h5 className="subTitle">Hack Your Future Copenhagen</h5>
+                    <h5>Hack Your Future Copenhagen</h5>
                     <p className="pItalic">Acquired skills are, HTML/CSS, 
                         JavaScript, <br/>Node JS, MySql og React</p>
                     <p className="pItalic">08/2019 – 04/2020</p>                    
@@ -26,7 +26,7 @@ function Education() {
                     </div>
                 </div>  
             </div>
-            <h4>Masters in Computer Systems Engineering</h4>
+            <h4 className="subTitle">Masters in Computer Systems Engineering</h4>
             <div className="educationSection">
                 <div className="educationContents">
                     <p className="pItalic">Institute</p>
