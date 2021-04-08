@@ -62,7 +62,7 @@ function Education() {
             <div className="educationSection">
                 <div className="educationContents">
                     <p className="pItalic">Institute</p>
-                    <h5>Microsoft</h5>
+                    <h5 className="subTitle">Microsoft</h5>
                     <p className="pItalic">MCSE, MCSA, MCP and 
                         MCTS (windows 2007))</p>
                 </div>
