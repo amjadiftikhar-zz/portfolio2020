@@ -78,7 +78,7 @@ function Education() {
             <div className="educationSection">
                 <div className="educationContents">
                     <p className="pItalic"> Institute</p>
-                    <h5 className="subTitle">Cisco Academy, Halmstad</h5>
+                    <h5 className="placeName">Cisco Academy, Halmstad</h5>
                     <p className="pItalic"> CCNP 
                         (Cisco Certified Network Professional)</p>
                     <p className="pItalic">CCNA 
