@@ -43,7 +43,7 @@ function Education() {
             <div className="educationSection">
                 <div className="educationContents">
                     <p className="pItalic">Institute</p>
-                    <h5 className="subTitle">AIOU Islamabad</h5>
+                    <h5 className="placeName">AIOU Islamabad</h5>
                     <p className="pItalic">09/2000 – 03/2005</p>                    
                 </div>
                 <div className="educationContents">
