@@ -3,7 +3,7 @@ import {Container} from "reactstrap";
 import Style from "./education.style";
 import {FaGraduationCap, FaCertificate} from "react-icons/fa";
 
-function Education() {
+const Education = () => {
     return (
         <Style>
         <Container className="mainContainer" data-testid='education'>
