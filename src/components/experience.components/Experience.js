@@ -60,7 +60,7 @@ const Experience = () => {
             <div className="experienceSection">
                 <div className="experienceContents">
                     <p className="pItalic">Company</p>
-                    <h5>Taxa 4x35 Copenhagen</h5>
+                    <h5 className="companyName">Taxa 4x35 Copenhagen</h5>
                     <p className="pItalic">02/2014 – 05/2020</p>                    
                 </div>
                 <div className="experienceContents">
