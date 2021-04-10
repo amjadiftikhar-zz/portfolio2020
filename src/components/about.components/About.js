@@ -19,13 +19,13 @@ export default function About() {
           <p className="pClass">
             <br/>I am a Software Developer based in Denmark. 
             I have developed an academic and some hobby projects recently. 
-            I have worked with several tech stacks and particularly excel in JavaScript, 
+            I have worked with several tech stacks and particularly excel in JavaScript, Typescript,
             React, Node JS, HTML, CSS and MySql.<br/> 
             <br/>I have been developing small projects to learn new 
             development  techniques and deepen my knowledge in Full-stack domain. 
             I am looking to discover 
             new ﬁelds in the domain of tech and development. <br/><br/>
-            Just take a look at my portfolio work and lets see if we can work 
+            Just take a look at my portfolio work and lets see if we can work  
             together on your next project. 
           </p> 
           <div className="contactClass">
