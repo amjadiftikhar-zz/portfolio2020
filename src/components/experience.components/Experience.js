@@ -75,7 +75,7 @@ const Experience = () => {
             <div className="experienceSection">
                 <div className="experienceContents">
                     <p className="pItalic">Company</p>
-                    <h5>SpaceTech Medical Transcription <br/> 
+                    <h5 className="companyName">SpaceTech Medical Transcription <br/> 
                         Company Pvt.Ltd</h5>
                     <p className="pItalic">04/2006 – 05/2007</p>                    
                 </div>
