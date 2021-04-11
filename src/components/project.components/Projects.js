@@ -7,8 +7,8 @@ import {GrProjects} from "react-icons/gr";
 const Projects = () => { 
 
     return (
-      <Container>
-        <h3><GrProjects className="projectIcon"/>Projects</h3>
+      <>
+        <h3 className='projSectionTitle'><GrProjects className="projectIcon"/>Projects</h3>
         <div className="projectSection">      
           { projectsData.projects.map((proj, index) => <Project 
               key={index}
@@ -25,7 +25,7 @@ const Projects = () => {
             />)
           }
         </div>
-      </Container> 
+      </> 
     )
   }
   
