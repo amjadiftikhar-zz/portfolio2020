@@ -1,5 +1,4 @@
 /* project section styling where all projects are displayed */
-
 .projSectionTitle {
   margin-left: 2em;
 }
@@ -20,6 +19,7 @@
 .projectCard:hover {
   box-shadow: 0px 0px 6px 0 #c6c6c6;
 }
+
 /* heading for each project  */
 .projectName {
   width: 100%;
@@ -31,12 +31,14 @@
   font-weight: 600;
   letter-spacing: 0.05rem;   
 }
+
 /* image used for each project */
 .projectImage {
   width:20em;
   height: 20em;    
   animation: mymove 5s infinite;
 } 
+
 /* styling of each item in the project card */
 .projectContents {
   display: flex;
@@ -44,6 +46,7 @@
   align-items: center;
   margin-top: 5%;
 }
+
 /* styling of Icons used in project section and project card */
 .iconSection {
   padding: 15%;
@@ -56,6 +59,7 @@
   margin-left: 2rem;
   color: black;
 }
+
 /* media query for iPad Pro and small screens */
 @media only screen and (max-width: 1024px) {
   .classSpan {
@@ -67,6 +71,7 @@
   height: 0.5em;
   margin-right: 0.3em;
 }
+
 /* Styling of Tooltip used for icons  */
 .classTooltip {
   display: none;
@@ -79,6 +84,7 @@
   font-weight: bold;
   color:black; 
 }
+
 /* Tooltip for project description, shows up on description Icon */
 .classToolTipBubble {
   display: none;
@@ -96,6 +102,7 @@
   padding: 1.5rem;
   background-color: orange;
 }
+
 /* styling of flip related effect of project image  */
 .flipBox {
   width: 20em;
@@ -131,6 +138,7 @@
   text-align: center; 
   font-size: 1rem,
 }
+
 /* styling on the backside of a project image */
 .techStackClass {
   display: flex;
@@ -141,6 +149,7 @@
   padding: 0.5em;
   text-align: center;
 }
+
 /* Media queries for small devices like max-width:320px */
 @media only screen and (max-width: 320px) {
   .flipBox {
