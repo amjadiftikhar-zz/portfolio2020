@@ -1,13 +1,19 @@
 /* project section styling where all projects are displayed */
+
+.projSectionTitle {
+  margin-left: 2em;
+}
 .projectSection {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 1.5rem;
 }
 .projectCard {
   width: 18rem;
   margin-bottom: 5%;
+  margin-right: 2.5em;
+  margin-left: 2.5em;
   background-color:"#f3f3f3";
   border:"none";
 }
