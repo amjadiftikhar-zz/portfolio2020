@@ -134,9 +134,10 @@
 }
 .stacksHeader {
   border-bottom: 1px solid white; 
+  background: orange;
   padding: 0.6em;
   text-align: center; 
-  font-size: 1rem,
+  font-size: 1rem;
 }
 
 /* styling on the backside of a project image */
