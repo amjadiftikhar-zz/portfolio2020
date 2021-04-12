@@ -7,6 +7,7 @@ const NavigationStyles = styled.div`
     background-color: #060655;
   }
   .navbar-brand, .navbar-nav .nav-link, .toggle {
+    font-size: 1.1em;
     color: white;
     &:hover {
       color: red;
