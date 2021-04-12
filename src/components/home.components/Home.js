@@ -19,9 +19,7 @@ export default function Home() {
       <About/>
       <ScrollToDown/>
       <ScrollToTop/>
-      {/* <Accordion title="Projects"> */}
-        <Projects/>     
-      {/* </Accordion>  */}
+      <Projects/>   
       <Accordion title="Further Details">
         <MyKeySkills/>     
       </Accordion> 
