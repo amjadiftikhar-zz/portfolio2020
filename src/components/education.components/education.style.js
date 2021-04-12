@@ -15,6 +15,9 @@ const Style = styled.div`
     .subTitle {
         font-size: 1.2rem;
     }
+    .placeName {
+        font-size: 1.1rem;
+    }
     .educationSection {
         display: flex;
         justify-content: space-around;
