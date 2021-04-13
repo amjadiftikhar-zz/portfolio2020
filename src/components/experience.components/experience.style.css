@@ -18,6 +18,8 @@
 .companyName {
     font-size: 1.1rem;
 }
+
+/* experience section styles */
 .experienceSection {
     display: flex;
     justify-content: space-around;
