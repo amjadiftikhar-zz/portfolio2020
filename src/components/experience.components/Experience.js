@@ -31,7 +31,7 @@ const Experience = () => {
                 <div className="experienceContents">
                     <p className="pItalic">Organization</p>
                     <h5 className="companyName">Unifounder</h5>
-                    <p>11/2020 – 01/2021</p>                    
+                    <p className="pItalic">11/2020 – 01/2021</p>                    
                 </div>
                 <div className="experienceContents">
                     <div>
