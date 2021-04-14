@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ContactForm(props) {
+const ContactForm = (props) => {
   return (
     <form className="form-control-sm" onSubmit={props.sendEmail} data-testid='contactFormId'>
       <div className="form-group row">
