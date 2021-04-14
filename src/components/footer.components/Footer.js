@@ -3,7 +3,7 @@ import "./footer.style.css";
 import {FaCopyright, FaRegSmile, FaLinkedin, FaGithubSquare, 
     FaFacebookSquare, FaTwitterSquare} from "react-icons/fa";
 
-function Footer() {
+const Footer = () => {
     return (
         <footer className="footer" data-testid='footer'>
             <div className="allRights">
