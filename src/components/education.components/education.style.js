@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const Style = styled.div`
+    // main container styles
     .mainContainer {
         margin-top: 3rem; 
         transition: 2s ease-out;
