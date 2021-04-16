@@ -7,7 +7,7 @@ import {FaLinkedin, FaGithubSquare, FaPhoneSquare,
   FaRegHandPointDown} from "react-icons/fa";
 import ContactUs from "../contactUs.components/ContactUs";
 
-export default function Contact() {
+const Contact = () => {
   return (
     <Container className="container" data-testid='contactId'>
       <h3 className="title"><GrContactInfo className="contactBookIcon"/> Contact Details</h3>
@@ -50,3 +50,5 @@ export default function Contact() {
     </Container>
   );
 }
+
+export default Contact;
