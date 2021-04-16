@@ -3,6 +3,7 @@ import {FaAngleRight} from "react-icons/fa";
 import "./accordion.style.css";
 
 const Accordion = (props) => {
+
     const [active, setActive] = useState(false);
     const contentRef = useRef(null);
 
@@ -32,4 +33,4 @@ const Accordion = (props) => {
     );
 }
 
-export default Accordion
+export default Accordion;
