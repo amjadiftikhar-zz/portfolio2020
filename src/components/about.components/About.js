@@ -5,7 +5,7 @@ import Skills from "../../components/skills.components/Skills";
 import {BsFillInfoSquareFill} from "react-icons/bs";
 import "./about.style.css";
 
-export default function About() {
+const About = () => {
   return (
     <Container style={{marginTop:"3rem"}} data-testid='about'>
       <h3><BsFillInfoSquareFill className="aboutMeIcon"/>About me</h3>
@@ -48,3 +48,5 @@ export default function About() {
     </Container>
   );
 }
+
+export default About;
