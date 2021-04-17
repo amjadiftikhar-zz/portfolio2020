@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="allRights">
                 <FaCopyright className="allRightIcon"/>
                 <span>
-                    All rights reserved<FaRegSmile 
+                    All rights reserved<FaRegSmile className="smiley"
                     style={{marginLeft:"0.3rem", color:"yellow"}}
                     />
                 </span>
