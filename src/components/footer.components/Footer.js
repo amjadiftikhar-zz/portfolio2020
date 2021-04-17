@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer className="footer" data-testid='footer'>
             <div className="allRights">
-                <FaCopyright className="allRightIcon" style={{}}/>
+                <FaCopyright className="allRightIcon"/>
                 <span>
                     All rights reserved<FaRegSmile 
                     style={{marginLeft:"0.3rem", color:"yellow"}}
