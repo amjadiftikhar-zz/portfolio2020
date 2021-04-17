@@ -12,6 +12,10 @@
     font-family: sans-serif;
     margin-left: 2%;
 }
+.allRightIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
 .allRights span {
     color: gray;
 }
