@@ -17,7 +17,7 @@
     }
   ], 
   "skills" : ["Javascript", "Typescript", "React","Storybook", "HTML5", 
-    "CSS3", "Node JS", "Bootstrap","Material UI","D3.js", "Unit Testing", 
+    "CSS3", "Node JS", "Redux", "Bootstrap","Material UI","D3.js", "Unit Testing", 
     "Express", "NPM", "Webpack", "MySql", "Github", "Postman", "Heroku"
   ],
   "keySkills": [
