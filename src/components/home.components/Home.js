@@ -10,6 +10,7 @@ import MyKeySkills from '../skills.components/MyKeySkills';
 import ScrollToTop from "../scroll.components/ScrollToTop";
 import ScrollToDown from "../scroll.components/ScrollToDown";
 import "./home.styles.css";
+// import PrintEducation from '../print.components/PrintEducation';
 
 export default function Home() {
 
@@ -33,6 +34,7 @@ export default function Home() {
         <a className="previousBtn" href="/">Top</a>
         <a className="previousBtn" href="/contact">Next</a>
       </div>
+        {/* <PrintEducation/> */}
     </Container> 
   );
 }

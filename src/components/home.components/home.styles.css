@@ -22,3 +22,10 @@
 .navigationBtn a:link {
     text-decoration: none;
 }
+
+.printSource {
+    display: none;
+}
+body > .printSource {
+    display: block;
+}
