@@ -13,7 +13,7 @@
 .contactClass {
   display: flex;
   flex-direction: column;
-  line-height: 3.5vw;
+  line-height: 2vw;
   border-top: 1px solid #C1BDB5;
 }
 .contactDetails {
@@ -29,12 +29,17 @@
   margin-top: 3%;
 }
 .downloadClass{
-  padding:0.8vw;
+  padding: 0.7em;
+  width: 11em;
   background-color: orange;
   border-radius: 5em; 
 }
+.downloadClass:hover {
+  cursor: pointer;
+}
 .myWorkClass {
-  padding:0.8vw 3.3vw;
+  padding: 0.7em;
+  width: 12em;
   border-radius: 5em;
   background-color: #C1BDB5; 
   margin-left: 1.2vw;
@@ -42,6 +47,10 @@
 }
 .myWorkClass:hover {
   color: orange;
+}
+.aboutSectionBtn {
+  display: flex;
+  flex-wrap: wrap;
 }
 .aboutSectionBtn a:link {
   text-decoration: none;
