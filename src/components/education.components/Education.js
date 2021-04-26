@@ -1,9 +1,10 @@
 import React from 'react';
 import {Container} from "reactstrap";
-import Style from "./education.style";
 import {FaGraduationCap, FaCertificate} from "react-icons/fa";
+import Style from "./education.style";
 
 const Education = () => {
+    
     return (
         <Style>
         <Container className="mainContainer" data-testid='education'>
