@@ -1,8 +1,11 @@
+/* about Icon styles section  */
 .aboutMeIcon {
   width: 0.9em;
   height: 0.9em;
   margin-right: 0.3em;
 }
+
+/* About me main section  */
 .aboutMeSection {
   margin-top: 1.5rem;
   display: flex; 
