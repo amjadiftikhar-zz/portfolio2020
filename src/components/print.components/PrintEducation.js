@@ -1,9 +1,8 @@
 import React, {useRef} from 'react'
 import ReactToPrint from "react-to-print";
-import Education from '../education.components/Education';
 
 const PrintEducation = (props) => {
-    
+
     const componentRef = useRef();
 
     return (
