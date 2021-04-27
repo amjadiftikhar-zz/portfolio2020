@@ -2,8 +2,10 @@ import React, {useRef} from 'react'
 import ReactToPrint from "react-to-print";
 import Education from '../education.components/Education';
 
-function PrintEducation(props) {
+const PrintEducation = (props) => {
+    
     const componentRef = useRef();
+
     return (
         <div>
             <ReactToPrint 
