@@ -3,9 +3,10 @@ import {Container} from "react-bootstrap";
 import aboutMeImage from "../../images/aboutMeImage.jpg";
 import Skills from "../../components/skills.components/Skills";
 import {BsFillInfoSquareFill} from "react-icons/bs";
-import "./about.style.css";
 import PrintEducation from '../print.components/PrintEducation';
 import Education from '../education.components/Education';
+import Experience from "../experience.components/Experience";
+import "./about.style.css";
 
 const About = () => {
   return (
@@ -41,9 +42,9 @@ const About = () => {
             </div>
             <div className="aboutSectionBtn">
               <PrintEducation>
+                <Experience/>
                 <Education/>
               </PrintEducation>
-              {/* <a className="downloadClass">Download resume</a> */}
               <div>                
                 <a href="/projects" className="myWorkClass" >My Work</a>
               </div>
