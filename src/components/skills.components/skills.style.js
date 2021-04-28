@@ -22,6 +22,9 @@ const Style = styled.div`
   .skillCard:hover {
     box-shadow: 0px 0px 6px 0 #c6c6c6;
   }
+  .skillsImage {
+    border: 2px solid red;
+  }
   .skillsList {
     display: flex;
     flex-wrap: wrap;
