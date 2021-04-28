@@ -1,7 +1,7 @@
 {
   "primarySkills": [
     { 
-      "imageSrc":"/images/frontendDev.jpg", 
+      "imageSrc":"/images/frontendDev.png", 
       "title":"Frontend Developer",
       "description":"I use Javascript, React, HTML5 and CSS3 to build attractive responsive frontends for websites. My frontend work can be seen in project section. "
     },
