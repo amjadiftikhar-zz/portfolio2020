@@ -10,6 +10,11 @@
   margin-top: 1.5rem;
   display: flex; 
 }
+
+/* class to style PDF page  */
+.printSource {
+  padding: 4em;
+}
 .contentClass {
   margin-left: 2em;
 }
