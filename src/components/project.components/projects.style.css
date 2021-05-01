@@ -8,7 +8,7 @@
   justify-content: center;
   margin-top: 1.5rem;
 }
-.projectCard {
+.projectCard {  
   width: 18rem;
   margin-bottom: 5%;
   margin-right: 2.5em;
@@ -107,7 +107,7 @@
 .flipBox {
   width: 20em;
   height: 20em;
-  border: 0.1px solid #C1BDB5;
+  /* border: 0.1px solid #C1BDB5; */
   perspective: 1000px;
 }  
 .flipBox-inner {
