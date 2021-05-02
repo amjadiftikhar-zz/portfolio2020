@@ -18,7 +18,7 @@ const PrintEducation = (props) => {
     )
 }
 
-export default PrintEducation
+export default PrintEducation;
 
 
 
