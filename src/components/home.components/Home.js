@@ -34,7 +34,6 @@ export default function Home() {
         <a className="previousBtn" href="/">Top</a>
         <a className="previousBtn" href="/contact">Next</a>
       </div>
-        {/* <PrintEducation/> */}
     </Container> 
   );
 }
