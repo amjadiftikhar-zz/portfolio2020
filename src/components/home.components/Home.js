@@ -11,7 +11,7 @@ import ScrollToTop from "../scroll.components/ScrollToTop";
 import ScrollToDown from "../scroll.components/ScrollToDown";
 import "./home.styles.css";
 
-export default function Home() {
+const Home = () => {
 
   return (
     <Container className="container-fluid">
@@ -36,3 +36,5 @@ export default function Home() {
     </Container> 
   );
 }
+
+export default  Home;
