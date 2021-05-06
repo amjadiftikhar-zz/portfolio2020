@@ -11,10 +11,6 @@
   display: flex; 
 }
 
-/* class to style PDF page  */
-.printSource {
-  padding: 4em;
-}
 .contentClass {
   margin-left: 2em;
 }
@@ -62,4 +58,9 @@
 }
 .aboutSectionBtn a:link {
   text-decoration: none;
+}
+
+/* class to style PDF page  */
+.printSource {
+  padding: 4em;
 }
