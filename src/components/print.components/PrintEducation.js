@@ -15,7 +15,7 @@ const PrintEducation = (props) => {
                 {props.children}
             </div>
         </div>
-    )
+    );
 }
 
 export default PrintEducation;
