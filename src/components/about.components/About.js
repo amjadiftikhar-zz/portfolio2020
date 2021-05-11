@@ -37,9 +37,10 @@ const About = () => {
           </p> 
           <div className="contactClass">
             <div className="contactDetails">              
-              <p className="pClass">Name:<span style={{marginLeft:"5px"}}>
+              <p className="pClass">
+                Name:<span style={{marginLeft:"5px"}}>
                 Amjad Iftikhar</span>
-                </p>
+              </p>
               <p className="pClass">Email: <span style={{color:"orange", marginLeft:"5px"}}>
                 amjadiftikhar_99@hotmail.com</span> 
               </p>
