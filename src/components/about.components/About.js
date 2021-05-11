@@ -11,7 +11,9 @@ import "./about.style.css";
 const About = () => {
   return (
     <Container style={{marginTop:"3rem"}} data-testid='about'>
-      <h3><BsFillInfoSquareFill className="aboutMeIcon"/>About me</h3>
+      <h3><BsFillInfoSquareFill className="aboutMeIcon"/>
+        About me
+      </h3>
       <div className="aboutMeSection">
         <div className="imageSection">
           <img src={aboutMeImage} alt="" width="100%" />
