@@ -9,6 +9,7 @@ import Experience from "../experience.components/Experience";
 import "./about.style.css";
 
 const About = () => {
+  
   return (
     <Container style={{marginTop:"3rem"}} data-testid='about'>
       <h3><BsFillInfoSquareFill className="aboutMeIcon"/>
