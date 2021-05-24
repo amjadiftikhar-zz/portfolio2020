@@ -33,3 +33,81 @@
     font-style: italic;
     color: darkgreen;
 }
+/* Media query for devices upto 1024px screens */
+@media only screen and (max-width: 1024px) {
+    .experienceHeader {
+        font-size: 1.5rem;
+    } 
+    .experienceIcon {
+        font-size: 0.8em;
+        margin-right: 0.5em;
+    }   
+    .jobTitle {
+        font-size: 1.2rem;
+    } 
+}
+/* Media query for devices upto 768px screens */
+@media only screen and (max-width: 768px) {
+    .experienceHeader {
+        font-size: 1.5rem;
+    } 
+    .experienceIcon {
+        font-size: 0.8em;
+        margin-right: 0.5em;
+    }   
+    .jobTitle {
+        font-size: 1.2rem;
+    } 
+}
+/* Media query for devices upto 540px screens */
+@media only screen and (max-width: 540px) {
+    .experienceHeader {
+        font-size: 1.5rem;
+    } 
+    .experienceIcon {
+        font-size: 0.8em;
+        margin-right: 0.5em;
+    }   
+    .jobTitle {
+        font-size: 1.2rem;
+    } 
+}
+/* Media query for devices upto 414px screens */
+@media only screen and (max-width: 414px) {
+    .experienceHeader {
+        font-size: 1.5rem;
+    } 
+    .experienceIcon {
+        font-size: 0.8em;
+        margin-right: 0.5em;
+    }   
+    .jobTitle {
+        font-size: 1.2rem;
+    } 
+}
+/* Media query for devices upto 376px screens */
+@media only screen and (max-width: 376px) {
+    .experienceHeader {
+        font-size: 1.5rem;
+    } 
+    .experienceIcon {
+        font-size: 0.8em;
+        margin-right: 0.5em;
+    }   
+    .jobTitle {
+        font-size: 1.2rem;
+    } 
+}
+/* Media query for devices upto 320px screens */
+@media only screen and (max-width: 320px) {
+    .experienceHeader {
+        font-size: 1.4rem;
+    } 
+    .experienceIcon {
+        font-size: 0.8em;
+        margin-right: 0.5em;
+    }   
+    .jobTitle {
+        font-size: 1rem;
+    } 
+}
