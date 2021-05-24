@@ -37,11 +37,11 @@ const About = () => {
           </p> 
           <div className="contactClass">
             <div className="contactDetails">              
-              <p className="pClass">
+              <p className="pClass emailSmall">
                 Name:<span style={{marginLeft:"5px"}}>
                 Amjad Iftikhar</span>
               </p>
-              <p className="pClass">Email: <span style={{color:"orange", marginLeft:"5px"}}>
+              <p className="pClass emailSmall">Email: <span className="pEmail" style={{}}>
                 amjadiftikhar_99@hotmail.com</span> 
               </p>
             </div>
