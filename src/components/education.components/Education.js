@@ -54,7 +54,7 @@ const Education = () => {
                 </div>  
             </div>
             <h3 className="eduTitle">
-                <FaCertificate style={{marginRight:"0.6vw", fontSize:"1.6vw"}}/>
+                <FaCertificate className="certificationIcon" style={{}}/>
                 Certifications
             </h3>            
             <h4 className="subTitle">
