@@ -3,6 +3,7 @@ import styled from "styled-components";
 const Style = styled.div`
     // main container styles
     .mainContainer {
+        width: 100%;
         margin-top: 3rem; 
         transition: 2s ease-out;
     }
@@ -31,6 +32,146 @@ const Style = styled.div`
     .pItalic {
         font-style: italic;
         color: darkgreen;
+    }
+    .certificationIcon {
+        margin-right: 0.6vw; 
+        font-size: 1.6vw;
+    }
+    /* Media query for devices upto 1024px screens */
+    @media only screen and (max-width: 1024px) {
+        .educationIcon {
+            font-size: 1em;
+            margin-right: 0.5em;
+        } 
+        .subTitle {
+            font-size: 1rem;
+        }
+        .certificationIcon {
+            font-size: 0.7em;
+            margin-right: 0.5em;
+        }
+    }
+    /* Media query for devices upto 768px screens */
+    @media only screen and (max-width: 768px) {
+        .mainContainer {
+            // padding: 0.5em;
+        }
+        .eduTitle {
+            // font-size: 1.5rem;
+        }   
+        .educationIcon {
+            font-size: 1em;
+            margin-right: 0.5em;
+        } 
+        .subTitle {
+            font-size: 1rem;
+        }
+        .educationSection {
+            // padding-right: 1em;
+        }
+        .certificationIcon {
+            font-size: 0.7em;
+            margin-right: 0.5em;
+        }
+    }
+    /* Media query for devices upto 414px screens */
+    @media only screen and (max-width: 414px) {
+        .mainContainer {
+            padding: 0.5em;
+        }
+        .eduTitle {
+            font-size: 1.5rem;
+        }   
+        .educationIcon {
+            font-size: 1em;
+            margin-right: 0.5em;
+        } 
+        .subTitle {
+            font-size: 0.9rem;
+            word-break: break-all;
+        }
+        .educationSection {
+            // padding-right: 1em;
+        }
+        .certificationIcon {
+            font-size: 0.7em;
+            margin-right: 0.5em;
+        }
+    }
+    /* Media query for devices upto 414px screens */
+    @media only screen and (max-width: 414px) {
+        .mainContainer {
+            padding: 0.5em;
+        }
+        .eduTitle {
+            font-size: 1.5rem;
+        }   
+        .educationIcon {
+            font-size: 1em;
+            margin-right: 0.5em;
+        } 
+        .subTitle {
+            font-size: 0.9rem;
+            word-break: break-all;
+        }
+        .educationSection {
+            // padding-right: 1em;
+        }
+        .certificationIcon {
+            font-size: 0.7em;
+            margin-right: 0.5em;
+        }
+    }
+    /* Media query for devices upto 376px screens */
+    @media only screen and (max-width: 376px) {
+        .mainContainer {
+            padding: 0.5em;
+        }
+        .eduTitle {
+            font-size: 1.5rem;
+        }   
+        .educationIcon {
+            font-size: 1em;
+            margin-right: 0.5em;
+        } 
+        .subTitle {
+            font-size: 0.9rem;
+            word-break: break-all;
+        }
+        .educationSection {
+            // padding: 2.5em;
+        }
+        .certificationIcon {
+            font-size: 0.7em;
+            margin-right: 0.5em;
+        }
+    }
+    /* Media query for devices upto 320px screens */
+    @media only screen and (max-width: 320px) {
+        .mainContainer {
+            // border: 2px solid red;
+            width: 100%;
+            padding: 0.5em;
+        }
+        .eduTitle {
+            font-size: 1.5rem;
+        }   
+        .educationIcon {
+            font-size: 0.8em;
+            margin-right: 0.5em;
+        } 
+        .subTitle {
+            font-size: 0.9rem;
+            word-break: break-all;
+        }
+        .educationSection {
+            // border: 2px solid yellow;
+            padding: 0.5em;
+        }
+        .certificationIcon {
+            font-size: 0.7em;
+            margin-right: 0.5em;
+        }
     }
 `;
 
