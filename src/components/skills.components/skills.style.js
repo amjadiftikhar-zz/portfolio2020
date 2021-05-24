@@ -43,7 +43,7 @@ const Style = styled.div`
   }
   @media only screen and (max-width: 1440px) {
     .skillsContentSection {
-      border: 2px solid red;
+      // border: 2px solid red;
       // padding: 2em;
       // display:flex;
       // flex-wrap: wrap;
@@ -61,7 +61,7 @@ const Style = styled.div`
   } 
   @media only screen and (max-width: 1280px) {
     .skillsContentSection {
-      border: 2px solid red;
+      // border: 2px solid red;
       // padding: 2em;
       // display:flex;
       // flex-wrap: wrap;
