@@ -6,6 +6,10 @@ const Style = styled.div`
     height: 0.9em;
     margin-right: 0.2em;
   }
+  .skillCard {
+    width: 18em; 
+    marginBottom: 5%;
+  }
   h3 {    
     margin-bottom: 1.5rem;
   }
@@ -37,12 +41,82 @@ const Style = styled.div`
     font-weight: bold;
     text-align: center;
   }
+  @media only screen and (max-width: 1440px) {
+    .skillsContentSection {
+      border: 2px solid red;
+      // padding: 2em;
+      // display:flex;
+      // flex-wrap: wrap;
+      // justify-content: space-between; 
+      // align-items: center;          
+    }
+    .skillCard {
+      width: 22em;
+      margin-top: 3em;
+      margin-bottom: 5em;
+    }
+    .sectionElement { 
+      // font-size: 0.9rem;
+    }
+  } 
+  @media only screen and (max-width: 1280px) {
+    .skillsContentSection {
+      border: 2px solid red;
+      // padding: 2em;
+      // display:flex;
+      // flex-wrap: wrap;
+      // justify-content: space-between; 
+      // align-items: center;          
+    }
+    .skillCard {
+      width: 22em;
+      margin-top: 3em;
+      margin-bottom: 5em;
+    }
+    .sectionElement { 
+      // font-size: 0.9rem;
+    }
+  } 
+  @media only screen and (max-width: 1024px) {
+    .skillsContentSection {
+      // padding: 1em;
+      // display:flex;
+      // flex-wrap: wrap;
+      // justify-content: space-between; 
+      // align-items: center;          
+    }
+    .skillCard {
+      margin-top: 3em;
+      margin-bottom: 5em;
+    }
+    .sectionElement { 
+      // font-size: 0.9rem;
+    }
+  } 
   @media only screen and (max-width: 768px) {
+    .skillsContentSection {
+      // padding: 1em;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-between; 
+      align-items: center;          
+    }
+    .skillCard {
+      margin-bottom: 5em;
+    }
     .sectionElement { 
       font-size: 0.9rem;
     }
   } 
   @media only screen and (max-width: 750px) {
+    .skillsContentSection {
+      // border: 2px solid red;
+      // padding: 1em;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center; 
+      align-items: center;  
+    }
     .sectionElement { 
       font-size:0.5rem;
     }
@@ -54,13 +128,16 @@ const Style = styled.div`
   } 
   @media only screen and (max-width: 414px) {
     .sectionElement { 
-      font-size:1rem;
+      font-size: 1rem;
     }
     .skillsList {
       height: 100%;
     }
   }
   @media only screen and (max-width: 376px) {
+    .skillCard {
+      margin-bottom: 5em;
+    }
     .sectionElement { 
       font-size:0.9rem;
     }
@@ -74,6 +151,10 @@ const Style = styled.div`
     }
   } 
   @media only screen and (max-width: 320px) {
+    .skillCard {
+      // width: 25em !important;
+      margin-bottom: 5em;
+    }
     .sectionElement { 
       font-size:0.8rem;
     }
@@ -82,6 +163,9 @@ const Style = styled.div`
     }
   }  
   @media only screen and (max-width: 280px) {
+    .skillCard {
+      margin-bottom: 3em;
+    }
     .sectionElement { 
       font-size:0.5rem;
     }
