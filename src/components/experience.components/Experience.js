@@ -26,7 +26,7 @@ const Experience = () => {
                     </div>
                 </div>  
             </div>
-            <h4 className="jobTitle">Frontend Developer (Intern)</h4>
+            <h4 className="jobTitle">Frontend Developer</h4>
             <div className="experienceSection">
                 <div className="experienceContents">
                     <p className="pItalic">Organization</p>
