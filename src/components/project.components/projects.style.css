@@ -3,6 +3,7 @@
   margin-left: 2em;
 }
 .projectSection {
+  /* border: 2px solid red; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -150,9 +151,78 @@
   padding: 0.5em;
   text-align: center;
 }
+/* Media queries for small devices like max-width:540px */
+@media only screen and (max-width: 540px) {
+  .projectCard {  
+     margin-bottom: 12%;
+  }
+  .flipBox {
+    width: 100%;
+  }  
+  .projectImage {
+    width: 100%;    
+  } 
+}
+/* Media queries for small devices like max-width:768px */
+@media only screen and (max-width: 768px) {
+  .projectSection {
+    /* width: 100%; */
+  }
+  .projectCard {
+    width: 18rem;
+    margin-bottom: 3em;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    /* margin-bottom: 12%; */
+  }
+  .flipBox {
+    width: 100%;
+  }  
+  .projectImage {
+    width: 100%;    
+  } 
+}
+
+/* Media queries for small devices like max-width:414px */
+@media only screen and (max-width: 414px) {
+  .projectCard {  
+     margin-bottom: 12%;
+  }
+  .flipBox {
+    width: 100%;
+  }  
+  .projectImage {
+    width: 100%;    
+  } 
+}
+
+/* Media queries for small devices like max-width:376px */
+@media only screen and (max-width: 376px) {
+  .projectCard {  
+     margin-bottom: 12%;
+  }
+  .flipBox {
+    width: 100%;
+  }  
+  .projectImage {
+    width: 100%;    
+  } 
+}
 
 /* Media queries for small devices like max-width:320px */
 @media only screen and (max-width: 320px) {
+  .projectSection {
+    /* border: 2px solid black; */
+  }
+  .projectCard {  
+    /* border: 2px solid red; */
+    /* width: 25rem; */
+     margin-bottom: 12%;
+    /*margin-right: 2.5em;
+    margin-left: 2.5em;
+    background-color:"#f3f3f3";
+    border:"none"; */
+  }
   .flipBox {
     width: 100%;
   }  
