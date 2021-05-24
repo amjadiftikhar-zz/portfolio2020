@@ -22,7 +22,7 @@ const LandingPageComponent = () => {
                     roundedCircle/>    
                 </div>
                 <div className="lowerSection">                
-                    <div className="imageSection">
+                    <div className="profImageSection">
                         <div className="firstNameLastName">
                             <span className="firstName">Amjad</span>
                             <span className="lastName">Iftikhar</span>
