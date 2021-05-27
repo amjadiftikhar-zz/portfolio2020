@@ -133,12 +133,9 @@
     display: none;
   }
   .contentClass {
-    /* border: 2px solid purple; */
-    /* width: 100%; */
     margin: 0 auto;
   }
   .myWorkClass {
-    /* border: 2px solid purple; */
     width: 20.5em;
     padding: 0.7em 3em;
   }
