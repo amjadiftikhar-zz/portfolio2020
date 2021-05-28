@@ -5,5 +5,5 @@ import Accordion from './Accordion';
 test('Accordion renders', () => {
   const {getByTestId} = render(<Accordion/>);
   const linkElement = getByTestId('accordionid');
-  expect(linkElement).toBeTruthy()
-})
+  expect(linkElement).toBeTruthy();
+});
