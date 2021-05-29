@@ -37,7 +37,7 @@ const Style = styled.div`
         margin-right: 0.6vw; 
         font-size: 1.6vw;
     }
-    
+
     /* Media query for devices upto 1024px screens */
     @media only screen and (max-width: 1024px) {
         .educationIcon {
@@ -52,6 +52,7 @@ const Style = styled.div`
             margin-right: 0.5em;
         }
     }
+    
     /* Media query for devices upto 768px screens */
     @media only screen and (max-width: 768px) {
         .mainContainer {
