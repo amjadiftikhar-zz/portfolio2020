@@ -55,9 +55,6 @@ const Style = styled.div`
 
     /* Media query for devices upto 768px screens */
     @media only screen and (max-width: 768px) {
-        .mainContainer {
-            // padding: 0.5em;
-        }
         .eduTitle {
             // font-size: 1.5rem;
         }   
@@ -151,7 +148,7 @@ const Style = styled.div`
             margin-right: 0.5em;
         }
     }
-    
+
     /* Media query for devices upto 320px screens */
     @media only screen and (max-width: 320px) {
         .mainContainer {
