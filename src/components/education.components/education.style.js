@@ -101,7 +101,7 @@ const Style = styled.div`
             margin-right: 0.5em;
         }
     }
-    
+
     /* Media query for devices upto 414px screens */
     @media only screen and (max-width: 414px) {
         .mainContainer {
@@ -126,6 +126,7 @@ const Style = styled.div`
             margin-right: 0.5em;
         }
     }
+    
     /* Media query for devices upto 376px screens */
     @media only screen and (max-width: 376px) {
         .mainContainer {
