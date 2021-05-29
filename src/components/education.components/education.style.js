@@ -55,9 +55,6 @@ const Style = styled.div`
 
     /* Media query for devices upto 768px screens */
     @media only screen and (max-width: 768px) {
-        .eduTitle {
-            // font-size: 1.5rem;
-        }   
         .educationIcon {
             font-size: 1em;
             margin-right: 0.5em;
