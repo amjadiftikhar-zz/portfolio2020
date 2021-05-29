@@ -37,6 +37,7 @@ const Style = styled.div`
         margin-right: 0.6vw; 
         font-size: 1.6vw;
     }
+    
     /* Media query for devices upto 1024px screens */
     @media only screen and (max-width: 1024px) {
         .educationIcon {
