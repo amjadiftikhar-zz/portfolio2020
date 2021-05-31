@@ -137,7 +137,6 @@ const Style = styled.div`
     /* Media query for devices upto 320px screens */
     @media only screen and (max-width: 320px) {
         .mainContainer {
-            // border: 2px solid red;
             width: 100%;
             padding: 0.5em;
         }
