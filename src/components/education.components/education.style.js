@@ -152,7 +152,6 @@ const Style = styled.div`
             word-break: break-all;
         }
         .educationSection {
-            // border: 2px solid yellow;
             padding: 0.5em;
         }
         .certificationIcon {
