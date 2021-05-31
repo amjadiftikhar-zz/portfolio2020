@@ -62,9 +62,6 @@ const Style = styled.div`
         .subTitle {
             font-size: 1rem;
         }
-        .educationSection {
-            // padding-right: 1em;
-        }
         .certificationIcon {
             font-size: 0.7em;
             margin-right: 0.5em;
