@@ -106,9 +106,6 @@ const Style = styled.div`
             font-size: 0.9rem;
             word-break: break-all;
         }
-        .educationSection {
-            // padding-right: 1em;
-        }
         .certificationIcon {
             font-size: 0.7em;
             margin-right: 0.5em;
