@@ -1,7 +1,8 @@
 import React from 'react';
 import Container from "react-bootstrap/Container";
-import "./experience.style.css";
 import {BsBriefcaseFill} from "react-icons/bs";
+
+import "./experience.style.css";
 
 const Experience = () => {
     
