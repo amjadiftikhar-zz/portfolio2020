@@ -103,6 +103,7 @@
         font-size: 1.2rem;
     } 
 }
+
 /* Media query for devices upto 320px screens */
 @media only screen and (max-width: 320px) {
     .experienceHeader {
