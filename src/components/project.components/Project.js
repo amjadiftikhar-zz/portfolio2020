@@ -15,7 +15,11 @@ return (
       <div className="flipBox">
         <div className="flipBox-inner">
           <div className="flipBox-front">
-            <img className="projectImage" src={props.projectImage} alt=""/>
+            {/* <img className="projectImage" src={props.projectImage} alt=""/> */}
+            <video className="projectImage" 
+              controls loop autoPlay muted >
+              <source src={props.projectVideo} />
+            </video>
           </div>
           <div className="flipBox-back">
             <h5 className="stacksHeader">Tech Stack</h5>
