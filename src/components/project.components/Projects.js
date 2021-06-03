@@ -1,5 +1,5 @@
 import React from "react";
-import {Container} from "react-bootstrap";
+// import {Container} from "react-bootstrap";
 import Project from "../../components/project.components/Project";
 import projectsData from "../../assets/data.json";
 import {GrProjects} from "react-icons/gr";
@@ -19,6 +19,7 @@ const Projects = () => {
                 </div>
               )} 
               projectImage={proj.projectImage}
+              projectVideo={proj.projectVideo}
               githubLink={proj.githubLink}
               herokuLink={proj.herokuLink}
               description={proj.description}
