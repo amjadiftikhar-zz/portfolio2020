@@ -34,6 +34,7 @@
       "projectTitle":"Smart Developers",
       "stackList":["React", "HTML", "CSS", "Bootstrap", "Github", "Git" ], 
       "projectImage": "/images/smartDevelopers.png",
+      "projectVideo": "/videos/smartdeveloper.webm",
       "githubLink":"https://github.com/amjadiftikhar/smart-developers",
       "herokuLink":"https://www.smartdeveloper.dk/",
       "description":"The application is developed in React and the Smart Developers is software development company committed to provide best services and user experience."
@@ -42,6 +43,7 @@
       "projectTitle":"MobilTilbud Application",
       "stackList":["Python", "Django", "HTML", "CSS", "Bootstrap", "Github", "Git", "MySQL" ], 
       "projectImage": "/images/mobilTilbud.png",
+      "projectVideo":"/videos/mobilTilbud.webm",
       "githubLink":"https://github.com/faisalakhlaq/mobiletilbud",
       "herokuLink":"https://www.mobiletilbud.dk/",
       "description":"An application developed in Python and Django, I am participating in thiproject developing frontend and deployment. My goal is to make a best user experience anin depth understanding of building real time projects as a team member."
@@ -51,6 +53,7 @@
       "stackList":["Javascript", "Node JS", "React", "HTML", "CSS", "Storybook", 
         "Express", "Knex", "Firebase", "Heroku", "Github", "Git", "MySQL", "Swagger" ], 
       "projectImage": "/images/seasonyApp.jpg",
+      "projectVideo":"/videos/seasonyApp.webm",
       "githubLink":"https://github.com/HackYourFuture-CPH/FP-class11",
       "herokuLink":"https://fp-class11.herokuapp.com/",
       "description":"A dashboard application for seasony.dk, I was one of the team members ithis project and we developed it from scratch to deployment and gain a in deptunderstanding of building real time projects with the collaboration of our highly skillementors."
@@ -60,6 +63,7 @@
       "stackList":["Javascript", "Node JS", "HTML", "CSS", "Express", "Heroku", "Github",
         "Git", "MySQL" ], 
       "projectImage": "/images/mealsharing.jpg",
+      "projectVideo":"/videos/mealsharing.webm",
       "githubLink":"https://github.com/amjadiftikhar/myProjects",
       "herokuLink":"https://my-meal-sharing-app.herokuapp.com/",
       "description":"A meal sharing application with a MySql database to make reservationssubmitting reviews and look through all meals available for reservation. Search optiofor the random meal is also available in the application and its available for a livpreview."
@@ -68,6 +72,7 @@
       "projectTitle":"Weather Application", 
       "stackList":["Javascript", "HTML", "CSS",  "Github", "Git", "REST API"], 
       "projectImage": "/images/weatherApp.jpg",
+      "projectVideo":"/videos/weatherApp.webm",
       "githubLink":"https://github.com/amjadiftikhar/myProjects",
       "herokuLink":"https://htmlpreview.github.io/?https://github.com/amjadiftikhar/my_SPAblob/master/weather-App/index.html",
       "description":"A weather application for daily weather updates, using weather opeweather API and the app is available for the preview. Tools used are API, JavascriptHTML and CSS"
@@ -76,6 +81,7 @@
       "projectTitle":"Search Github Users", 
       "stackList":["Javascript", "React", "HTML", "CSS", "Github", "Git", "RESTful API"], 
       "projectImage": "/images/githubSearch.jpg",
+      "projectVideo":"/videos/githubSearch.webm",
       "githubLink":"https://github.com/amjadiftikhar/searchUsers_github",
       "herokuLink":"https://github.com/amjadiftikhar/searchUsers_github",
       "description":"An application to search the information about github users. Its one othe applications I developed in React. Tools used are React, Javascript, API, HTML anCSS"
@@ -84,6 +90,7 @@
       "projectTitle":"Giphy Search", 
       "stackList":["Javascript", "HTML", "CSS", "Github", "Git", "RESTful API"], 
       "projectImage": "/images/giphySearch.jpg",
+      "projectVideo":"/videos/giphySearch.webm",
       "githubLink":"https://github.com/amjadiftikhar/my_SPAs/tree/master/giphy-App",
       "herokuLink":"https://github.com/amjadiftikhar/my_SPAs/tree/master/giphy-App",
       "description":"It is an application for the giphy search using giphy API and worked witDOM    manipulation. Tools used including API, Javascript, HTML and CSS."
@@ -92,6 +99,7 @@
       "projectTitle":"Portfolio Application", 
       "stackList":["Javascript", "React", "Bootstrap", "HTML", "CSS", "Github", "Git"], 
       "projectImage": "/images/oldPortfolio.png",
+      "projectVideo":"/videos/oldPortfolio.webm",
       "githubLink":"https://github.com/amjadiftikhar/my-portfolio",
       "herokuLink":"http://amjadportfolio.herokuapp.com/",
       "description":"Its a portfolio website developed in React. I worked with reuseablcomponents and used hooks instead of class components. I used Javascript, React, ReacBootstrap, HTML, CSS etc. Portfolio is available for preview."
@@ -100,6 +108,7 @@
       "projectTitle":"Test Application",
       "stackList":["Javascript", "React", "HTML", "CSS", "Github", "Git" ], 
       "projectImage": "/images/assignmentProj.png",
+      "projectVideo":"/videos/assignmentProj.webm",
       "githubLink":"https://github.com/amjadiftikhar/front-end-test",
       "herokuLink":"https://github.com/amjadiftikhar/front-end-test",
       "description":"Assignment to develop a provided design in React and in simple HTML5, CSS and Javascript. Responsiveness and mobile first layout approach been adopted. "
@@ -108,6 +117,7 @@
       "projectTitle":"Movie Catalogue",
       "stackList":["Javascript", "React", "API", "HTML", "CSS", "Heroku", "Github", "Git"], 
       "projectImage": "/images/movieApp.png",
+      "projectVideo":"/videos/movieApp.webm",
       "githubLink":"https://github.com/amjadiftikhar/movie-app",
       "herokuLink":"https://github.com/amjadiftikhar/movie-app",
       "description":"A Movie application, using Star Wars API fetched data for movies and movicharacters and rendered it. Tools used are API, Javascript, React, HTML and CSS."
