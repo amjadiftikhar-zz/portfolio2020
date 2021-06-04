@@ -3,7 +3,6 @@
   margin-left: 2em;
 }
 .projectSection {
-  /* border: 2px solid red; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
