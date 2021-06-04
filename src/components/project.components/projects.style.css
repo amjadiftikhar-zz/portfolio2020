@@ -212,9 +212,6 @@
 
 /* Media queries for small devices like max-width:320px */
 @media only screen and (max-width: 320px) {
-  .projectSection {
-    /* border: 2px solid black; */
-  }
   .projectCard { 
     margin-bottom: 12%;
   }
