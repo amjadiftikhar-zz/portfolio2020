@@ -215,9 +215,7 @@
   .projectSection {
     /* border: 2px solid black; */
   }
-  .projectCard {  
-    /* border: 2px solid red; */
-    /* width: 25rem; */
+  .projectCard { 
     margin-bottom: 12%;
   }
   .flipBox {
