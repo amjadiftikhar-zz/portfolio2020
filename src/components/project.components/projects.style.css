@@ -166,9 +166,6 @@
 }
 /* Media queries for small devices like max-width:768px */
 @media only screen and (max-width: 768px) {
-  .projectSection {
-    /* width: 100%; */
-  }
   .projectCard {
     width: 18rem;
     margin-bottom: 3em;
