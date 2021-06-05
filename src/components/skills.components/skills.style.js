@@ -91,12 +91,13 @@ const Style = styled.div`
       font-size:0.5rem;
     }
   } 
-  
+
   @media only screen and (max-width: 540px) {
     .sectionElement { 
       font-size: 1rem;
     }
   } 
+  
   @media only screen and (max-width: 414px) {
     .sectionElement { 
       font-size: 1rem;
