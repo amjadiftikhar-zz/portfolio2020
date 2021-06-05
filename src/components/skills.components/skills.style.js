@@ -47,9 +47,6 @@ const Style = styled.div`
       margin-top: 3em;
       margin-bottom: 5em;
     }
-    .sectionElement { 
-      // font-size: 0.9rem;
-    }
   } 
   @media only screen and (max-width: 1280px) {
     .skillsContentSection {
