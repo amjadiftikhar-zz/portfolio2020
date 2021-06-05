@@ -74,13 +74,6 @@ const Style = styled.div`
     }
   } 
   @media only screen and (max-width: 1024px) {
-    .skillsContentSection {
-      // padding: 1em;
-      // display:flex;
-      // flex-wrap: wrap;
-      // justify-content: space-between; 
-      // align-items: center;          
-    }
     .skillCard {
       margin-top: 3em;
       margin-bottom: 5em;
