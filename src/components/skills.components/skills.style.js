@@ -106,8 +106,6 @@ const Style = styled.div`
   } 
   @media only screen and (max-width: 750px) {
     .skillsContentSection {
-      // border: 2px solid red;
-      // padding: 1em;
       display:flex;
       flex-wrap: wrap;
       justify-content: center; 
