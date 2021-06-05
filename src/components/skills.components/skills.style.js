@@ -97,7 +97,7 @@ const Style = styled.div`
       font-size: 1rem;
     }
   } 
-  
+
   @media only screen and (max-width: 414px) {
     .sectionElement { 
       font-size: 1rem;
@@ -106,6 +106,7 @@ const Style = styled.div`
       height: 100%;
     }
   }
+  
   @media only screen and (max-width: 376px) {
     .skillCard {
       margin-bottom: 5em;
