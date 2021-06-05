@@ -146,7 +146,6 @@ const Style = styled.div`
   } 
   @media only screen and (max-width: 320px) {
     .skillCard {
-      // width: 25em !important;
       margin-bottom: 5em;
     }
     .sectionElement { 
