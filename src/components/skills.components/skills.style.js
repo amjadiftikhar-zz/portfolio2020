@@ -42,14 +42,6 @@ const Style = styled.div`
     text-align: center;
   }
   @media only screen and (max-width: 1440px) {
-    .skillsContentSection {
-      // border: 2px solid red;
-      // padding: 2em;
-      // display:flex;
-      // flex-wrap: wrap;
-      // justify-content: space-between; 
-      // align-items: center;          
-    }
     .skillCard {
       width: 22em;
       margin-top: 3em;
