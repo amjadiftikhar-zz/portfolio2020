@@ -41,7 +41,7 @@ const Style = styled.div`
     font-weight: bold;
     text-align: center;
   }
-  
+
   @media only screen and (max-width: 1440px) {
     .skillCard {
       width: 22em;
@@ -49,6 +49,7 @@ const Style = styled.div`
       margin-bottom: 5em;
     }
   } 
+  
   @media only screen and (max-width: 1280px) {
     .skillCard {
       width: 22em;
