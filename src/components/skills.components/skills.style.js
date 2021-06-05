@@ -64,7 +64,7 @@ const Style = styled.div`
       margin-bottom: 5em;
     }
   } 
-  
+
   @media only screen and (max-width: 768px) {
     .skillsContentSection {
       display:flex;
@@ -79,6 +79,7 @@ const Style = styled.div`
       font-size: 0.9rem;
     }
   } 
+  
   @media only screen and (max-width: 750px) {
     .skillsContentSection {
       display:flex;
