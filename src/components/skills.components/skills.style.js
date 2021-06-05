@@ -49,7 +49,7 @@ const Style = styled.div`
       margin-bottom: 5em;
     }
   } 
-  
+
   @media only screen and (max-width: 1280px) {
     .skillCard {
       width: 22em;
@@ -57,6 +57,7 @@ const Style = styled.div`
       margin-bottom: 5em;
     }
   } 
+  
   @media only screen and (max-width: 1024px) {
     .skillCard {
       margin-top: 3em;
