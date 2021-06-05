@@ -57,13 +57,14 @@ const Style = styled.div`
       margin-bottom: 5em;
     }
   } 
-  
+
   @media only screen and (max-width: 1024px) {
     .skillCard {
       margin-top: 3em;
       margin-bottom: 5em;
     }
   } 
+  
   @media only screen and (max-width: 768px) {
     .skillsContentSection {
       display:flex;
