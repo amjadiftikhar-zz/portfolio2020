@@ -41,6 +41,7 @@ const Style = styled.div`
     font-weight: bold;
     text-align: center;
   }
+  
   @media only screen and (max-width: 1440px) {
     .skillCard {
       width: 22em;
