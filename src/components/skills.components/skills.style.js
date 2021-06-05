@@ -88,7 +88,6 @@ const Style = styled.div`
   } 
   @media only screen and (max-width: 768px) {
     .skillsContentSection {
-      // padding: 1em;
       display:flex;
       flex-wrap: wrap;
       justify-content: space-between; 
