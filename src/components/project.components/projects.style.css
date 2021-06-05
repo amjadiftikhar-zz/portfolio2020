@@ -107,7 +107,6 @@
 .flipBox {
   width: 20em;
   height: 20em;
-  /* border: 0.1px solid #C1BDB5; */
   perspective: 1000px;
 }  
 .flipBox-inner {
