@@ -10,8 +10,13 @@
   margin-top: 1.5rem;
   display: flex; 
 }
+.imageSection {
+  /* border: 2px solid red; */
+  width: 15em;
+}
 .contentClass {
   margin-left: 2em;
+  width: 75%;
 }
 .contactClass {
   display: flex;
@@ -29,7 +34,7 @@
   font-family: sans-serif;
   color: black;
   font-size: 14px;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 .pEmail {
   color: orange; 
