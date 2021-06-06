@@ -3,7 +3,7 @@ import {Card} from "react-bootstrap";
 
 function SkillsCard(props) {
     return (        
-        <Card className="skillCard" style={{ }} 
+        <Card className="skillCard" 
           data-testid='skillsCard'>
           <Card.Img variant="top" className="skillsImage" style={{width:"8rem", height:"8rem", 
             margin:"auto"}} src={props.imageSrc} />
