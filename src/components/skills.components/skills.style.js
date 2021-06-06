@@ -73,6 +73,7 @@ const Style = styled.div`
       align-items: center;          
     }
     .skillCard {
+      width: 18em; 
       margin-bottom: 5em;
     }
     .sectionElement { 
