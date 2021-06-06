@@ -18,22 +18,22 @@ const About = () => {
       </h3>
       <div className="aboutMeSection">
         <div className="imageSection">
-          <img src={aboutMeImage} alt="" width="100%" />
+          <img src={aboutMeImage} alt="" width="100%" height="100%" />
         </div>    
         <div className="contentClass">
           <p className="pClass">Who I am?</p>
           <h4 style = {{color:"orange"}}>I'm Amjad, a Full Stack Web Developer</h4>
           <p className="pClass">
-            <br/>I am a Software Developer based in Denmark. 
-            I have developed an academic and some hobby projects recently. 
-            I have worked with several tech stacks and particularly excel in JavaScript, Typescript,
-            React, Node JS, HTML, CSS and MySql.<br/> 
-            <br/>I have been developing small projects to learn new 
-            development  techniques and deepen my knowledge in Full-stack domain. 
-            I am looking to discover 
-            new ﬁelds in the domain of tech and development. <br/><br/>
-            Just take a look at my portfolio work and lets see if we can work  
-            together on your next project. 
+            <br/>I am a Software Developer based in Denmark. I've vast array of knowledge in many 
+            different frontend and backend lanuages, responsive frameworks, databases and 
+            best code practices. My object is simply to be the best web developer that I can be 
+            and to contribute in the technology industry all that I am skilled in.<br/> 
+            I'm dedicated to perfecting my craft by learning from most seasoned developers, 
+            remaining humble, and continuously making strides to learn new things about development.
+            I have worked with several tech stacks and particularly excel in JavaScript, Typescript, 
+            React, Node JS, HTML, CSS and MySql.<br/> <br/>
+            Just take a look at my portfolio work and lets see if we can work together on your next 
+            project. 
           </p> 
           <div className="contactClass">
             <div className="contactDetails">              
