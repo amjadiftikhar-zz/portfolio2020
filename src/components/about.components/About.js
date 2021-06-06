@@ -27,7 +27,7 @@ const About = () => {
             <br/>I am a Software Developer based in Denmark. I've vast array of knowledge in many 
             different frontend and backend lanuages, responsive frameworks, databases and 
             best code practices. My object is simply to be the best web developer that I can be 
-            and to contribute in the technology industry all that I am skilled in.<br/> 
+            and to contribute in the technology industry all that I am skilled in.<br/> <br/>
             I'm dedicated to perfecting my craft by learning from most seasoned developers, 
             remaining humble, and continuously making strides to learn new things about development.
             I have worked with several tech stacks and particularly excel in JavaScript, Typescript, 
