@@ -28,11 +28,13 @@ const Contact = () => {
           </div>
           <div className="socialMediaIconClass">
               <a className="classIcon toolTip" 
+                target="_blank"
                 href="https://www.linkedin.com/in/amjad-iftikhar-545aa331/">
                 <FaLinkedin className="classIcon" />
                 <span className="classTooltip">Linkedin</span>
               </a>
               <a className="classIcon toolTip" 
+                target="_blank"
                 href="https://github.com/amjadiftikhar">
                 <FaGithubSquare className="classIcon" />
                 <span className="classTooltip">Github</span>
