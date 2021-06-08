@@ -125,7 +125,7 @@ const Style = styled.div`
       height: 100%;
     }
   } 
-  
+
   @media only screen and (max-width: 320px) {
     .skillCard {
       margin-bottom: 5em;
@@ -136,7 +136,8 @@ const Style = styled.div`
     .skillsList {
       height: 100%;
     }
-  }  
+  }
+    
   @media only screen and (max-width: 280px) {
     .skillCard {
       margin-bottom: 3em;
