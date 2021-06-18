@@ -14,16 +14,19 @@
 .imageSection {
   width: 15em;
 }
+
 .contentClass {
   margin-left: 2em;
   width: 75%;
 }
+
 .contactClass {
   display: flex;
   flex-direction: column;
   line-height: 2vw;
   border-top: 1px solid #C1BDB5;
 }
+
 .contactDetails {
   display: flex;
   justify-content: space-between;
