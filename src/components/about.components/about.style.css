@@ -33,16 +33,19 @@
   flex-wrap: wrap;
   box-sizing: border-box;
 }
+
 .pClass {
   font-family: sans-serif;
   color: black;
   font-size: 14px;
   margin-top: 1%;
 }
+
 .pEmail {
   color: orange; 
   margin-left: 5px;
 }
+
 .downloadClass{
   padding: 0.7em;
   width: 11em;
