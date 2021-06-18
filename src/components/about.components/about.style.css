@@ -52,9 +52,11 @@
   background-color: orange;
   border-radius: 5em; 
 }
+
 .downloadClass:hover {
   cursor: pointer;
 }
+
 .myWorkClass {
   padding: 0.7em;
   width: 12em;
@@ -63,6 +65,7 @@
   margin-left: 1.2vw;
   color: black;
 }
+
 .myWorkClass:hover {
   color: orange;
 }
