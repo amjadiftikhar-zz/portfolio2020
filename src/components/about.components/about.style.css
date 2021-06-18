@@ -69,10 +69,12 @@
 .myWorkClass:hover {
   color: orange;
 }
+
 .aboutSectionBtn {
   display: flex;
   flex-wrap: wrap;
 }
+
 .aboutSectionBtn a:link {
   text-decoration: none;
 }
