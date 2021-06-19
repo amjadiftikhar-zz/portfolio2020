@@ -19,6 +19,7 @@
   padding: 3rem;
   margin-top: 1.5rem;
 }
+
 .socialMediaSection {
   display: flex;
   flex-direction: column;
@@ -29,6 +30,7 @@
   transform: skew(20deg);
   background: orange;
 }
+
 .classIcon {
   width: 2em;
   height: 2em;
