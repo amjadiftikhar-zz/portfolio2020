@@ -7,9 +7,11 @@ const Style = styled.div`
         margin-top: 3rem; 
         transition: 2s ease-out;
     }
+
     .eduTitle {
         margin-bottom: 1.5rem;
     }
+    
     .educationIcon {
         margin-right: 0.6vw;
         font-size: 1.6vw;
