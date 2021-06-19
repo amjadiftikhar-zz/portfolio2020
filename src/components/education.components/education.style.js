@@ -24,16 +24,18 @@ const Style = styled.div`
     .placeName {
         font-size: 1.1rem;
     }
-    
+
     .educationSection {
         display: flex;
         justify-content: space-around;
         margin-bottom: 2rem;
         background-color: #f3f3f3;
     }
+
     .educationContents {
         margin: 1rem;
     }
+    
     .pItalic {
         font-style: italic;
         color: darkgreen;
