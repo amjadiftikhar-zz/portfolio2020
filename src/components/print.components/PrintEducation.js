@@ -8,7 +8,7 @@ const PrintEducation = (props) => {
     return (
         <div>
             <ReactToPrint 
-                trigger={() => <a className="downloadClass"> Download resume </a>}
+                trigger={() => <a href className="downloadClass"> Download resume </a>}
                 content={() => componentRef.current}
             />
             <div className="printSource" ref={componentRef}>
