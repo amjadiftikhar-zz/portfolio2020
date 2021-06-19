@@ -55,6 +55,7 @@
   display: none;
   margin-left: 2rem;
 }
+
 .toolTip:hover .classTooltip { 
   display: block;
   padding: 0.1rem;
