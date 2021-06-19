@@ -5,10 +5,12 @@
 .title {
   margin-bottom: 1.5rem;
 }
+
 .contactElements {
   color: white;
   font-size: 0.6rem;
 }
+
 .contactContainer{
   display: flex;
   justify-content: space-around;
