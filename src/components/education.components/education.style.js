@@ -35,11 +35,12 @@ const Style = styled.div`
     .educationContents {
         margin: 1rem;
     }
-    
+
     .pItalic {
         font-style: italic;
         color: darkgreen;
     }
+    
     .certificationIcon {
         margin-right: 0.6vw; 
         font-size: 1.6vw;
