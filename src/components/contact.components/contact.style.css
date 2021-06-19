@@ -37,16 +37,20 @@
   color: black;
   margin-right: 0.3em;
 }
+
 .socialMediaIconClass {
   margin-top: 35%; 
   display: flex; 
 }
+
 .contactFormSection {
   height: 80%;
 }
+
 .toolTip {
   margin-right: 1rem;
 }
+
 .classTooltip {
   display: none;
   margin-left: 2rem;
