@@ -80,9 +80,16 @@
 }
 
 /* class to style PDF page  */
-.printSource {
-  padding: 4em;
-}
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 20mm;
+  }
+  .printSource {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+}  
 
 /* Media query for devices upto 540px screens */
 @media only screen and (max-width: 540px) {
