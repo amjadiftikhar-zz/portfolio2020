@@ -6,6 +6,7 @@ import ReactTooltip from 'react-tooltip';
 import "./projects.style.css";
 
 function Project(props) {
+  
   return (
     <Card className='projectCard' data-testid='project'>
       {/* main div of the project designed */}
