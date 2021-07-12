@@ -94,7 +94,7 @@ const Education = () => {
             </div>
 
             {/* Resume component imported here */}
-            <Resume/>
+            {/* <Resume/> */}
 
         </Container>
         </Style>
