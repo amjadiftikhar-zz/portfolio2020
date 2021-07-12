@@ -2,6 +2,7 @@ import React from 'react';
 import {Container} from "reactstrap";
 import {FaGraduationCap, FaCertificate} from "react-icons/fa";
 import Style from "./education.style";
+import Resume from '../resume.components/Resume';
 
 const Education = () => {
     
@@ -91,6 +92,10 @@ const Education = () => {
                     </div>
                 </div>  
             </div>
+
+            {/* Resume component imported here */}
+            <Resume/>
+
         </Container>
         </Style>
     )
