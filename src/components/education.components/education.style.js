@@ -4,7 +4,7 @@ const Style = styled.div`
     // main container styles
     .mainContainer {
         width: 100%;
-        margin-top: 3rem; 
+        // margin-top: 3rem; 
         transition: 2s ease-out;
     }
 
