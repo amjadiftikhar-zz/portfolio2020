@@ -1,9 +1,10 @@
 import React from 'react'
+import Objective from './components/Objective'
 
 const Resume = () => {
     return (
-        <div>
-            Resume components
+        <div className='resumeContainer'>
+            <Objective/>
         </div>
     )
 }
