@@ -1,11 +1,12 @@
 import React from 'react';
+import Title1 from './experience.components/Title1';
 import './resume.styles.css';
 
 const Objective = () => {
     return (
         <div className="objectiveSection">
-            <h1 className="myName">Amjad Iftikhar</h1>
-            <h2 className="jobTitle">Frontend Developer</h2>
+            <Title1 title='Amjad Iftikhar' />
+            <h3 className="jobTitle">Frontend Developer</h3>
             <p className='objectiveText'>
                 Curious and talented developer with a flair for creating elegant 
                 solutions in the least amount of time and have passion for responsive 
