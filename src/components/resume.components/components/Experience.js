@@ -1,9 +1,10 @@
 import React from 'react'
+import WorkExperience from './experience.components/WorkExperience'
 
 const Experience = () => {
     return (
         <div>
-            Experience
+           <WorkExperience/>
         </div>
     )
 }
