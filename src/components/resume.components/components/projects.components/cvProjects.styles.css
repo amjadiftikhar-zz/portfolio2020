@@ -1,0 +1,30 @@
+.cvProjectContainer {
+    border: 2px solid red;
+    margin-top: 1em;
+    /* border-bottom: 2px solid black;
+    padding-bottom: 0.3em;
+    padding-left: 0.5em;
+    font-weight: 600; */
+}
+.cvProjectTitle {
+    border-bottom: 2px solid black;
+    /* padding-bottom: 0.1em; */
+    padding-left: 0.5em;
+    font-weight: 600;
+    font-size: 1.6rem;
+    /* line-height: 0.3em; */
+}
+.cvProjectCard {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.cvProjectName {
+    /* border: 2px solid yellow; */
+    font-size: 1.2rem;
+    margin-bottom: 0.2em;
+    /* padding-bottom: 2.5em; */
+}
+.cvProjectDescription {
+    line-height: 1.2rem;
+}
