@@ -4,7 +4,7 @@ import './workExperience.styles.css';
 const ExperienceCard = () => {
 
     return (
-        <div className='experienceMainSection'>
+        <div className='experienceMainCard'>
             <h4 className='jobTitle'>Frontend Developer</h4>
             <h2 className='companyNameTitle'>Molecular Quantum Solutions</h2>
             <div className="jobDetailSection">
