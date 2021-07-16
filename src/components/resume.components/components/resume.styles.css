@@ -7,6 +7,7 @@
     border-bottom: 2px solid white;
     width: 15em;
     padding-bottom: 0.3em;
+    font-weight: 400 !important;
 }
 .objectiveText {
     padding-top: 0.4em;
