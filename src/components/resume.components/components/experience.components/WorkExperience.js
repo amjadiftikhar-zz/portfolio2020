@@ -5,7 +5,7 @@ import './workExperience.styles.css';
 const WorkExperience = () => {
 
     return (
-        <div>
+        <div className="workExperienceContainer">
             <h3 className='experienceTitle'>Work Experience</h3>
             <ExperienceCard/>
         </div>
