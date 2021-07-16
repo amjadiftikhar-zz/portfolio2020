@@ -15,7 +15,11 @@ const Profile = () => {
             <div className='contactDetails'> 
                 <span><IoIosMail className="contactIcons" />amjadiftikhar_99@hotmail.com</span>
                 <span><GoDeviceMobile className="contactIcons"/>+4552920945</span>
-                <span><DiWebplatform className="contactIcons"/>https://amjadiftikhar.netlify.app/</span> 
+                <span><DiWebplatform className="contactIcons"/>
+                    <a href="https://amjadiftikhar.netlify.app/" target="_blank">
+                        amjadiftikhar.netlify.app/
+                    </a>                    
+                </span> 
             </div>          
         </div>
     )
