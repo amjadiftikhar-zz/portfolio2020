@@ -7,6 +7,7 @@ import CVProjects from './components/projects.components/CVProjects';
 
 
 import './resume.styles.css';
+import Skills from './components/skills.components/Skills';
 
 const Resume = () => {
 
@@ -14,6 +15,7 @@ const Resume = () => {
         <div className='resumeContainer'>
             <div className="leftSection">
                 <Profile/>
+                <Skills/>
             </div>
             <div className="rightSection">
                 <Objective/>
