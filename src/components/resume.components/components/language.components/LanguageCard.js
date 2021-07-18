@@ -5,8 +5,8 @@ const LanguageCard = (props) => {
 
     return (
         <div className='languageCard'>
-            <p className='languageName'> {props.languageName} </p>
-            <p className='languageLevel'> {props.languageLevel} </p>            
+            <span className='languageName'> {props.languageName} </span>
+            <span className='languageLevel'> {props.languageLevel} </span>            
         </div>
     )
 }
