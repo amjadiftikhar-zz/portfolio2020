@@ -1,0 +1,13 @@
+.languageCard {
+    display: flex;
+    flex-direction: column;
+}
+.languageName {
+    font-weight: 600;
+}
+.languageLevel {
+    color: rgb(133, 130, 130);
+    margin-bottom: 0.5em;
+    font-style: italic;
+    font-size: 0.7rem;
+}
