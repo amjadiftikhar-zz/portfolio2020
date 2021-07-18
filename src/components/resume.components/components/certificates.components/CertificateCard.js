@@ -4,7 +4,7 @@ import './certificates.styles.css';
 const CertificateCard = (props) => {
 
     return (
-        <div className={`certificateCard ${props.cvCertificateCard}`}> 
+        <div className='certificateCard'> 
             <span className='certificateName'>
                 {props.contentDuration}
             </span>
