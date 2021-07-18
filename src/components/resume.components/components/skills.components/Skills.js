@@ -1,5 +1,6 @@
 import React from 'react'
-import SkillCard from './SkillCard'
+import SkillCard from './SkillCard';
+import './skill.styles.css';
 
 const Skills = () => {
 
@@ -8,14 +9,17 @@ const Skills = () => {
     'TDD', 'Prettier', 'Git', 'Github', 'Heroku']
 
     return (
-        <div className="cvSkillsContainer">
-            {skillsData.map((s, index) => {
-               return( 
-                    <SkillCard 
-                        skill={s}
-                    />
-                )
-            })}
+        <div className="cvSkillSection">
+            <h3 className='cvSkillsTitle'>Projects</h3>
+            <div className="cvSkillsContainer">
+                {skillsData.map((s, index) => {
+                return( 
+                        <SkillCard 
+                            skill={s}
+                        />
+                    )
+                })}
+            </div>
         </div>
     )
 }
