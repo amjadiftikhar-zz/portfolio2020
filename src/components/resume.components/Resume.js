@@ -9,6 +9,7 @@ import CVProjects from './components/projects.components/CVProjects';
 import './resume.styles.css';
 import Skills from './components/skills.components/Skills';
 import Certificates from './components/certificates.components/Certificates';
+import Languages from './components/language.components/Languages';
 
 const Resume = () => {
 
@@ -18,6 +19,7 @@ const Resume = () => {
                 <Profile/>
                 <Skills/>
                 <Certificates/>
+                <Languages/>
             </div>
             <div className="rightSection">
                 <Objective/>
