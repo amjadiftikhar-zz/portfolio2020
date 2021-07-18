@@ -1,0 +1,20 @@
+.cvCertificateTitle {
+    margin-top: 1em;
+    border-bottom: 1.5px solid black;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.certificateCard {
+    border: 2px solid red;
+    /* line-height: 1rem; */
+}
+
+.certificateName {
+    /* border: 2px solid purple; */
+    font-weight: 600;
+    /* line-height: 1.5rem; */
+}
+.certificateDescription {
+    margin-top: 0.3em;
+}
