@@ -12,19 +12,21 @@ const projectData = [
 const CVProjects = () => {
 
     return (
-        <div className="cvProjectContainer">
+        <div className="cvProjectSection">
             <h3 className='cvProjectTitle'>Projects</h3>
-            {
-                projectData.map((p, index) => {
-                    return(
-                        <CVProjectCard
-                            key={index}
-                            contentDuration={p.duration}
-                            contentDescription={p.description}
-                        />
-                    )
-                })
-            }            
+            <div className="cvProjectContainer">
+                {
+                    projectData.map((p, index) => {
+                        return(
+                            <CVProjectCard
+                                key={index}
+                                contentDuration={p.duration}
+                                contentDescription={p.description}
+                            />
+                        )
+                    })
+                } 
+            </div>           
         </div>
     )
 }
