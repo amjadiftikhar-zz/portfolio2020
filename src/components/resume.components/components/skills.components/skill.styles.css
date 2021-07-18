@@ -1,3 +1,12 @@
+.cvSkillSection {
+    display: flex;
+    flex-direction: column;
+}
+.cvSkillsTitle {
+    border-bottom: 1.5px solid black;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
 .cvSkillsContainer {
     display: flex;
     justify-content: space-around;
