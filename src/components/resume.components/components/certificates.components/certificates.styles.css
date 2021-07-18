@@ -6,7 +6,7 @@
 }
 
 .certificateCard {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* line-height: 1rem; */
 }
 
@@ -15,6 +15,7 @@
     font-weight: 600;
     /* line-height: 1.5rem; */
 }
-.certificateDescription {
+.certificateDescription li {
     margin-top: 0.3em;
+    color: rgb(133, 130, 130);
 }
