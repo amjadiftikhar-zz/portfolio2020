@@ -1,4 +1,3 @@
-import { index } from 'd3';
 import React from 'react';
 import CertificateCard from './CertificateCard';
 import './certificates.styles.css';
