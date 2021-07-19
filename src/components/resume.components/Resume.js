@@ -10,6 +10,7 @@ import './resume.styles.css';
 import Skills from './components/skills.components/Skills';
 import Certificates from './components/certificates.components/Certificates';
 import Languages from './components/language.components/Languages';
+import References from './components/references.components/References';
 
 const Resume = () => {
 
@@ -20,6 +21,7 @@ const Resume = () => {
                 <Skills/>
                 <Certificates/>
                 <Languages/>
+                <References/>
             </div>
             <div className="rightSection">
                 <Objective/>
