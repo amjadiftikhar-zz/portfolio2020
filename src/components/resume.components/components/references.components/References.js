@@ -1,20 +1,17 @@
 import React from 'react';
-import './language.styles.css';
-import LanguageCard from './LanguageCard';
+import LanguageCard from '../language.components/LanguageCard';
+
+import './references.styles.css';
 
 const referenceData = [
     {
-        language: 'English',
-        level: 'Full Professional Proficiency'
+        reference: 'Mark Nicholas Jones (CEO MQS )',
+        email: 'mark@mqs.dk '
     },
     {
-        language: 'Danish',
-        level: 'Professional Working Proficiency'
-    }, 
-    {
-        language: 'Urdu',
-        level: 'Native or Bilingual Proficiency'
-    }        
+        reference: 'Rahim Ismaili (Developer at Dwarf)',
+        email: 'ismailirahim6@gmail.com'
+    },       
 ]
 
 const References = () => {
@@ -28,8 +25,8 @@ const References = () => {
                         return(
                             <LanguageCard
                                 key={index}
-                                referenceName={r.language}
-                                referenceTitle={r.level}
+                                languageName={r.reference}
+                                languageLevel={r.email}
                             />
                         )
                     })
