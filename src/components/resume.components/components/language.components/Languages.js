@@ -20,18 +20,21 @@ const languageData = [
 const Languages = () => {
 
     return (
-        <div className='languageCotainer'>
-            {
-                languageData.map((l, index) => {
-                    return(
-                        <LanguageCard
-                            key={index}
-                            languageName={l.language}
-                            languageLevel={l.level}
-                        />
-                    )
-                })
-            }
+        <div className='languageSection'>
+            <h3 className='languageTitle'>Languages</h3>
+            <div className='languageCotainer'>
+                {
+                    languageData.map((l, index) => {
+                        return(
+                            <LanguageCard
+                                key={index}
+                                languageName={l.language}
+                                languageLevel={l.level}
+                            />
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }
