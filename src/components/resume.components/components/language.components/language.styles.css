@@ -1,9 +1,11 @@
+
 .languageCard {
     display: flex;
     flex-direction: column;
 }
 .languageName {
     font-weight: 600;
+    padding-bottom: 0.3em;
 }
 .languageLevel {
     color: rgb(133, 130, 130);
