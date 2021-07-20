@@ -1,4 +1,6 @@
 import React from 'react';
+import TaskDescription from './TaskDescription';
+import {experienceData} from './WorkExperience';
 import './workExperience.styles.css';
 
 const ExperienceCard = (props) => {
@@ -6,7 +8,7 @@ const ExperienceCard = (props) => {
     return (
         <div className='experienceMainCard'>
             {/* <h4 className='jobTitle'>Frontend Developer</h4> */}
-            <h4 className='jobTitle'> {props.jobTitle} </h4>
+            <h4 className='cvJobTitle'> {props.jobTitle} </h4>
             {/* <h2 className='companyNameTitle'>Molecular Quantum Solutions</h2> */}
             <h2 className='companyNameTitle'> {props.companyName} </h2>
             <div className="jobDetailSection">
@@ -20,9 +22,17 @@ const ExperienceCard = (props) => {
                     {/* <span className='details'>Søborg, Denmark</span> */}
                     <span className='details'> {props.companyLocation} </span>
                 </div>
-                {/* <div className="taskDetails">
+                <div className="taskDetails">
                     <ul className="taskDescription">
-                        <li>
+                        {experienceData[0].taskDetails.map((td, index) => {
+                            return(
+                                <TaskDescription
+                                    key={index}
+                                    taskDescription={td}
+                                />
+                            )
+                        })}
+                        {/* <li>
                             Responsible for the frontend tasks related to building a 
                             platform that hosts different tools for R & D
                         </li>
@@ -35,9 +45,9 @@ const ExperienceCard = (props) => {
                         </li>
                         <li>
                             Making reusable components and writing test using React testing library
-                        </li>
-                    </ul>
-                </div> */}
+                        </li>*/}
+                    </ul> 
+                </div>
             </div>
         </div>
     )
