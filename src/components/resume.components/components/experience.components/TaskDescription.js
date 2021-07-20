@@ -5,7 +5,7 @@ const TaskDescription = (props) => {
     
     return (
         <div className="taskDetails">
-            <ul className="taskDescription">
+            {/* <ul className="taskDescription"> */}
                 <li>{props.taskDescription}</li>
                 {/* <li>
                     Responsible for the frontend tasks related to building a 
@@ -21,7 +21,7 @@ const TaskDescription = (props) => {
                 <li>
                     Making reusable components and writing test using React testing library
                 </li> */}
-            </ul>
+            {/* </ul> */}
         </div>
     )
 }
