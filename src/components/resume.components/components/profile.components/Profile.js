@@ -16,13 +16,14 @@ const Profile = () => {
                 <span><IoIosMail className="contactIcons" />amjadiftikhar_99@hotmail.com</span>
                 <span><GoDeviceMobile className="contactIcons"/>+4552920945</span>
                 <span><DiWebplatform className="contactIcons"/>
-                    <a href="https://amjadiftikhar.netlify.app/" target="_blank">
+                    <a  target="_blank" rel="noopener noreferrer" 
+                        href="https://amjadiftikhar.netlify.app/">
                         amjadiftikhar.netlify.app/
                     </a>                    
                 </span> 
             </div>          
         </div>
-    )
+    );
 }
 
 export default Profile;
