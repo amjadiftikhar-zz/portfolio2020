@@ -40,7 +40,7 @@ const CVProjects = () => {
                 } 
             </div>           
         </div>
-    )
+    );
 }
 
 export default CVProjects;
