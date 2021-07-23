@@ -7,7 +7,7 @@ const SkillCard = (props) => {
         <div className="cvSkillCard">
             {props.skill}
         </div>
-    )
+    );
 }
 
 export default SkillCard;
