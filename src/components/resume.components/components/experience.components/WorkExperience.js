@@ -78,7 +78,7 @@ const WorkExperience = () => {
                 })
             }
         </div>
-    )
+    );
 }
 
 export default WorkExperience;
