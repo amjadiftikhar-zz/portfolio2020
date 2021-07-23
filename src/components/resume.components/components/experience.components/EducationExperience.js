@@ -57,7 +57,7 @@ const EducationExperience = () => {
                 })
             }
         </div>
-    )
+    );
 }
 
 export default EducationExperience;
