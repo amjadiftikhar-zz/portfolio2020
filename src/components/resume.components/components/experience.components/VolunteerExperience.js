@@ -45,12 +45,11 @@ const VolunteerExperience = () => {
 
                             data={e.taskDetails}                          
                         /> 
-                    ) 
-                    
+                    )                     
                 })
             }
         </div>
-    )
+    );
 }
 
 export default VolunteerExperience;
