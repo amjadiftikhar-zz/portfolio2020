@@ -1,7 +1,6 @@
 import React from 'react';
 import Title1 from './titles.components/Title1';
 import './resume.styles.css';
-import Title3 from './titles.components/Title3';
 
 const Objective = () => {
     return (
