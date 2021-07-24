@@ -1,9 +1,9 @@
 import React from 'react';
 import Title1 from './titles.components/Title1';
-import './resume.styles.css';
+import './objective.styles.css';
 
 const Objective = () => {
-    
+
     return (
         <div className="objectiveSection">
             <Title1 title='Amjad Iftikhar' />
