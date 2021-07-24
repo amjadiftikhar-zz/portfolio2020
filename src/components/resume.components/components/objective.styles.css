@@ -1,0 +1,14 @@
+.objectiveSection {
+    padding: 1em;
+    background-color: rgb(36, 36, 63);
+    color: white;
+}
+.jobTitle {
+    border-bottom: 2px solid white;
+    width: 15em;
+    padding-bottom: 0.3em;
+    font-weight: 400 !important;
+}
+.objectiveText {
+    padding-top: 0.4em;
+}
