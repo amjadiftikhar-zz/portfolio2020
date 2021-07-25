@@ -28,10 +28,12 @@
 }
 
 .contactDetails {
+  /* border: 2px solid red; */
+  padding: 0em 0 1.5em 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 .pClass {
@@ -40,7 +42,7 @@
   /* font-size: 14px; */
   /* font-size: 16px; */
   font-size: 1rem;
-  margin-top: 1%;
+  margin-top: 1em;
 }
 
 .personalEmail {
@@ -54,8 +56,9 @@
 }
 
 .downloadClass{
-  padding: 0.7em;
-  width: 11em;
+  /* padding: 0.7em; */
+  padding: 0.5em 2em;
+  /* width: 10em; */
   background-color: orange;
   border-radius: 5em; 
   font-size: 0.9rem;
@@ -67,11 +70,13 @@
 }
 
 .myWorkClass {
-  padding: 0.7em;
-  width: 12em;
+  /* padding: 0.7em; */
+  padding: 0.5em 2em;
+  /* width: 10em; */
   border-radius: 5em;
   background-color: #C1BDB5; 
-  margin-left: 1.2vw;
+  /* margin-left: 1.2vw; */
+  margin-left: 0.3em;
   color: black;
   font-size: 0.9rem;
 }
