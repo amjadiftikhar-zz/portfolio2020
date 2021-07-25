@@ -53,7 +53,7 @@ const About = () => {
                 <Education/>
               </PrintEducation>
               <div>                
-                <a href="/projects" className="myWorkClass" >My Work</a>
+                <a href="/projects" className="myWorkClass" >My work</a>
               </div>
             </div>
           </div>   
