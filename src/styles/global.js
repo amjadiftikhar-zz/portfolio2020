@@ -9,7 +9,7 @@ export default createGlobalStyle`
     outline: 0; 
     border: 0;
     box-sizing: border-box; 
-    letter-spacing: 0.1rem;   
+    // letter-spacing: 0.1rem;   
   }
   *:focus {
     outline: 0;
@@ -22,7 +22,8 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
   body, input, button {
-    font: 14px 'Roboto', sans-serif;
+    font: 16px 'Roboto', sans-serif;
+    // system-ui, system-ui, sans-serif
   }
   a {
     text-decoration: none;
