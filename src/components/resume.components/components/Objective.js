@@ -6,8 +6,9 @@ const Objective = () => {
 
     return (
         <div className="objectiveSection">
-            <Title1 title='Amjad Iftikhar' />
-            <h3 className="jobTitle">Frontend Developer</h3>
+            {/* <Title1 title='Amjad Iftikhar' /> */}
+            <h1 className="cvTitle">Amjad Iftikhar</h1>
+            <h3 className="cvJobTitle">Frontend Developer</h3>
             <p className='objectiveText'>
                 Curious and talented developer with a flair for creating elegant 
                 solutions in the least amount of time and have passion for responsive 
