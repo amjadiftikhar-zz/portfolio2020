@@ -11,7 +11,7 @@
 }
 
 .projectCard {  
-  width: 18rem;
+  width: 18em;
   margin-bottom: 5%;
   margin-right: 2.5em;
   margin-left: 2.5em;
@@ -29,15 +29,17 @@
   margin-bottom: 1em;
   font-family: sans-serif;
   padding: 0.5em;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 0.05rem;   
 }
 
 /* image used for each project */
 .projectImage {
-  width:20em;
-  height: 20em;    
+  /* width:20em;
+  height: 20em;     */
+  width:18em;
+  height: 18em;  
   animation: mymove 5s infinite;
 } 
 
@@ -97,7 +99,10 @@
 }
 .toolTip:hover .classToolTipBubble { 
   display: block;
-  font-size: 0.8rem;
+  /* font-size: 0.8rem; */
+  font-size: 1rem;
+  font-weight: 200;
+
 }
 #description {
   border-radius: 1.5rem;
@@ -107,8 +112,10 @@
 
 /* styling of flip related effect of project image  */
 .flipBox {
-  width: 20em;
-  height: 20em;
+  /* width: 20em;
+  height: 20em; */
+  width: 18em;
+  height: 18em;
   perspective: 1000px;
 }  
 .flipBox-inner {
