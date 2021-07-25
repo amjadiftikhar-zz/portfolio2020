@@ -1,17 +1,23 @@
 import styled from "styled-components";
 
 const Style = styled.div`
+  .skillSection p {
+    font-size: 1rem;
+  }
   .mySkills {
     width: 0.9em;
     height: 0.9em;
     margin-right: 0.2em;
   }
   .skillCard {
-    width: 18em; 
+    width: 18em !important;
     marginBottom: 5%;
   }
   h3 {    
     margin-bottom: 1.5rem;
+  }
+  .skillDescription {
+    font-size: 1rem !important;
   }
   .skillsContentSection {
     padding: 1em;
