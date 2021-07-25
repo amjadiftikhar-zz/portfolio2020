@@ -39,7 +39,8 @@ const Project = (props) => {
             </a> 
           </span>
           <span className="classSpan">
-            <a className="toolTipp" href={props.herokuLink } target="_blank">
+            <a className="toolTipp" href={props.herokuLink } target="_blank" 
+              rel="noopener noreferrer">
               <FaExternalLinkSquareAlt className="classIcon toolTipp"/>
               <span className="classTooltip">Preview</span> 
             </a>
