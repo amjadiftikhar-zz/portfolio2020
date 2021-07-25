@@ -12,7 +12,7 @@ export const experienceData = [
         companyLocation: 'Søborg, Denmark',
         taskDetails: [
             'Responsible for the frontend tasks related to building a platform that hosts different tools for R & D',
-            ' Planning and setting up frontend architecture, diagnosing, troubleshooting and        resolving technical issues',
+            ' Planning and setting up frontend architecture, diagnosing, troubleshooting and resolving technical issues',
             'Developing design and collaboration with the design team',
             'Making reusable components and writing test using React testing library'
         ]
