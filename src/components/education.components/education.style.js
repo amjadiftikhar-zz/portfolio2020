@@ -27,7 +27,8 @@ const Style = styled.div`
 
     .educationSection {
         display: flex;
-        justify-content: space-around;
+        // justify-content: space-around;
+        justify-content: space-between;
         margin-bottom: 2rem;
         background-color: #f3f3f3;
     }
