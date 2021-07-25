@@ -49,7 +49,7 @@
       "description":"An application developed in Python and Django, I am participating in thiproject developing frontend and deployment. My goal is to make a best user experience anin depth understanding of building real time projects as a team member."
     },
     {
-      "projectTitle":"Seasony Dashboard Application",
+      "projectTitle":"Seasony Dashboard",
       "stackList":["Javascript", "Node JS", "React", "HTML", "CSS", "Storybook", 
         "Express", "Knex", "Firebase", "Heroku", "Github", "Git", "MySQL", "Swagger" ], 
       "projectImage": "/images/seasonyApp.jpg",
