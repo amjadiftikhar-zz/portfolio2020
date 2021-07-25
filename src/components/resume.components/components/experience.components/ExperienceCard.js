@@ -26,7 +26,7 @@ const ExperienceCard = (props) => {
     return (
         <div className='experienceMainCard'>
             {/* <h4 className='jobTitle'>Frontend Developer</h4> */}
-            <h4 className='cvJobTitle'> {props.jobTitle} </h4>
+            <h4 className='cvExJobTitle'> {props.jobTitle} </h4>
             {/* <h2 className='companyNameTitle'>Molecular Quantum Solutions</h2> */}
             <h2 className='companyNameTitle'> {props.companyName} </h2>
             <div className="jobDetailSection">
