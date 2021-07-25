@@ -27,7 +27,7 @@ const About = () => {
           <p className="pClass">
             <br/>I am a Software Developer based in Denmark. I've vast array of knowledge in many 
             different frontend and backend lanuages, responsive frameworks, databases and 
-            best code practices. My object is simply to be the best web developer that I can be 
+            best code practices. My objective is simply to be the best web developer that I can be 
             and to contribute in the technology industry all that I am skilled in.<br/> <br/>
             I'm dedicated to perfecting my craft by learning from most seasoned developers, 
             remaining humble, and continuously making strides to learn new things about development.
@@ -39,11 +39,12 @@ const About = () => {
           <div className="contactClass">
             <div className="contactDetails">              
               <p className="pClass emailSmall">
-                Name:<span style={{marginLeft:"5px"}}>
+                Name:<span className="personalEmail" style={{}}>
                 Amjad Iftikhar</span>
               </p>
-              <p className="pClass emailSmall">Email: <span className="pEmail" style={{}}>
-                amjadiftikhar_99@hotmail.com</span> 
+              <p className="pClass emailSmall">Email: <a className="personalEmail" 
+                href="mailto:amjadiftikhar_99@hotmail.com" style={{}}>
+                amjadiftikhar_99@hotmail.com</a> 
               </p>
             </div>
             <div className="aboutSectionBtn">
