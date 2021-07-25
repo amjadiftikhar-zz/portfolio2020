@@ -8,7 +8,7 @@ function SkillsCard(props) {
           <Card.Img variant="top" className="skillsImage" style={{width:"8rem", height:"8rem", 
             margin:"auto"}} src={props.imageSrc} />
           <Card.Body>
-            <Card.Title style={{textAlign:"center", fontWeight:"bold"}}>
+            <Card.Title style={{textAlign:"center", fontWeight:"400"}}>
               {props.title}
             </Card.Title>
             <Card.Text className="skillDescription">
