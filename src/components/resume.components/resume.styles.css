@@ -2,11 +2,11 @@
     display: flex;
 }
 .leftSection {
-    border: 2px solid red;
-    width: 22em;
+    /* border: 2px solid red; */
+    width: 15.5em;
     margin-right: 0.8em;
 }
 .rightSection {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     width: 100%;
 }
