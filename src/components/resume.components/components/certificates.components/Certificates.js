@@ -6,7 +6,11 @@ const certificateData = [
     {
         duration: 'Microsoft Certified Professional, MCP ID: 8074395',
         description: 'MCSE, MCSA, MCP and MCTS (windows 2007)'
-    }    
+    },
+    {
+        duration: 'Cisco Academic Certifications (2008)',
+        description: 'CCNP (Cisco Certified Network Professional) & CCNA (Cisco Certified Network Associate)'
+    }        
 ]
 
 const Certificates = () => {
