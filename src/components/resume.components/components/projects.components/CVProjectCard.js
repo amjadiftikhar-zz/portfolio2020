@@ -5,7 +5,7 @@ const CVProjectCard = (props) => {
 
     return (
         <div className='cvProjectCard'> 
-            <span className='cvProjectName'>
+            <span className='cvProjectsName'>
                 {props.contentDuration}
             </span>
             <ul className="cvProjectDescription">
