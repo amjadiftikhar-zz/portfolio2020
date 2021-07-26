@@ -9,6 +9,7 @@ import Education from '../education.components/Education';
 import Experience from "../experience.components/Experience";
 
 import "./about.style.css";
+import Resume from '../resume.components/Resume';
 
 const About = () => {
 
@@ -49,8 +50,9 @@ const About = () => {
             </div>
             <div className="aboutSectionBtn">
               <PrintEducation>
-                <Experience/>
-                <Education/>
+                <Resume/>
+                {/* <Experience/>
+                <Education/> */}
               </PrintEducation>
               <div>                
                 <a href="/projects" className="myWorkClass" >My work</a>
