@@ -1,5 +1,6 @@
 import React from 'react';
-import Objective from './components/Objective';
+// import Objective from './components/Objective';
+import Objective from './components/objective.components/Objective';
 import Profile from './components/profile.components/Profile';
 import WorkExperience from './components/experience.components/WorkExperience';
 import CVProjects from './components/projects.components/CVProjects';
