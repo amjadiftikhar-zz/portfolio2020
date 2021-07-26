@@ -1,5 +1,5 @@
 .cvProjectSection {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 1em;
 }
 .cvProjectContainer {
@@ -7,6 +7,7 @@
 }
 .cvProjectTitle {
     border-bottom: 1.5px solid black;
+    color: rgb(36, 36, 63);
     padding-left: 0.5em;
     font-weight: 600;
     font-size: 1.6rem;
@@ -16,11 +17,15 @@
     display: flex;
     flex-direction: column;
 }
-.cvProjectName {
+.cvProjectsName {
     /* border: 2px solid yellow; */
+    font-weight: 400;
     font-size: 1.2rem;
     margin-bottom: 0.2em;
 }
 .cvProjectDescription {
-    line-height: 1.2rem;
+    /* line-height: 1.2rem; */
+    font-size: 1rem;
+    list-style-type: square;
+    margin-left: 1em;
 }
