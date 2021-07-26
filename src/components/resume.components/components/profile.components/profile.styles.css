@@ -1,24 +1,25 @@
 .profileImageSection {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     min-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .profilePicture {
-    width: 8em;
-    height: 8em;
+    width: 10em;
+    height: 10em;
     border-radius: 50%;
     border: 1px solid lightgray;
     align-self: center;
 }
 .contactDetails {
-    margin-top: 0.6em;
+    margin-top: 1.2em;
     padding: 1.2em;
 }
 .contactDetails span {
     line-height: 2em;
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
+    font-size: 0.9rem;
     word-break: break-all;
 }
 .contactDetails span a {
