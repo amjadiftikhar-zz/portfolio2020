@@ -2,16 +2,17 @@
     /* padding-left: 1em; */
 }
 .experienceMainCard {
+    /* border: 2px solid red; */
     padding-left: 1em;
-    margin-top: 1em;
+    margin-top: 0.8em;
 }
 
 .experienceTitle {
-    margin-top: 1em;
+    margin-top: 0.8em;
     border-bottom: 1.5px solid black;
     padding-left: 0.5em;
     font-weight: 600;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     color: rgb(36, 36, 63);
 }
 
@@ -26,7 +27,7 @@
     line-height: 0.2em;
     font-weight: 400;
     padding-bottom: 0.3em;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     /* color: rgb(36, 36, 63); */
 }
 
@@ -56,10 +57,11 @@
 }
 
 .taskDetails {
+    /* border: 2px solid red; */
     /* padding-left: 1em; */
 }
 .taskDescription {
     margin: 0em 0 0 1em;
     list-style-type: square;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
