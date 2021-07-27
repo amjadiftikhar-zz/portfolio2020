@@ -100,26 +100,26 @@ const Style = styled.div`
     }
 
     /* Media query for devices upto 414px screens */
-    @media only screen and (max-width: 414px) {
-        .mainContainer {
-            padding: 0.5em;
-        }
-        .eduTitle {
-            font-size: 1.5rem;
-        }   
-        .educationIcon {
-            font-size: 1em;
-            margin-right: 0.5em;
-        } 
-        .subTitle {
-            font-size: 0.9rem;
-            word-break: break-all;
-        }
-        .certificationIcon {
-            font-size: 0.7em;
-            margin-right: 0.5em;
-        }
-    }
+    // @media only screen and (max-width: 414px) {
+    //     .mainContainer {
+    //         padding: 0.5em;
+    //     }
+    //     .eduTitle {
+    //         font-size: 1.5rem;
+    //     }   
+    //     .educationIcon {
+    //         font-size: 1em;
+    //         margin-right: 0.5em;
+    //     } 
+    //     .subTitle {
+    //         font-size: 0.9rem;
+    //         word-break: break-all;
+    //     }
+    //     .certificationIcon {
+    //         font-size: 0.7em;
+    //         margin-right: 0.5em;
+    //     }
+    // }
 
     /* Media query for devices upto 376px screens */
     @media only screen and (max-width: 376px) {
