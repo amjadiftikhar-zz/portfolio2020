@@ -1,5 +1,5 @@
 .objectiveSection {
-    padding: 1em;
+    padding: 0.5em 1em 0.5em 1em;
     background-color: rgb(36, 36, 63);
     color: white;
 }
@@ -16,5 +16,5 @@
 }
 .objectiveText {
     padding-top: 0.4em;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
