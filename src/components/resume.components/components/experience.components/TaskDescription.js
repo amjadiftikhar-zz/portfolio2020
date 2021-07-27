@@ -4,7 +4,7 @@ import './workExperience.styles.css';
 const TaskDescription = (props) => {
     
     return (
-        <div className="taskDetails">
+        <>
             {/* <ul className="taskDescription"> */}
                 <li>{props.taskDescription}</li>
                 {/* <li>
@@ -22,7 +22,7 @@ const TaskDescription = (props) => {
                     Making reusable components and writing test using React testing library
                 </li> */}
             {/* </ul> */}
-        </div>
+        </>
     )
 }
 
