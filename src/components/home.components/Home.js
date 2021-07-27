@@ -14,7 +14,7 @@ import "./home.styles.css";
 const Home = () => {
 
   return (
-    <Container className="container-fluid">
+    <Container >
       <LandingPageComponent/>
       <About/>
       <ScrollToDown/>
