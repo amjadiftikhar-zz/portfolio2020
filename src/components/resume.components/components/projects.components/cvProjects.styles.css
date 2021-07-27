@@ -20,12 +20,12 @@
 .cvProjectsName {
     /* border: 2px solid yellow; */
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 0.2em;
 }
 .cvProjectDescription {
     /* line-height: 1.2rem; */
-    font-size: 1rem;
+    font-size: 0.9rem;
     list-style-type: square;
     margin-left: 1em;
 }
