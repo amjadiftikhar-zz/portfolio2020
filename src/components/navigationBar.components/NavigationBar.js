@@ -10,7 +10,7 @@ const Header = (props) => {
   const {location} = props;
   return (
     <NavigationBarStyles>
-      <Navbar fixed="top" expand="lg">
+      <Navbar collapseOnSelect fixed="top" expand="lg">
         <LinkContainer exact to="/">
           <Navbar.Brand >
             <AiOutlineHome 
