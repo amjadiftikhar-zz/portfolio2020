@@ -1,18 +1,20 @@
 import React from 'react';
 import LanguageCard from '../language.components/LanguageCard';
+import referenceData from '../../../../assets/resume_eng.json';
+
 
 import './references.styles.css';
 
-const referenceData = [
-    {
-        reference: 'Mark Nicholas Jones (CEO MQS )',
-        email: 'mark@mqs.dk '
-    },
-    {
-        reference: 'Rahim Ismaili (Developer at Dwarf)',
-        email: 'ismailirahim6@gmail.com'
-    },       
-]
+// const referenceData = [
+//     {
+//         reference: 'Mark Nicholas Jones (CEO MQS )',
+//         email: 'mark@mqs.dk '
+//     },
+//     {
+//         reference: 'Rahim Ismaili (Developer at Dwarf)',
+//         email: 'ismailirahim6@gmail.com'
+//     },       
+// ]
 
 const References = () => {
 
@@ -21,7 +23,7 @@ const References = () => {
             <h3 className='referenceTitle'>References</h3>
             <div className='referenceCotainer'>
                 {
-                    referenceData.map((r, index) => {
+                    referenceData.references.map((r, index) => {
                         return(
                             <LanguageCard
                                 key={index}
