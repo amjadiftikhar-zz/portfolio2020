@@ -2,8 +2,173 @@
     "objective": [
         {
             "name": "Amjad Iftikhar",
-            "jobTitle": "Frontend Developer",
-            "objective": "Curious and talented developer with a flair for creating elegant solutions in the least amount of time and have passion for responsive website design as well as a firm believer in the mobile-first approach. Have contributed in different projects to learn new development techniques and very passionate about new fields in the domain of tech and."
+            "jobTitle": "Full Stack Developer",
+            "objective": "Curious and talented developer with a flair for creating elegant solutions in the least amount of time and have passion for responsive website design as well as a firm believer in the mobile-first approach. Have contributed in different projects to learn new development techniques and very passionate about new fields in the domain of tech and development."
         }
+    ],
+    "experience": [
+        { 
+            "jobTitle": "Frontend Developer",
+            "companyName": "Molecular Quantum Solutions",
+            "duration": "01/2021 - Present",
+            "task": "Tasks:",
+            "companyLocation": "Søborg, Denmark",
+            "taskDetails": [
+                "Responsible for the frontend tasks related to building a platform that hosts different tools for R & D",
+                "Planning and setting up frontend architecture, diagnosing, troubleshooting and resolving technical issues",
+                "Developing design and collaboration with the design team",
+                "Making reusable components and writing test using React testing library"
+            ]
+        },
+        {
+            "jobTitle": "Frontend Developer",
+            "companyName": "Unifounder",
+            "duration": "11/2020 - 01/2021",
+            "task": "Tasks:",
+            "companyLocation": "Frederiksberg, Denmark",
+            "taskDetails": [
+                "Responsible for developing the design also help designing the platform",
+                "Implementation from concept through deployment, with a responsive, mobile first approach",
+                "Refactoring and decomposing exiting code and structure",
+                "Perform code reviews, coordinating with designers and development team",
+                "Diagnosing, troubleshooting and resolving technical issues"
+            ]
+        },
+        {
+            "jobTitle":"Student Volunteer",
+            "companyName": "Hack Your Future-Copenhagen",
+            "duration": "08/2019 - Present",
+            "task": "Tasks:",
+            "companyLocation": "Copenhagen, Denmark",
+            "taskDetails": [
+                "Reviewning PRs",
+                "Helping students with their weekly assignments"
+            ]
+        },
+        {
+            "jobTitle":"Taxi Driver",
+            "companyName": "Taxa 4x35 Copenhagen",
+            "duration": "02/2014 - 05/2020",
+            "task": "Achievements:",
+            "companyLocation": "Frederiksberg, Denmark",
+            "taskDetails": [
+                "Learnt how to deal nicely with the customers and work under stress",
+                "Improved communication skills"
+            ]
+        }
+    ],
+    "volunteerExperience": [
+        { 
+            "jobTitle":"Frontend Developer",
+            "companyName": "https://www.smartdeveloper.dk/",
+            "duration": "11/2020 - 02/2021",
+            "task": "Tasks:",
+            "companyLocation": "Copenhagen, Denmark",
+            "taskDetails": [
+                "A signle page application, developed in React",
+                "I succssfully completed it and got a deep insight of working with React.js from scratch to deployment",
+                "Making reusable components and wrote tests using React testing library"
+            ]
+        },
+        {
+            "jobTitle":"Frontend Developer",
+            "companyName": "https://www.mobiletilbud.dk/",
+            "duration": "12/2020 - 01/2021",
+            "task": "Tasks:",
+            "companyLocation": "Copenhagen, Denmark",
+            "taskDetails": [
+                "Participated developing frontend for the application using HTML and CSS"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "duration": "Movie Catalogue (10/2020 - 10/2020)",
+            "description": "Application built in React using Star Wars API to show movies and movie characters as well as character specs. Tool used are, Javascript, React, HTML, CSS and API, Git, Github."
+        },
+        {
+            "duration": "www.seasony.dk (02/2020 - 04/2020)",
+            "description": "Seasony is a startup specializing in vertical farming with robotics. A dashboard application (https://fp-class11.herokuapp.com/dashboard) for Seasony and tools used are, JavaScript, NodeJS, React, MySql, Knex.js, Storybook, Express, Swagger, HTML and"
+        },
+        {
+            "duration": "Meal Sharing Application (02/2020 - 02/2020)",
+            "description": "Developed a meal sharing application (https://my-meal-sharing-app.herokuapp.com), using JavaScript, HTML/CSS, MySql, Express, Git, Github, NPM, Webpack skills "
+        }, 
+        {
+            "duration": "Weather Application (11/2019 - 11/2019)",
+            "description": "Weather App where I used my technical skills in JavaScript, REST APIs, HTML and CSS"
+        }    
+    ],
+    "education": [
+        { 
+            "jobTitle":"Full Stack Developer Program",
+            "companyName": "Hack Your Future-Copenhagen",
+            "duration": "08/2019 - 04/2020",
+            "task": "Courses:",
+            "companyLocation": "Copenhagen, Denmark",
+            "taskDetails": [
+                "Javascript, React, Nodejs, HTML, CSS, mySql"
+            ]
+        },
+        {
+            "jobTitle":"Masters in Computer Systems Engineering",
+            "companyName": "Halmstad University",
+            "duration": "01/2008 - 03/2010",
+            "task": "Courses:",
+            "companyLocation": "Halmstad, Sweden",
+            "taskDetails": [
+                "Advanced Routing, Multilayer Switching"
+            ]
+        },
+        {
+            "jobTitle":"Bachelor in Computer Science",
+            "companyName": "AIOU University Islamabad",
+            "duration": "09/2000 - 03/2005",
+            "task": "Courses:",
+            "companyLocation": "Islamabad, Pakistan",
+            "taskDetails": [
+                "C++, Java, Visual C++, Oracle SQL, VBasic"
+            ]
+        }
+    ],
+    "skills": [
+        "Javascript", "Typescript", "React", "Nodejs", "HTML", "CSS", 
+        "MySql", "Knex", "jQuery", "NPM", "Express", "Storybook", "Firebase", "Swagger",
+        "TDD", "Prettier", "Git", "Github", "Heroku"
+    ],
+    "certificates": [
+        {
+            "duration": "Microsoft Certified Professional, MCP ID: 8074395",
+            "description": "MCSE, MCSA, MCP and MCTS (windows 2007)"
+        },
+        {
+            "duration": "Cisco Academic Certifications (2008)",
+            "description": "CCNP (Cisco Certified Network Professional) & CCNA (Cisco Certified Network Associate)"
+        }        
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "level": "Full Professional Proficiency"
+        },
+        {
+            "language": "Danish",
+            "level": "Professional Working Proficiency"
+        }, 
+        {
+            "language": "Urdu",
+            "level": "Native or Bilingual Proficiency"
+        }        
+    ],
+    "references": [
+        {
+            "reference": "Mark Nicholas Jones (CEO MQS )",
+            "email": "mark@mqs.dk "
+        },
+        {
+            "reference": "Rahim Ismaili (Developer at Dwarf)",
+            "email": "ismailirahim6@gmail.com"
+        }       
     ]
+    
 }
