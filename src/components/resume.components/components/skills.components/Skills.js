@@ -2,17 +2,20 @@ import React from 'react'
 import SkillCard from './SkillCard';
 import './skill.styles.css';
 
+import skillsData from '../../../../assets/resume_eng.json';
+
+
 const Skills = () => {
 
-    const skillsData = ['Javascript', 'Typescript', 'React', 'Nodejs', 'HTML', 'CSS', 
-    'MySql', 'Knex', 'jQuery', 'NPM', 'Express', 'Storybook', 'Firebase', 'Swagger',
-    'TDD', 'Prettier', 'Git', 'Github', 'Heroku']
+    // const skillsData = ['Javascript', 'Typescript', 'React', 'Nodejs', 'HTML', 'CSS', 
+    // 'MySql', 'Knex', 'jQuery', 'NPM', 'Express', 'Storybook', 'Firebase', 'Swagger',
+    // 'TDD', 'Prettier', 'Git', 'Github', 'Heroku']
 
     return (
         <div className="cvSkillSection">
-            <h3 className='cvSkillsTitle'>Projects</h3>
+            <h3 className='cvSkillsTitle'>Skills</h3>
             <div className="cvSkillsContainer">
-                {skillsData.map((s, index) => {
+                {skillsData.skills.map((s, index) => {
                 return( 
                         <SkillCard 
                             skill={s}
