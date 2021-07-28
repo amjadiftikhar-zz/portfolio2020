@@ -2,20 +2,23 @@ import React from 'react';
 import './language.styles.css';
 import LanguageCard from './LanguageCard';
 
-const languageData = [
-    {
-        language: 'English',
-        level: 'Full Professional Proficiency'
-    },
-    {
-        language: 'Danish',
-        level: 'Professional Working Proficiency'
-    }, 
-    {
-        language: 'Urdu',
-        level: 'Native or Bilingual Proficiency'
-    }        
-]
+import languageData from '../../../../assets/resume_eng.json';
+
+
+// const languageData = [
+//     {
+//         language: 'English',
+//         level: 'Full Professional Proficiency'
+//     },
+//     {
+//         language: 'Danish',
+//         level: 'Professional Working Proficiency'
+//     }, 
+//     {
+//         language: 'Urdu',
+//         level: 'Native or Bilingual Proficiency'
+//     }        
+// ]
 
 const Languages = () => {
 
@@ -24,7 +27,7 @@ const Languages = () => {
             <h3 className='languageTitle'>Languages</h3>
             <div className='languageCotainer'>
                 {
-                    languageData.map((l, index) => {
+                    languageData.languages.map((l, index) => {
                         return(
                             <LanguageCard
                                 key={index}
