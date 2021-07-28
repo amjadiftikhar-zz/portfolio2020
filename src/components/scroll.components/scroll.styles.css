@@ -1,7 +1,8 @@
 /* scroll to down button style   */
 .scrollToDown {
     position: fixed;
-    top: 39em;
+    /* top: 39em; */
+    top: 90%;
     left: 50%;
     width: 40px;
     height: 40px;
