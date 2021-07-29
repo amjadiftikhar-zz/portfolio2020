@@ -27,7 +27,7 @@ const CVProjects = () => {
 
     return (
         <div className="cvProjectSection">
-            <h3 className='cvProjectTitle'>Projects</h3>
+            <h3 className='cvProjectTitle'>{projectsData.sectionTitles[2]}</h3>
             <div className="cvProjectContainer">
                 {
                     projectsData.projects.map((p, index) => {
