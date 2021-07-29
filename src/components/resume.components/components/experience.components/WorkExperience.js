@@ -61,7 +61,7 @@ const WorkExperience = () => {
 
     return (
         <div className="workExperienceContainer">
-            <h3 className='experienceTitle'>Work Experience</h3>
+            <h3 className='experienceTitle'> {experienceData.sectionTitles[0]} </h3>
             {
                 experienceData.experience.map((e, index) => {
                     return(
