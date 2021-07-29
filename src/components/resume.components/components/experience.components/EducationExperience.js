@@ -41,7 +41,7 @@ const EducationExperience = () => {
 
     return (
         <div className="workExperienceContainer">
-            <h3 className='experienceTitle'>Education</h3>
+            <h3 className='experienceTitle'>{educationData.sectionTitles[3]}</h3>
             {
                 educationData.education.map((e, index) => {
                     return(
