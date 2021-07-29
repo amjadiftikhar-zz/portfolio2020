@@ -1,7 +1,8 @@
 /* about Icon styles section  */
 .aboutMeIcon {
-  width: 0.9em;
-  height: 0.9em;
+  /* width: 0.9em;
+  height: 0.9em; */
+  font-size: 1.6vw;
   margin-right: 0.3em;
 }
 
