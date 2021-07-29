@@ -13,7 +13,7 @@ const Skills = () => {
 
     return (
         <div className="cvSkillSection">
-            <h3 className='cvSkillsTitle'>Skills</h3>
+            <h3 className='cvSkillsTitle'>{skillsData.sectionTitles[4]}</h3>
             <div className="cvSkillsContainer">
                 {skillsData.skills.map((s, index) => {
                 return( 
