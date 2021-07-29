@@ -32,7 +32,7 @@ const VolunteerExperience = () => {
 
     return (
         <div className="workExperienceContainer">
-            <h3 className='experienceTitle'>Volunteer Experience</h3>
+            <h3 className='experienceTitle'>{volunteerExperienceData.sectionTitles[1]}</h3>
             {
                 volunteerExperienceData.volunteerExperience.map((e, index) => {
                     return(
