@@ -20,7 +20,7 @@ const References = () => {
 
     return (
         <div className='referencesection'>
-            <h3 className='referenceTitle'>References</h3>
+            <h3 className='referenceTitle'>{referenceData.sectionTitles[7]}</h3>
             <div className='referenceCotainer'>
                 {
                     referenceData.references.map((r, index) => {
