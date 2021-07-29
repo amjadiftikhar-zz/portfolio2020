@@ -20,7 +20,7 @@ const Certificates = () => {
 
     return (
         <div className='certificateSection'>
-            <h3 className='cvCertificateTitle'>Certificates</h3>
+            <h3 className='cvCertificateTitle'>{certificatesData.sectionTitles[5]}</h3>
             <div className='certificateContainer'>
                 {certificatesData.certificates.map((c, index) => {
                     return(
