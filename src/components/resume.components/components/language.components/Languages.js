@@ -24,7 +24,7 @@ const Languages = () => {
 
     return (
         <div className='languageSection'>
-            <h3 className='languageTitle'>Languages</h3>
+            <h3 className='languageTitle'>{languageData.sectionTitles[6]}</h3>
             <div className='languageCotainer'>
                 {
                     languageData.languages.map((l, index) => {
