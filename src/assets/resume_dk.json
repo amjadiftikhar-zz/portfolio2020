@@ -11,7 +11,7 @@
             "jobTitle": "Frontend Developer",
             "companyName": "Molecular Quantum Solutions",
             "duration": "01/2021 - idag",
-            "task": "Tasks:",
+            "task": "Opgaver:",
             "companyLocation": "Søborg, Denmark",
             "taskDetails": [
                 "Arbejder som frontend udvikler og ansvarlig for udvikling af MQS platform som er vært for forskellige tools for R&D",
@@ -24,37 +24,30 @@
             "jobTitle": "Frontend Developer",
             "companyName": "Unifounder",
             "duration": "11/2020 - 01/2021",
-            "task": "Tasks:",
+            "task": "Opgaver:",
             "companyLocation": "Frederiksberg, Denmark",
             "taskDetails": [
-                "Responsible for developing the design also help designing the platform",
-                "Implementation from concept through deployment, with a responsive, mobile first approach",
-                "Refactoring and decomposing exiting code and structure",
-                "Perform code reviews, coordinating with designers and development team",
-                "Diagnosing, troubleshooting and resolving technical issues"
+                "Som frontend udvikler var jeg ansvarlig for udvikling af frontend til ders platform",
+                "Implementering fra koncept til implementering med en responsiv, mobil første approach",
+                "Planlægning, udfør kodevurderinger og arbejde tæt sammen med udviklingsteamet såvel designere",
+                "Refactoring og decomposing af eksisterende kode og struktur"
             ]
         },
         {
             "jobTitle":"Student Volunteer",
             "companyName": "Hack Your Future-Copenhagen",
             "duration": "08/2019 - Present",
-            "task": "Tasks:",
-            "companyLocation": "Copenhagen, Denmark",
+            "task": "Opgaver:",
+            "companyLocation": "København, Denmark",
             "taskDetails": [
-                "Reviewning PRs",
-                "Helping students with their weekly assignments"
+                "Lektiehjælp og kode/PRs review"
             ]
         },
         {
             "jobTitle":"Taxi Driver",
             "companyName": "Taxa 4x35 Copenhagen",
             "duration": "02/2014 - 05/2020",
-            "task": "Achievements:",
-            "companyLocation": "Frederiksberg, Denmark",
-            "taskDetails": [
-                "Learnt how to deal nicely with the customers and work under stress",
-                "Improved communication skills"
-            ]
+            "companyLocation": "Frederiksberg, Denmark"
         }
     ],
     "volunteerExperience": [
@@ -62,70 +55,68 @@
             "jobTitle":"Frontend Developer",
             "companyName": "https://www.smartdeveloper.dk/",
             "duration": "11/2020 - 02/2021",
-            "task": "Tasks:",
-            "companyLocation": "Copenhagen, Denmark",
+            "task": "Opgaver:",
+            "companyLocation": "København, Denmark",
             "taskDetails": [
-                "A signle page application, developed in React",
-                "I succssfully completed it and got a deep insight of working with React.js from scratch to deployment",
-                "Making reusable components and wrote tests using React testing library"
+                "Applikation udviklet i React og arbejdede jeg fra scratch til deployment og gjort færdig i bestemt tidspunkt."
             ]
         },
         {
             "jobTitle":"Frontend Developer",
             "companyName": "https://www.mobiletilbud.dk/",
             "duration": "12/2020 - 01/2021",
-            "task": "Tasks:",
-            "companyLocation": "Copenhagen, Denmark",
+            "task": "Opgaver:",
+            "companyLocation": "København, Denmark",
             "taskDetails": [
-                "Participated developing frontend for the application using HTML and CSS"
+                "Application udviklede i Paython, HTML, CSS tilbyder service for prissammenligning mellem forskellige telecom virksomheder i Denmark. Jeg er ansvarlig om opbygger frontend for appen."
             ]
         }
     ],
     "projects": [
         {
             "duration": "Movie Catalogue (10/2020 - 10/2020)",
-            "description": "Application built in React using Star Wars API to show movies and movie characters as well as character specs. Tool used are, Javascript, React, HTML, CSS and API, Git, Github."
+            "description": "Application udviklede i React ved brug af star wars API for at vise movie & moviekarakterers specifikationer og også karakterers specs og osv."
         },
         {
             "duration": "www.seasony.dk (02/2020 - 04/2020)",
-            "description": "Seasony is a startup specializing in vertical farming with robotics. A dashboard application (https://fp-class11.herokuapp.com/dashboard) for Seasony and tools used are, JavaScript, NodeJS, React, MySql, Knex.js, Storybook, Express, Swagger, HTML and"
+            "description": "Udviklede en dashboard applikation (https://fp-class11.herokuapp.com/dashboard) for Seasony ved bruge af JavaScript, Node JS, React, MySql, Knex.js, Storybook, Express JS, Swagger, HTML og "
         },
         {
             "duration": "Meal Sharing Application (02/2020 - 02/2020)",
-            "description": "Developed a meal sharing application (https://my-meal-sharing-app.herokuapp.com), using JavaScript, HTML/CSS, MySql, Express, Git, Github, NPM, Webpack skills "
+            "description": "Udviklede en applikation (https://my-meal-sharing-app.herokuapp.com/) ved brug af tech-stack dvs. JavaScript-, Express JS, HTML / CSS, Git, Github og MySql."
         }, 
         {
             "duration": "Weather Application (11/2019 - 11/2019)",
-            "description": "Weather App where I used my technical skills in JavaScript, REST APIs, HTML and CSS"
+            "description": "Applikationen viser vejropdateringer ved hjælp af openweathermap API. Og de anvendte teknologier er JavaScript, REST API'er, HTML og CSS"
         }    
     ],
     "education": [
         { 
-            "jobTitle":"Full Stack Developer Program",
+            "jobTitle":"Full Stack Webudvikling",
             "companyName": "Hack Your Future-Copenhagen",
             "duration": "08/2019 - 04/2020",
-            "task": "Courses:",
-            "companyLocation": "Copenhagen, Denmark",
+            "companyLocation": "København, Denmark",
+            "task": "Fag:",
             "taskDetails": [
                 "Javascript, React, Nodejs, HTML, CSS, mySql"
             ]
         },
         {
-            "jobTitle":"Masters in Computer Systems Engineering",
+            "jobTitle":"Kandidat i Datateknologi",
             "companyName": "Halmstad University",
             "duration": "01/2008 - 03/2010",
-            "task": "Courses:",
-            "companyLocation": "Halmstad, Sweden",
+            "companyLocation": "Halmstad, Sverige",
+            "task": "Fag:",
             "taskDetails": [
                 "Advanced Routing, Multilayer Switching"
             ]
         },
         {
-            "jobTitle":"Bachelor in Computer Science",
+            "jobTitle":"Bachelor i Datalogi",
             "companyName": "AIOU University Islamabad",
             "duration": "09/2000 - 03/2005",
-            "task": "Courses:",
             "companyLocation": "Islamabad, Pakistan",
+            "task": "Fag:",
             "taskDetails": [
                 "C++, Java, Visual C++, Oracle SQL, VBasic"
             ]
@@ -138,26 +129,26 @@
     ],
     "certificates": [
         {
-            "duration": "Microsoft Certified Professional, MCP ID: 8074395",
-            "description": "MCSE, MCSA, MCP and MCTS (windows 2007)"
+            "duration": "Microsoft Certificeret Professional, MCP ID: 8074395 (01/2011 - 04/2012)",
+            "description": "MCSE, MCSA, MCP og MCTS (windows 2007)"
         },
         {
-            "duration": "Cisco Academic Certifications (2008)",
-            "description": "CCNP (Cisco Certified Network Professional) & CCNA (Cisco Certified Network Associate)"
+            "duration": "CCNA og CCNP (Akademiske) (09/2008 - 03/2009)",
+            "description": "CCNP (Cisco Certificeret Netværk Professional) & CCNA (Cisco Certificeret Netværk Associate)"
         }        
     ],
     "languages": [
         {
-            "language": "English",
-            "level": "Full Professional Proficiency"
+            "language": "Englsk",
+            "level": "Fuld faglig dygtighed"
         },
         {
-            "language": "Danish",
-            "level": "Professional Working Proficiency"
+            "language": "Dansk",
+            "level": "Professionel praktisk færdighed"
         }, 
         {
             "language": "Urdu",
-            "level": "Native or Bilingual Proficiency"
+            "level": "Modersmåls-eller tosprogsfærdighed"
         }        
     ],
     "references": [
