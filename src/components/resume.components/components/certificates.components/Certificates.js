@@ -2,7 +2,8 @@ import React from 'react';
 import CertificateCard from './CertificateCard';
 import './certificates.styles.css';
 
-import certificatesData from '../../../../assets/resume_eng.json';
+// import certificatesData from '../../../../assets/resume_eng.json';
+import certificatesData from '../../../../assets/resume_dk.json';
 
 
 // const certificateData = [
