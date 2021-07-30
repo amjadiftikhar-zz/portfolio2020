@@ -1,7 +1,10 @@
 import React from 'react';
 import ExperienceCard from './ExperienceCard';
 import './workExperience.styles.css';
-import educationData from '../../../../assets/resume_eng.json';
+// import educationData from '../../../../assets/resume_eng.json';
+import educationData from '../../../../assets/resume_dk.json';
+
+
 
 
 // export const educationData = [
