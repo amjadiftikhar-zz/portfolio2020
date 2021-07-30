@@ -13,8 +13,12 @@ const Profile = () => {
         <div className='profileImageSection'>
             <img className='profilePicture' src={profilePic} alt="" />
             <div className='contactDetails'> 
-                <span><IoIosMail className="contactIcons" />amjadiftikhar_99@hotmail.com</span>
-                <span><GoDeviceMobile className="contactIcons"/>+4552920945</span>
+                <span><IoIosMail className="contactIcons" />
+                    amjadiftikhar_99@hotmail.com
+                </span>
+                <span><GoDeviceMobile className="contactIcons"/>
+                    +4552920945
+                </span>
                 <span><DiWebplatform className="contactIcons"/>
                     <a  target="_blank" rel="noopener noreferrer" 
                         href="https://amjadiftikhar.netlify.app/">
