@@ -42,7 +42,7 @@ const ExperienceCard = (props) => {
                 </div>
                 <div className="taskDetails">
                     <ul className="taskDescription">
-                        {props.data.map((td, index) => {
+                        {props.data && props.data.map((td, index) => {
                             return(
                                 <TaskDescription
                                     key={index}
