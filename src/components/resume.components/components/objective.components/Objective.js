@@ -2,8 +2,8 @@ import React from 'react';
 // import Title1 from './titles.components/Title1';
 import './objective.styles.css';
 import ObjectiveCard from './ObjectiveCard';
-// import objectiveData from '../../../../assets/resume_eng.json';
-import objectiveData from '../../../../assets/resume_dk.json';
+import objectiveData from '../../../../assets/resume_eng.json';
+// import objectiveData from '../../../../assets/resume_dk.json';
 
 
 // const objectiveData = [
