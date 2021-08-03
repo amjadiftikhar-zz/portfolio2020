@@ -1,4 +1,7 @@
 {
+    "danish": {
+        "hello":"hej"
+    },
     "sectionTitles": [
         "Erhvervserfaring", "Frivilligt Arbejde", "Projeckter", "Uddannelse", "Kompetencer", "Certificeringer", "Sprog", "Referencer"
     ],
