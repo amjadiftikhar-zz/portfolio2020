@@ -4,7 +4,15 @@ import {FaGraduationCap, FaCertificate} from "react-icons/fa";
 import Style from "./education.style";
 import Resume from '../resume.components/Resume';
 
+// import { useTranslation } from 'react-i18next';
+
 const Education = () => {
+
+    // const {i18n} = useTranslation()
+
+    // const changeLanguage = (language) => {
+    //     i18n.changeLanguage(language)
+    // }
     
     return (
         <Style>
@@ -94,6 +102,8 @@ const Education = () => {
             </div>
 
             {/* Resume component imported here */}
+            {/* <button onClick={() => changeLanguage('en')}>En</button>
+            <button onClick={() => changeLanguage('dk')}>Dk</button> */}
             <Resume/>
 
         </Container>
