@@ -14,19 +14,25 @@ import objectiveData from '../../../../assets/resume_eng.json';
 //     }
 // ]
 
+import { useTranslation } from 'react-i18next';
+
 
 const Objective = () => {
+
+
+    const {t, i18n} = useTranslation();
 
     return (
         <div className="objectiveSection">
             {/* <Title1 title='Amjad Iftikhar' /> */}
-            {objectiveData.objective.map((o, index) => {
+            <h2>{t('danish.hello')} </h2>
+            {t('objectiveData.objective]') && objectiveData.objective.map((o, index) => {
                 return(
                     <ObjectiveCard
                         key={index}
                         myName={o.name}
                         jobTitle={o.jobTitle}
-                        objective={o.objective}
+                        objective={t(`${o.objective}`)}
                     />
                 )
             })}
