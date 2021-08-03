@@ -1,7 +1,11 @@
 import React from 'react';
 import './objective.styles.css';
 
+import { useTranslation } from 'react-i18next';
+
 const ObjectiveCard = (props) => {
+    
+    // const {t, i18n} = useTranslation();
 
     return (
         <div className="objectiveCard">
