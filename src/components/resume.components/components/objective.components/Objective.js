@@ -6,14 +6,6 @@ import objectiveData from '../../../../assets/resume_eng.json';
 // import objectiveData from '../../../../assets/resume_dk.json';
 
 
-// const objectiveData = [
-//     {
-//         name: 'Amjad Iftikhar',
-//         jobTitle: 'Frontend Developer',
-//         objective: 'Curious and talented developer with a flair for creating elegant solutions in the least amount of time and have passion for responsive website design as well as a firm believer in the mobile-first approach. Have contributed in different projects to learn new development techniques and very passionate about new fields in the domain of tech and.'
-//     }
-// ]
-
 import { useTranslation } from 'react-i18next';
 
 
