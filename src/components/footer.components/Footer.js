@@ -28,7 +28,7 @@ const Footer = () => {
                     <FaGithubSquare className="footerIcon" />
                 </a>
                 <a className="footerIcon" href="https://www.facebook.com/Parati4mg/"
-                    target='_blank'
+                    rel="noopener noreferrer" target='_blank'
                 >
                     <FaFacebookSquare className="footerIcon"/>
                 </a>
