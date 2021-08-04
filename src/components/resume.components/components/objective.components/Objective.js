@@ -17,8 +17,8 @@ const Objective = () => {
     return (
         <div className="objectiveSection">
             {/* <Title1 title='Amjad Iftikhar' /> */}
-            <h2>{t('danish.hello')} </h2>
-            {t('objectiveData.objective]') && objectiveData.objective.map((o, index) => {
+            {/* <h2>{t('danish.hello')}</h2> */}
+            { objectiveData.objective.map((o, index) => {
                 return(
                     <ObjectiveCard
                         key={index}
