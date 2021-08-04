@@ -33,7 +33,7 @@ const Footer = () => {
                     <FaFacebookSquare className="footerIcon"/>
                 </a>
                 <a className="footerIcon" href="https://twitter.com/parati_4mg"
-                    target='_blank'
+                    rel="noopener noreferrer" target='_blank'
                 >
                     <FaTwitterSquare className="footerIcon"/>
                 </a>
