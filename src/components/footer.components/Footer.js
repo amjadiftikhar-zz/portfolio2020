@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="socialMediaLinks">
                 <a className="footerIcon" 
                     href="https://www.linkedin.com/in/amjad-iftikhar-545aa331/"
-                    target='_blank'
+                    rel="noopener noreferrer" target='_blank'
                 >
                     <FaLinkedin className="footerIcon" />
                 </a>
