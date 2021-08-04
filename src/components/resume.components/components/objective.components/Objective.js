@@ -16,7 +16,6 @@ const Objective = () => {
 
     return (
         <div className="objectiveSection">
-            {/* <Title1 title='Amjad Iftikhar' /> */}
             {/* <h2>{t('danish.hello')}</h2> */}
             { objectiveData.objective.map((o, index) => {
                 return(
