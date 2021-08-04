@@ -23,7 +23,7 @@ const Footer = () => {
                     <FaLinkedin className="footerIcon" />
                 </a>
                 <a className="footerIcon" href="https://github.com/amjadiftikhar"
-                    target='_blank'
+                    rel="noopener noreferrer" target='_blank'
                 >
                     <FaGithubSquare className="footerIcon" />
                 </a>
