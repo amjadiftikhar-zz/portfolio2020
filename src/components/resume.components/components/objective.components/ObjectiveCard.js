@@ -7,7 +7,6 @@ const ObjectiveCard = (props) => {
 
     return (
         <div className="objectiveCard">
-            {/* <Title1 title='Amjad Iftikhar' /> */}
             <h1 className="cvTitle"> {props.myName} </h1>
             <h3 className="cvJobTitle"> {props.jobTitle} </h3>
             <p className='objectiveText'>
