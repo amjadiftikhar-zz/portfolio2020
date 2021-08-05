@@ -13,7 +13,6 @@ import educationData from '../../../../assets/resume_eng.json';
 //         companyName: 'Hack Your Future-Copenhagen',
 //         duration: '08/2019 - 04/2020',
 //         task: 'Courses:',
-//         companyLocation: 'Copenhagen, Denmark',
 //         taskDetails: [
 //             'Javascript, React, Nodejs, HTML, CSS, mySql',
 //         ]
