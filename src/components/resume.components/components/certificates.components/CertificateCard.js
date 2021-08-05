@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './certificates.styles.css';
 
 const CertificateCard = (props) => {
