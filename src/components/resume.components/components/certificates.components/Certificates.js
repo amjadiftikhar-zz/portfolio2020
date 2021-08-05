@@ -7,9 +7,6 @@ import certificatesData from '../../../../assets/resume_eng.json';
 
 
 // const certificateData = [
-//     {
-//         duration: 'Microsoft Certified Professional, MCP ID: 8074395',
-//         description: 'MCSE, MCSA, MCP and MCTS (windows 2007)'
 //     },
 //     {
 //         duration: 'Cisco Academic Certifications (2008)',
