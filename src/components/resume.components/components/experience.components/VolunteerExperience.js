@@ -7,7 +7,6 @@ import volunteerExperienceData from '../../../../assets/resume_eng.json';
 
 // export const volunteerExperienceData = [
 //     { 
-//         jobTitle:'Frontend Developer',
 //         companyName: 'https://www.smartdeveloper.dk/',
 //         duration: '11/2020 - 02/2021',
 //         task: 'Tasks:',
