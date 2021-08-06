@@ -13,7 +13,7 @@ const ObjectiveCard = (props) => {
                {props.objective}
             </p>
         </div>
-    )
+    );
 }
 
 export default ObjectiveCard
