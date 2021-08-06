@@ -8,7 +8,6 @@ import projectsData from '../../../../assets/resume_eng.json';
 
 // const projectData = [
 //     {
-//         description: 'Application built in React using Star Wars API to show movies and movie characters as well as character specs. Tool used are, Javascript, React, HTML, CSS and API, Git, Github.'
 //     },
 //     {
 //         duration: 'www.seasony.dk (02/2020 - 04/2020)',
