@@ -51,7 +51,6 @@ const ExperienceCard = (props) => {
                             )
                         })}
                         {/* <li>
-                            Responsible for the frontend tasks related to building a 
                             platform that hosts different tools for R & D
                         </li>
                         <li>
