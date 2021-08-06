@@ -13,7 +13,6 @@ import experienceData from '../../../../assets/resume_eng.json';
 //         companyName: 'Molecular Quantum Solutions',
 //         duration: '01/2021 - Present',
 //         task: 'Tasks:',
-//         companyLocation: 'Søborg, Denmark',
 //         taskDetails: [
 //             'Responsible for the frontend tasks related to building a platform that hosts different tools for R & D',
 //             ' Planning and setting up frontend architecture, diagnosing, troubleshooting and resolving technical issues',
