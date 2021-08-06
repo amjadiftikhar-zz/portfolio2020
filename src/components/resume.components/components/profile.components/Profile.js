@@ -1,8 +1,8 @@
 import React from 'react';
-import profilePic from "../../../../images/profilePic.png";
 import {IoIosMail} from "react-icons/io";
 import {GoDeviceMobile} from "react-icons/go";
 import {DiWebplatform} from "react-icons/di";
+import profilePic from "../../../../images/profilePic.png";
 
 import './profile.styles.css';
 
