@@ -9,7 +9,6 @@ import certificatesData from '../../../../assets/resume_eng.json';
 // const certificateData = [
 //     },
 //     {
-//         duration: 'Cisco Academic Certifications (2008)',
 //         description: 'CCNP (Cisco Certified Network Professional) & CCNA (Cisco Certified Network Associate)'
 //     }        
 // ]
