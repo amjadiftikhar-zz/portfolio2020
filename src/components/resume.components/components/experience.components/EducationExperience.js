@@ -14,7 +14,6 @@ import educationData from '../../../../assets/resume_eng.json';
 //         duration: '08/2019 - 04/2020',
 //         task: 'Courses:',
 //         taskDetails: [
-//             'Javascript, React, Nodejs, HTML, CSS, mySql',
 //         ]
 //     },
 //     {
