@@ -7,7 +7,6 @@ import './references.styles.css';
 
 // const referenceData = [
 //     {
-//         reference: 'Mark Nicholas Jones (CEO MQS )',
 //         email: 'mark@mqs.dk '
 //     },
 //     {
