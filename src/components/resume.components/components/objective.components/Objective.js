@@ -31,7 +31,6 @@ const Objective = () => {
             {/* </Trans> */}
             {/*
             <p className='objectiveText'>
-                Curious and talented developer with a flair for creating elegant 
                 website design as well as a firm believer in the mobile-first approach. 
                 Have contributed in different projects to learn new development techniques 
                 and very passionate about new fields in the domain of tech and development.
