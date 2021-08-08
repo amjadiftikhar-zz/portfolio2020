@@ -6,27 +6,29 @@ import objectiveData from '../../../../assets/resume_eng.json';
 // import objectiveData from '../../../../assets/resume_dk.json';
 
 
-import { useTranslation } from 'react-i18next';
+// import { useTranslation, Trans, withTranslation } from 'react-i18next';
 
 
 const Objective = () => {
 
 
-    const {t, i18n} = useTranslation();
+    // const {t, i18n} = useTranslation('myNamespace');
 
     return (
         <div className="objectiveSection">
             {/* <h2>{t('danish.hello')}</h2> */}
-            { objectiveData.objective.map((o, index) => {
-                return(
-                    <ObjectiveCard
-                        key={index}
-                        myName={o.name}
-                        jobTitle={o.jobTitle}
-                        objective={t(`${o.objective}`)}
-                    />
-                )
-            })}
+            {/* <Trans t={t}> */}
+                { objectiveData.objective.map((o, index) => {
+                    return(
+                        <ObjectiveCard
+                            key={index}
+                            myName={o.name}
+                            jobTitle={o.jobTitle}
+                            objective={o.objective}
+                        />
+                    )
+                })}
+            {/* </Trans> */}
             {/*
             <p className='objectiveText'>
                 Curious and talented developer with a flair for creating elegant 
@@ -38,4 +40,6 @@ const Objective = () => {
     )
 }
 
+// export default withTranslation() (Objective);
 export default Objective;
+
