@@ -36,7 +36,7 @@ const Resume = () => {
                 <EducationExperience/>
             </div>
         </div>
-    )
+    );
 }
 
 export default Resume;
