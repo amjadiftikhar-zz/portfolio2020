@@ -6,7 +6,6 @@ import profilePic from "../../../../images/profilePic.png";
 
 import './profile.styles.css';
 
-
 const Profile = () => {
 
     return (
