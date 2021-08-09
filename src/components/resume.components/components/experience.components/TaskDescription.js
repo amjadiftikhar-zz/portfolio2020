@@ -16,7 +16,7 @@ const TaskDescription = (props) => {
                     troubleshooting and resolving technical issues
                 </li>
                 <li>
-                    Developing design and collaboration with the design team
+                    Developing desi and collaboration with the design team
                 </li>
                 <li>
                 </li> */}
