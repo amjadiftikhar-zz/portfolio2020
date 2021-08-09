@@ -10,7 +10,7 @@ import './references.styles.css';
 //         email: 'mark@mqs.dk '
 //     },
 //     {
-//         reference: 'Rahim Ismaili (Developer at Dwarf)',
+//         reference: 'Rahim Ismaili t Dwarf)',
 //         email: 'ismailirahim6@gmail.com'
 //     },       
 // ]
