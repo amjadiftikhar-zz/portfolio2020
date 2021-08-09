@@ -51,7 +51,7 @@ const ExperienceCard = (props) => {
                             )
                         })}
                         {/* <li>
-                            platform that hosts different tools for R & D
+                            platform tsts different tools for R & D
                         </li>
                         <li>
                             Planning and setting up frontend architecture, diagnosing, 
