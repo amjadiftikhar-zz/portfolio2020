@@ -9,7 +9,7 @@ import experienceData from '../../../../assets/resume_eng.json';
 
 // export const experienceData = [
 //     { 
-//         jobTitle:'Frontend Developer',
+//         jobTitle:ontend Developer',
 //         companyName: 'Molecular Quantum Solutions',
 //         duration: '01/2021 - Present',
 //         task: 'Tasks:',
