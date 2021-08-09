@@ -17,7 +17,7 @@ import educationData from '../../../../assets/resume_eng.json';
 //         ]
 //     },
 //     {
-//         jobTitle:'Mrs in Computer Systems Engineering',
+//         jobTitle:'Mrs in Cter Systems Engineering',
 //         companyName: 'Halmstad University',
 //         duration: '01/2008 - 03/2010',
 //         task: 'Courses:',
