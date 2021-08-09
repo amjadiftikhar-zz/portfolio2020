@@ -9,7 +9,7 @@ import certificatesData from '../../../../assets/resume_eng.json';
 // const certificateData = [
 //     },
 //     {
-//         description: 'CCNP (Cisco Certified Network Professional) & CCNA (Cisco Certified Network Associate)'
+//         description: 'CCNP (Cisco Cerd Network Professional) & CCNA (Cisco Certified Network Associate)'
 //     }        
 // ]
 
