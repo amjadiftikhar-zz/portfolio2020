@@ -1,8 +1,8 @@
 import React from 'react'
 import CVProjectCard from './CVProjectCard';
 import "./cvProjects.styles.css";
-import projectsData from '../../../../assets/resume_eng.json';
-// import projectsData from '../../../../assets/resume_dk.json';
+// import projectsData from '../../../../assets/resume_eng.json';
+import projectsData from '../../../../assets/resume_dk.json';
 
 
 
