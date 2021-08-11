@@ -1,7 +1,8 @@
 import React from 'react';
 import LanguageCard from '../language.components/LanguageCard';
-import referenceData from '../../../../assets/resume_eng.json';
-// import referenceData from '../../../../assets/resume_dk.json';
+
+// import referenceData from '../../../../assets/resume_eng.json';
+import referenceData from '../../../../assets/resume_dk.json';
 
 import './references.styles.css';
 
