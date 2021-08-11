@@ -2,14 +2,19 @@ import React from 'react';
 // import Title1 from './titles.components/Title1';
 import './objective.styles.css';
 import ObjectiveCard from './ObjectiveCard';
-import objectiveData from '../../../../assets/resume_eng.json';
-// import objectiveData from '../../../../assets/resume_dk.json';
+// import objectiveData from '../../../../assets/resume_eng.json';
+import objectiveData from '../../../../assets/resume_dk.json';
+
+import axios from 'axios';
 
 
 // import { useTranslation, Trans, withTranslation } from 'react-i18next';
 
 
 const Objective = () => {
+
+    axios.get("http://localhost:3000/data")
+        .then(response =>  {console.log('hello', response)})
 
 
     // const {t, i18n} = useTranslation('myNamespace');
