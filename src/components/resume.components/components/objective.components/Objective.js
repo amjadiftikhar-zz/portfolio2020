@@ -32,7 +32,7 @@ const Objective = () => {
             {/* </Trans> */}
             {/*
             <p className='objectiveText'>
-                website design as well as a firm believer in the mobile-first approach. 
+                website design as well as firm believer in the mobile-first approach. 
                 Have contributed in diferent projects to learn new development techniques 
                 and very passionate about new fields in the domain of tech and development.
             </p> */}
