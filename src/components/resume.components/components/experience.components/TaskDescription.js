@@ -12,7 +12,7 @@ const TaskDescription = (props) => {
                     platform that hosts different tools for R & D
                 </li>
                 <li>
-                    Planning and setting up frontend architecture, diagnosing, 
+                    Planning and settng up frontend architecture, diagnosing, 
                     troubleshooting and resolving technical issues
                 </li>
                 <li>
