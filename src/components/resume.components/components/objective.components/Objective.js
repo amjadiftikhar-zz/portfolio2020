@@ -5,19 +5,15 @@ import ObjectiveCard from './ObjectiveCard';
 // import objectiveData from '../../../../assets/resume_eng.json';
 import objectiveData from '../../../../assets/resume_dk.json';
 
-import axios from 'axios';
+// import axios from 'axios';
 
 
-// import { useTranslation, Trans, withTranslation } from 'react-i18next';
+import { useTranslation, Trans, withTranslation } from 'react-i18next';
 
 
 const Objective = () => {
 
-    axios.get("http://localhost:3000/data")
-        .then(response =>  {console.log('hello', response)})
-
-
-    // const {t, i18n} = useTranslation('myNamespace');
+    const {t, i18n} = useTranslation();
 
     return (
         <div className="objectiveSection">
