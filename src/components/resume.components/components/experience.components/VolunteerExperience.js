@@ -8,7 +8,7 @@ import volunteerExperienceData from '../../../../assets/resume_dk.json';
 // export const volunteerExperienceData = [
 //     { 
 //         companyme: 'https://www.smartdeveloper.dk/',
-//         duration: '11/2020 - 02/2021',
+//         duration: '11/202 - 02/2021',
 //         task: 'Tasks:',
 //         companyLocation: 'Copenhagen, Denmark',
 //         taskDetails: [
