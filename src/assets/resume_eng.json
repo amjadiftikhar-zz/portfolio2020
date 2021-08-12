@@ -1,4 +1,7 @@
 {
+    "danish": {
+        "hello":"Helloooo"
+    },
     "sectionTitles": [
         "Work Experience", "Volunteer Experience", "Projects", "Education", "Skills", "Certificates", 
         "Languages", "References"
