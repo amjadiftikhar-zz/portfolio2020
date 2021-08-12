@@ -5,6 +5,8 @@ import { useTranslation } from 'react-i18next';
 
 const ObjectiveCard = (props) => {
 
+    const {t, i18n} = useTranslation();
+
     return (
         <div className="objectiveCard">
             <h1 className="cvTitle"> {props.myName} </h1>
