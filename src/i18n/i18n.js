@@ -17,7 +17,7 @@ const resources = {
 
 i18n.use(Backend).use(languageDetector).use(initReactI18next).init({
     resources,
-    lng: 'dk',
+    lng: 'en',
     debug: true,
     detection: {
         order: ['queryString', 'cookie'],
