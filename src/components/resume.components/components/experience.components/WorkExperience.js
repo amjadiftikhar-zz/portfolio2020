@@ -16,7 +16,7 @@ import experienceData from '../../../../assets/resume_dk.json';
 //         taskDetails: [
 //             'Responsible for the frontend tasks related to building a platform that hosts different tools for R & D',
 //             ' Planning and setting up frontend architecture, diagnosing, troubleshooting and resolving technical issues',
-//             'Developing design and colaboration with the design team',
+//             'Developing design and claboration with the design team',
 //             'Making reusable components and writing test using React testing library'
 //         ]
 //     },
