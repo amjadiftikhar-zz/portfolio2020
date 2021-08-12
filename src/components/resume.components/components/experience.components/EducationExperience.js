@@ -10,7 +10,7 @@ import educationData from '../../../../assets/resume_dk.json';
 // export const educationData = [
 //     { 
 //         jobTitle:'Full Stack Developer Program',
-//         companyName: 'Hack Your Future-Copenhagen',
+//         companyName: 'Hck Your Future-Copenhagen',
 //         duration: '08/2019 - 04/2020',
 //         task: 'Courses:',
 //         taskDetails: [
