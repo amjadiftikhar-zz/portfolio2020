@@ -2,8 +2,8 @@ import React from 'react';
 import ExperienceCard from './ExperienceCard';
 import TaskDescription from './TaskDescription';
 import './workExperience.styles.css';
-// import experienceData from '../../../../assets/resume_eng.json';
-import experienceData from '../../../../assets/resume_dk.json';
+import experienceData from '../../../../assets/resume_eng.json';
+// import experienceData from '../../../../assets/resume_dk.json';
 
 
 
