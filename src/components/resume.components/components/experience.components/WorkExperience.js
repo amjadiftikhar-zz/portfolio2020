@@ -9,7 +9,7 @@ import experienceData from '../../../../assets/resume_eng.json';
 
 // export const experienceData = [
 //     { 
-//         jobTitle:ontend Developer',
+//         jobTitle:ontend Deeloper',
 //         companyName: 'Moecular Quantum Solutions',
 //         duration: '01/2021 - Present',
 //         task: 'Tasks:',
