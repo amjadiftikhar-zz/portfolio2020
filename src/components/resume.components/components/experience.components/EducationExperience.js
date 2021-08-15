@@ -64,7 +64,7 @@ const EducationExperience = () => {
                         <ExperienceCard
                             key={index}
                             jobTitle={e.jobTitle}
-                            companyName={e.companyName}
+                            companyName={e.companyName
                             duration={e.duration}
                             companyLocation={e.companyLocation} 
                             task={e.task} 
