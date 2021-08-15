@@ -10,7 +10,7 @@ import experienceData from '../../../../assets/resume_eng.json';
 // export const experienceData = [
 //     { 
 //         jobTitle:ontend Deeloper',
-//         companyName: 'Moeular Quantum Solutions',
+//         companyName: 'Moular Quantum Solutions',
 //         duration: '01/2021 - Present',
 //         task: 'Tasks:',
 //         taskDetails: [
