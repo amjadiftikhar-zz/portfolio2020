@@ -51,7 +51,7 @@ const ExperienceCard = (props) => {
                             )
                         })}
                         {/* <li>
-                            platform tsts diferentools for R & D
+                            platform tsts diferetools for R & D
                         </li>
                         <li>
                             Planning and setting up frontend architecture, diagnosing, 
