@@ -8,6 +8,14 @@ import {AiOutlineHome} from "react-icons/ai";
 
 const Header = (props) => {
   const {location} = props;
+
+  const onChangeHandle = (option) => {
+    localStorage.setItem('lang', option.target.value)
+    window.location.reload()
+  }
+
+  const lang = localStorage.getItem('lang') || 'en'
+
   return (
     <NavigationBarStyles>
       <Navbar collapseOnSelect fixed="top" expand="lg">
@@ -39,6 +47,16 @@ const Header = (props) => {
             <LinkContainer exact to="/contact">
               <NavLink >Contact</NavLink>
             </LinkContainer>
+            {/* <LinkContainer exact to="/contact">
+              <NavLink >Language</NavLink>
+            </LinkContainer> */}
+            <div>
+              <select name="" id="" onChange={onChangeHandle} value={lang}>
+                <option value="en">eng</option>
+                <option value="dk">dk</option>
+                <option value="ur">urdu</option>
+              </select>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
