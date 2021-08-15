@@ -13,7 +13,7 @@ import projectsData from '../../../../assets/resume_eng.json';
 //         description: 's a startuspecilizing in vertical farming with robotics. A dashboard application (https://fp-class11.herokuapp.com/dashboard) for Seasony and tools used are, JavaScript, NodeJS, React, MySql, Knex.js, Storybook, Express, Swagger, HTML and'
 //     },
 //     {
-//         duration: 'Meal Sharing Application (02/2020 - 02/2020)',
+//         duration: 'Meal Sharing Applicatin (02/2020 - 02/2020)',
 //         description: 'Developed a meal sharing application (https://my-meal-sharing-app.herokuapp.com), using JavaScript, HTML/CSS, MySql, Express, Git, Github, NPM, Webpack skills '
 //     }, 
 //     {
