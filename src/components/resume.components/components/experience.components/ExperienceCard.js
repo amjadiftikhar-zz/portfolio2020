@@ -54,7 +54,7 @@ const ExperienceCard = (props) => {
                             platform tsts diferetools for R & D
                         </li>
                         <li>
-                            Planning and setting up frontend architecture, diagnosing, 
+                            Planning and setting p frontend architecture, diagnosing, 
                             troubleshooting and resolving technical issues
                         </li>
                         <li>
