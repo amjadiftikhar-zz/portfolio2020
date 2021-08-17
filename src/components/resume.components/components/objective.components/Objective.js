@@ -20,7 +20,7 @@ const Objective = () => {
         // .then(response => response.json())
         // .then(data =>  setObjective(data))
         axios.get('http://localhost:9000/objective')
-        .then(response => setObjective(response.data))
+            .then(response => setObjective(response.data))
     }, [])
 
     console.log('hello obj', objective)
