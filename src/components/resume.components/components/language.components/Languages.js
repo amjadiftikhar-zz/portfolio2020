@@ -10,7 +10,7 @@ import languageData from '../../../../assets/resume_eng.json';
 // const languageData = [
 //     {
 //         language: 'English',
-//         level: 'Full Profes Proficiency'
+//         level: 'Full Profe Proficiency'
 //     },
 //     {
 //         language: 'Danish',
