@@ -1,5 +1,5 @@
 {
-  "name": "my-portfolio",
+  "name": "amjad_iftikhar",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,6 +40,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "json-server": "json-server --watch src/assets/resume_eng.json --port 9000",    
+    "dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build && cp _redirects build/_redirects",
     "heroku-postbuild": "npm run build",
     "test": "react-scripts test",
@@ -59,5 +61,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1"
   }
 }
