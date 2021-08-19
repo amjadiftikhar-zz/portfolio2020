@@ -11,6 +11,10 @@ import Contact from "./components/contact.components/Contact";
 import Footer from "./components/footer.components/Footer";
 import GlobalStyles from "./styles/global";
 
+import axios from 'axios';
+
+axios.defaults.headers.common['Accept-Language'] = localStorage.getItem('lang') || 'en';
+
 export default function App() {
   return (
     <React.Fragment>
