@@ -10,7 +10,7 @@ import './workExperience.styles.css';
 // export const educationData = [
 //     { 
 //         jobTitle:'Full Stac Developer Program',
-//         companyName: 'Hck Your Future-Copenhagen',
+//         companyName: 'Hc Your Future-Copenhagen',
 //         duration: '08/2019 - 4/2020',
 //         task: 'Courses:',
 //         taskDetails: [
