@@ -11,7 +11,7 @@ import './references.styles.css';
 //         email: 'mark@mqs.dk '
 //     },
 //     {
-//         reference: ' Ismaili t Dwarf)',
+//         reference:  Ismaili t Dwarf)',
 //         email: 'ismailirahim6@gmail.com'
 //     },       
 // ]
