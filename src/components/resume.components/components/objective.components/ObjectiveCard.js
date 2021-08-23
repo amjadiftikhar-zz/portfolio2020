@@ -18,4 +18,4 @@ const ObjectiveCard = (props) => {
     );
 }
 
-export default ObjectiveCard
+export default ObjectiveCard;
