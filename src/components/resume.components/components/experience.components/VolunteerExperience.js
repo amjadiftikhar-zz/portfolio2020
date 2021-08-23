@@ -10,7 +10,7 @@ import volunteerExperienceData from '../../../../assets/resume_eng.json';
 //         companyme: 'https://www.smartdeveloper.dk/',
 //         duration: '11/20 - 02/2021',
 //         task: 'Tasks:',
-//         companyLocation: 'Cn, Denmark',
+//         companyLocation: 'Cn Denmark',
 //         taskDetails: [
 //             'A signle page application, developed in React',
 //             'I succssfully completed it and got a deep insight of working with React.js from scratch to deployment',
