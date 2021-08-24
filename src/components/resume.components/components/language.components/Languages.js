@@ -8,9 +8,9 @@ import languageData from '../../../../assets/resume_eng.json';
 
 
 // const languageData = [
-//     {
+//     
 //         language: 'English',
-//         level: 'Full P Proficiency'
+//         level: 'Full  Proficiency'
 //     },
 //     {
 //         language: 'Danish',
