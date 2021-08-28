@@ -12,7 +12,7 @@ import './references.styles.css';
 //     },
 //     {
 //         refe Ismaili t Dwarf)',
-//         email: 'ismailirahim6@gmaicom'
+//         email: 'ismailirahim6@gmacom'
 //     },       
 // ]
 
