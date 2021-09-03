@@ -47,7 +47,7 @@ const Objective = () => {
             {/* </Trans> */}
             {/*
             <p className='objectiveText'>
-                webs as firm believer in the mobile-first approach. 
+                web as firm believer in the mobile-first approach. 
                 Have contributed in diferent projets to learn new development techniques 
                 and very passionate about new fields in the domain of tech and development.
             </p> */}
