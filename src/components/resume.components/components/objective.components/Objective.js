@@ -1,4 +1,51 @@
 import React, {useEffect, useState} from 'react';
+import ObjectiveCard from './ObjectiveCard';
+// import objectiveData from '../../../../assets/resume_eng.json'; 
+// import objectiveData from '../../../../assets/resume_dk.json';
+import axios from 'axios';
+
+const Objective = () => {
+
+    const [objective, setObjective] = useState(null)
+
+    useEffect(() => {
+        axios.get('http://localhost:9000/objective')
+            .then(response => setObjective(response.data))
+    }, [])   
+
+    return (
+        <div className="objectiveSection">
+                {objective && objective.map((o, index) => {
+                    return(
+                        <ObjectiveCard
+                            key={index}
+                            myName={o.name}
+                            jobTitle={o.jobTitle}
+                            objective={o.objective}
+                        />
+                    )
+                })}
+        </div>
+    )
+}
+
+export default Objective;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import React, {useEffect, useState} from 'react';
 // import Title1 from './titles.components/Title1';
 import './objective.styles.css';
 import ObjectiveCard from './ObjectiveCard';
