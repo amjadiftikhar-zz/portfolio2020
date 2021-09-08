@@ -1,51 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import ObjectiveCard from './ObjectiveCard';
-// import objectiveData from '../../../../assets/resume_eng.json'; 
-// import objectiveData from '../../../../assets/resume_dk.json';
-import axios from 'axios';
-
-const Objective = () => {
-
-    const [objective, setObjective] = useState(null)
-
-    useEffect(() => {
-        axios.get('http://localhost:9000/objective')
-            .then(response => setObjective(response.data))
-    }, [])   
-
-    return (
-        <div className="objectiveSection">
-                {objective && objective.map((o, index) => {
-                    return(
-                        <ObjectiveCard
-                            key={index}
-                            myName={o.name}
-                            jobTitle={o.jobTitle}
-                            objective={o.objective}
-                        />
-                    )
-                })}
-        </div>
-    )
-}
-
-export default Objective;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-import React, {useEffect, useState} from 'react';
 // import Title1 from './titles.components/Title1';
 import './objective.styles.css';
 import ObjectiveCard from './ObjectiveCard';
@@ -95,7 +48,7 @@ const Objective = () => {
             {/*
             <p className='objectiveText'>
                  firm believer in the mobile-first approach. 
-                Have contributed in diferent projets to learn new development techniques 
+                Have contributed in iferent projets to learn new development techniques 
                 and very passionate about new fields in the domain of tech and development.
             </p> */}
         </div>
