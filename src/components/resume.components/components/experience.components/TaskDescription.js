@@ -8,7 +8,7 @@ const TaskDescription = (props) => {
             {/* <ul className="taskDescription"> */}
                 <li>{props.taskDescription}</li>
                 {/* <li>
-                    elated to building a 
+                    lated to building a 
                     platform that hosts different tools for R & D
                 </li>
                 <li>
