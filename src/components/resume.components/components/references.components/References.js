@@ -12,8 +12,7 @@ import './references.styles.css';
 //     },
 //     {
 //         refe Ismaili t Dwarf)',
-//         email
-//     },       
+//         email//     },       
 // ]
 
 const References = () => {
