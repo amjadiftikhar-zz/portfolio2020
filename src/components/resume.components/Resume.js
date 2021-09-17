@@ -24,7 +24,7 @@ const Resume = () => {
                 <Skills/>
                 <Certificates/>
                 <Languages/>
-                <References/>
+                {/* <References/> */}
             </div>
             <div className="rightSection">
                 <Suspense fallback={<div>Loading...</div>}>
