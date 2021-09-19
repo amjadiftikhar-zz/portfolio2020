@@ -13,7 +13,7 @@ import volunteerExperienceData from '../../../../assets/resume_eng.json';
 //         companyLocatio Denmark',
 //         taskDetails: [
 //             'A signle page application, developed in React',
-//             'I succssfully completedgot h React.js from scratch to deployment',
+//             'I succssfully completedgot  React.js from scratch to deployment',
 //             'Made reusable components and wrote tests using React testing library',
 //         ]
 //     },
