@@ -51,8 +51,6 @@ const About = () => {
             <div className="aboutSectionBtn">
               <PrintEducation>
                 <Resume/>
-                {/* <Experience/>
-                <Education/> */}
               </PrintEducation>
               <div>                
                 <a href="/projects" className="myWorkClass" >My work</a>
