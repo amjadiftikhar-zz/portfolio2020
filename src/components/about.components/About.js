@@ -1,6 +1,5 @@
 import React from 'react';
 import {Container} from "react-bootstrap";
-// import aboutMeImage from "../../images/aboutMeImage.jpg";
 import aboutMeImage from "../../images/aboutMeImage.png";
 import Skills from "../../components/skills.components/Skills";
 import {BsFillInfoSquareFill} from "react-icons/bs";
