@@ -6,7 +6,6 @@ import Skills from "../../components/skills.components/Skills";
 import {BsFillInfoSquareFill} from "react-icons/bs";
 import PrintEducation from '../print.components/PrintEducation';
 // import Education from '../education.components/Education';
-// import Experience from "../experience.components/Experience";
 
 import "./about.style.css";
 import Resume from '../resume.components/Resume';
