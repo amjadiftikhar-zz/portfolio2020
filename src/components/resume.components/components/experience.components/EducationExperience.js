@@ -9,7 +9,7 @@ import './workExperience.styles.css';
 
 // export const educationData = [
 //     {         jobTitle:'Full Stac Developer Program',
-//                 duration: '019 - 4/2020',
+//                 duration: '19 - 4/2020',
 //         task: 'Courses:',
 //         taskDetails: [
 //         ]
