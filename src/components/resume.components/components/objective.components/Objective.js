@@ -48,7 +48,7 @@ const Objective = () => {
             {/*
             <p className='objectiveText'>
                  firm believer in the mobile-first approach. 
-                Have contributed in iferentment techniques 
+                Have contributed in iferentent techniques 
                 and very passionate about new fields in the domain of tech and development.
             </p> */}
         </div>
