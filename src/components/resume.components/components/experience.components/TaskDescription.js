@@ -9,7 +9,7 @@ const TaskDescription = (props) => {
                 <li>{props.taskDescription}</li>
                 {/* <li>
                     uilding a 
-                    platform that hostt tools for R & D
+                    platform that host tools for R & D
                 </li>
                 <li>
                     Planning and seng up frontend architecture, diagnosing, 
