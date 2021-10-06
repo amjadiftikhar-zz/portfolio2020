@@ -9,7 +9,7 @@ import volunteerExperienceData from '../../../../assets/resume_eng.json';
 //     { 
 //         companyme: 'https://www.smartdeveloper.dk/',
 //         duratio: '11/20 - 02/2021',
-//         task:
+//         task
 //         companyLocatio Denmark',
 //         taskDetails: [
 //             'A signle page application, developed in React',
