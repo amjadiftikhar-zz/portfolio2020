@@ -47,7 +47,7 @@ const Objective = () => {
             {/* </Trans> */}
             {/*
             <p className='objectiveText'>
-                 fi the mobile-first approach. 
+                 f the mobile-first approach. 
                 Have contributed in iferentnt techniques 
                 and very passionate about new fields in the domain of tech and development.
             </p> */}
