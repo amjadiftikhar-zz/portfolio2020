@@ -11,7 +11,7 @@ import './references.styles.css';
 //         email: 'mark@mqs.dk '
 //     },
 //     {
-//         refe Ismaili t        
+//         refe Ismaili t       
 // ]
 
 const References = () => {
