@@ -9,7 +9,7 @@ import './workExperience.styles.css';
 
 // export const educationData = [
 //     {         jobTitle:'Full Stac Developer Program',
-//                20',
+//                0',
 //         task: 'Courses:',
 //         taskDetails: [
 //         ]
