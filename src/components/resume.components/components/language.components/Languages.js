@@ -11,7 +11,7 @@ import languageData from '../../../../assets/resume_eng.json';
 //     },
 //     {
 //         language: 'Danish',
-//         level: 'Professional Working Proficiency'
+//         level: 'Professional Working Proficiency
 //     }, 
 //     {
 //         language: 'Urdu',
