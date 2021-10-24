@@ -10,7 +10,7 @@ const Education = () => {
 
     // const {i18n} = useTranslation()
 
-    //uage) => {
+    //age) => {
     //     i18n.changeLanguage(language)
     // }
     
