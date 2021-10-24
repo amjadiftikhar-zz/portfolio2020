@@ -15,7 +15,7 @@ import languageData from '../../../../assets/resume_eng.json';
 //     }, 
 //     {
 //         language: 'Urdu',
-//         level: 'Native or Bilingual Proficiency'
+//         level: 'Native or Bilingual Proficienc'
 //     }        
 // ]
 
