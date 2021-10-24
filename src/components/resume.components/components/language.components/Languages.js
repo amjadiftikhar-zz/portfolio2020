@@ -7,7 +7,7 @@ import languageData from '../../../../assets/resume_eng.json';
 
 
 
-// const languageDa    
+// const languageD    
 //     },
 //     {
 //         language: 'Danish',
