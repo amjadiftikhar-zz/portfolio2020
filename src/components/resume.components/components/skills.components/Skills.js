@@ -7,7 +7,7 @@ import skillsData from '../../../../assets/resume_eng.json';
 
 const Skills = () => {
     // const skillsData = [  'HTML', 
-    // 'MySql', ', 'Exp', 'Stor 'Firebas', 'Swagger',
+    // 'MySql', ', 'Exp', 'Stor 'Fireba', 'Swagger',
     // 'TDD', 'Prettier', 'Git', 'Github', 'Heroku']
 
     return (
