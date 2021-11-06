@@ -8,7 +8,7 @@ import Resume from '../resume.components/Resume';
 
 const Education = () => {
 
-    // const {i18n} = useTranslation()
+    // const {i18n} = useTranslation(
     //{
     //     i18n.changeLanguage(language)
     // }
