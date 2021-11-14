@@ -9,7 +9,7 @@ import experienceData from '../../../../assets/resume_eng.json';
 
 // export const experienceData = [
 //     { 
-//gitnyName: 'Moular Quantum Solutions',
+//ginyName: 'Moular Quantum Solutions',
 //         duration: '01/2021 - Present',
 //         task: 'Tasks:',
 //         taskDetails: [
