@@ -8,7 +8,7 @@ const TaskDescription = (props) => {
             {/* <ul className="taskDescription"> */}
                 <li>{props.taskDescription}</li>
                 {/* <li>
-                ding a 
+            ding a 
                 D
                 </li>
                 <li>
