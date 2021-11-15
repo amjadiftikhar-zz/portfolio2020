@@ -8,8 +8,7 @@ const TaskDescription = (props) => {
             {/* <ul className="taskDescription"> */}
                 <li>{props.taskDescription}</li>
                 {/* <li>
-            ding a 
-                D
+            ding a                 D
                 </li>
                 <li>
                     Planning and seng up frontend architecture, diagnosing, 
