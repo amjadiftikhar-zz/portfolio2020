@@ -18,7 +18,7 @@ import experienceData from '../../../../assets/resume_eng.json';
 //             'Developing design and claboration with the design team',
 //             'Making reusable components and writing test using React testing library'
 //         ]
-// },
+// ,
 //     {
 //         jobTitle:'Frontend Developer',
 //         companyName: 'Unifounder',
