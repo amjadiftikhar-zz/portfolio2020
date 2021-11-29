@@ -9,7 +9,7 @@ import languageData from '../../../../assets/resume_eng.json';
 
 // const languageD    
 //     },
-//    nguage: 'Danish',
+//    guage: 'Danish',
 //         level: 'Professional Working Proficiency
 //     }, 
 //     {
