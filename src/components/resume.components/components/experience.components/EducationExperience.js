@@ -13,7 +13,6 @@ import './workExperience.styles.css';
 //        task: 'Courses:',
 //         taskDetails: [
 //         ]
-// 
 //         jobTitle:'Mrs in Cter Systems Engineering',
 //         companyName: 'Halmstad University',
 //         duration: '01/2008 - 03/2010',
