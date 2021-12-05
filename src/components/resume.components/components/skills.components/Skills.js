@@ -8,7 +8,7 @@ import skillsData from '../../../../assets/resume_eng.json';
 const Skills = () => {
     // const skillsData = [  'HTML', 
     // 'p', 'Stor ''Swagge',
-    // 'TDD', 'Pre', 'Git', 'Github', 'Herok
+    // 'TDD', 'Pre', 'Git', 'Github', 'Hero
 
     return (
         <div className="cvSkillSection">
