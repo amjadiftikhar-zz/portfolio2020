@@ -17,7 +17,7 @@ import experienceData from '../../../../assets/resume_eng.json';
 //             ' Planning and setting up frontend architecture, diagnosing, troubleshooting and resolving technical issues',
 //             'Developing design and claboration with the design team',
 //             'Making reusable components and writing test using React testing library'
-//   
+//  
 //     {
 //         jobTitle:'Frontend Developer',
 //         companyName: 'Unifounder',
