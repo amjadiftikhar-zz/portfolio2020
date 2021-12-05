@@ -8,7 +8,7 @@ import './references.styles.css';
 
 // const referenceData = [
 //     {
-//   email: 'mark@mqs.dk '
+//   mail: 'mark@mqs.dk '
 //          
 // ]
 
