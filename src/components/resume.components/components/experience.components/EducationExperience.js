@@ -10,7 +10,7 @@ import './workExperience.styles.css';
 // export const educationData = [
 //     {obTitle:'Full Stac Developer Program',
 //     ,
-//       task: 'Courses:',
+//       ask: 'Courses:',
 //         taskDetails:         
 //         jobTitle:'Mrs in Cter Systems Engineering',
 //         companyName: 'Halmstad University',
