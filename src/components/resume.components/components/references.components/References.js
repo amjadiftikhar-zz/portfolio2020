@@ -8,7 +8,7 @@ import './references.styles.css';
 
 // const referenceData = [
 //     {
-// il: 'mark@mqs.dk '
+// l: 'mark@mqs.dk '
 //          
 // ]
 
