@@ -16,7 +16,7 @@ import experienceData from '../../../../assets/resume_eng.json';
 //             'Responsible for hat hosts different tools for R & D',
 //             ' Planning and setting up frontend architecture, diagnosing, troubleshooting and resolving technical issues',
 //             'Developing design and claboration with the design team',
-//             'Making reusable components and writing test using React testing l
+//             'Making reusable components and writing test using React testing 
 //     {
 //         jobTitle:'Frontend Developer',
 //         companyName: 'Unifounder',
