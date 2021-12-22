@@ -11,7 +11,7 @@ const TaskDescription = (props) => {
             
                 </li>
                 <li>
-                    Planning and seng up fro architecture, diagnosing, 
+                    Planning and seng up fr architecture, diagnosing, 
                     troubleshooting and resolving technical issues
                 </li>
                 <li>
