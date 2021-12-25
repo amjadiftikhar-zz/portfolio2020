@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import ExperienceCard from './ExperienceCard';
 import './workExperience.styles.css';
-// import educationData from '../../../../assets/resume_eng.json';
+import educationData from '../../../../assets/resume_eng.json';
 // import educationData from '../../../../assets/resume_dk.json';
 
 
@@ -35,26 +35,26 @@ import './workExperience.styles.css';
 
 const EducationExperience = () => {
 
-    const [education, setEducation] = useState(null)
-    const [sectionTitles, setSectionTitles] = useState([])
+    // const [education, setEducation] = useState(null)
+    // const [sectionTitles, setSectionTitles] = useState([])
 
-    useEffect(() => {
-        fetch('http://localhost:9000/education')
-        .then(response => response.json())
-        .then(data =>  setEducation(data))
+    // useEffect(() => {
+    //     fetch('http://localhost:9000/education')
+    //     .then(response => response.json())
+    //     .then(data =>  setEducation(data))
 
-        fetch('http://localhost:9000/sectionTitles')
-        .then(response => response.json())
-        .then(d =>  setSectionTitles(d))
-    }, [])
+    //     fetch('http://localhost:9000/sectionTitles')
+    //     .then(response => response.json())
+    //     .then(d =>  setSectionTitles(d))
+    // }, [])
 
     return (
         <div className="workExperienceContainer">
             {/* <h3 className='experienceTitle'>{education.sectionTitles[3]}</h3> */}
-            <h3 className='experienceTitle'>{sectionTitles[3]}</h3>
+            {/* <h3 className='experienceTitle'>{sectionTitles[3]}</h3> */}
             {
-                // educationData.education.map((e, index) => {
-                education && education.map((e, index) => {
+                educationData.education.map((e, index) => {
+                // education && education.map((e, index) => {
                     return(
                         <ExperienceCard
                             key={index}
