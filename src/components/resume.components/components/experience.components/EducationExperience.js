@@ -11,7 +11,7 @@ import educationData from '../../../../assets/resume_eng.json';
 //   bTitle:'Full Stac Developer Program',
 //     ,
 // sk: 'Courses:',
-//         taskDetails:         
+//         taskDetails        
 //         jobTitle:'Mrs in Cter Systems Engineering',
 //         companyName: 'Halmstad University',
 //         duration: '01/2008 - 03/2010',
