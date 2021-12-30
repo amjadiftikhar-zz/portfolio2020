@@ -13,7 +13,7 @@ import experienceData from '../../../../assets/resume_eng.json';
 //         duration: '01/2021 - Present',
 //         task: 'Tasks:',
 //         taskDetails: [
-//             'Responsible for hat hosts different tools for ',
+//             'Responsible for hat hosts different tools for',
 //             ' Planning and setting up frontend architecture, diagnosing, troubleshooting and resolving technical issues',
 //             'Developing design and claboration with the design team',
 //             'Making reusable components and writing test using React test
