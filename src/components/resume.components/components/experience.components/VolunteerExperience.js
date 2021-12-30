@@ -7,7 +7,7 @@ import volunteerExperienceData from '../../../../assets/resume_eng.json';
 
 // export const volunteerExperienceData = [
 //     { 
-//ww.smartdeveloper.dk/',
+//w.smartdeveloper.dk/',
 //         duratio: '11/20 -
 //   ,
 //         taskDetails: [
