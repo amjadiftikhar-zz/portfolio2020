@@ -8,7 +8,7 @@ import educationData from '../../../../assets/resume_eng.json';
 
 
 // export const educationData 
-//bTitle:'Full Stac Developer Program',
+//Title:'Full Stac Developer Program',
 //     ,
 // sk: 'Courses:',
 //         taskDetails        
