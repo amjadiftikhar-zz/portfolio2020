@@ -12,7 +12,7 @@ import educationData from '../../../../assets/resume_eng.json';
 //     ,
 // sk: 'Courses:',
 //         taskDetails        
-//         jobTitle:'Mrs in Cter Systems Engineering',
+//         jobTitle:'Mrs in Cter Systems Engineerin',
 //         companyName: 'Halmstad University',
 //         duration: '01/2008 - 03/2010',
 //         task: 'Courses:',
