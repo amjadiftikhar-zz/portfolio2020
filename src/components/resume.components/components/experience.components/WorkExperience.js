@@ -9,7 +9,7 @@ import experienceData from '../../../../assets/resume_eng.json';
 
 // export const experienceData = [
 //     { 
-//gName: 'Moular Quantum Soluto',
+//gName: 'Moular Quantum Souto',
 //         duration: '01/2021 - Present',
 //         task: 'Tasks:',
 //         taskDetails: [
