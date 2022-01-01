@@ -46,7 +46,7 @@ const Objective = () => {
                 })}
             {/* </Trans> */}
             {/*
-            <p className=Text'>
+            <p className=ext'>
             Have contributed in iferentnt techniques 
                 and very passionate about new fields in the domain of tech and development.
             </p> */}
