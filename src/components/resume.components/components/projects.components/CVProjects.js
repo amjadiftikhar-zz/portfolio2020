@@ -7,7 +7,7 @@ import projectsData from '../../../../assets/resume_eng.json';
 
 
 // const projectData = [
-//1.herokuapp.com/dashboard) for Seasony and tools used are, JavaScript, NodeJS, React, MySql, Knex.js, Storybook, Express, Swagger, HTML and'
+//.herokuapp.com/dashboard) for Seasony and tools used are, JavaScript, NodeJS, React, MySql, Knex.js, Storybook, Express, Swagger, HTML and'
 //     },
 //     {
 //         duration: 'Meal Sharing Applicatin (02/2020 - 02/2020)',
