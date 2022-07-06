@@ -10,7 +10,7 @@ import experienceData from '../../../../assets/resume_eng.json';
 // export const experienceData = [
 //     { 
 //gName: 'Moular Quantum Sout',
-//         duration: '01/2021 - Present',
+//         duration: '01/2021  Present',
 //         task: 'Tasks:',
 //         taskDetails: [
 //             'Responsible for hat hosts different tools f',
