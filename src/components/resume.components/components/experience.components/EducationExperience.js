@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import ExperienceCard from './ExperienceCard';
 import './workExperience.styles.css';
-import educationData from '../../../../assets/resume_eng.json';
+// import educationData from '../../../../assets/resume_eng.json';
 // import educationData from '../../../../assets/resume_dk.json';
 
 
@@ -33,7 +33,7 @@ import educationData from '../../../../assets/resume_eng.json';
 //     }
 // ]
 
-const EducationExperience = () => {
+const EducationExperience = (props) => {
 
     // const [education, setEducation] = useState(null)
     // const [sectionTitles, setSectionTitles] = useState([])
@@ -52,8 +52,9 @@ const EducationExperience = () => {
         <div className="workExperienceContainer">
             {/* <h3 className='experienceTitle'>{education.sectionTitles[3]}</h3> */}
             {/* <h3 className='experienceTitle'>{sectionTitles[3]}</h3> */}
+            <h3 className='experienceTitle'>{props.sectionTitles[3]}</h3>
             {
-                educationData.education.map((e, index) => {
+                props.education.map((e, index) => {
                 // education && education.map((e, index) => {
                     return(
                         <ExperienceCard
