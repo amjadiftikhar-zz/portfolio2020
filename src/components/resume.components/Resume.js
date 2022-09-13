@@ -10,6 +10,10 @@ import References from './components/references.components/References';
 import VolunteerExperience from './components/experience.components/VolunteerExperience';
 import EducationExperience from './components/experience.components/EducationExperience';
 
+
+import objectData from "../../assets/resume_eng.json";
+// import objectData from "../../assets/resume_dk.json";
+
 import '../../i18n/i18n';
 
 
@@ -21,19 +25,40 @@ const Resume = () => {
         <div className='resumeContainer' >
             <div className="leftSection">
                 <Profile/>
-                <Skills/>
-                <Certificates/>
-                <Languages/>
-                {/* <References/> */}
+                <Skills skills={objectData.skills} sectionTitles={objectData.sectionTitles}/>
+                <Certificates 
+                    certificates={objectData.certificates} 
+                    sectionTitles={objectData.sectionTitles} 
+                />
+                <Languages 
+                    languages={objectData.languages} 
+                    sectionTitles={objectData.sectionTitles} 
+                />
+                <References 
+                    references={objectData.references} 
+                    sectionTitles={objectData.sectionTitles} 
+                />
             </div>
             <div className="rightSection">
                 <Suspense fallback={<div>Loading...</div>}>
-                    <Objective/>
+                    <Objective objective={objectData.objective} />
                 </Suspense>
-                <WorkExperience/>
-                <VolunteerExperience/>
-                <CVProjects/>
-                <EducationExperience/>
+                <WorkExperience 
+                    experience={objectData.experience} 
+                    sectionTitles={objectData.sectionTitles} 
+                />
+                <VolunteerExperience 
+                    volunteerExperience={objectData.volunteerExperience} 
+                    sectionTitles={objectData.sectionTitles}
+                />
+                <CVProjects 
+                    projects={objectData.projects} 
+                    sectionTitles={objectData.sectionTitles} 
+                />
+                <EducationExperience 
+                    education={objectData.education} 
+                    sectionTitles={objectData.sectionTitles} 
+                />
             </div>
         </div>
     );
