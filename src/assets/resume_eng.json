@@ -14,7 +14,7 @@
         { 
             "jobTitle": "Frontend Developer",
             "companyName": "Molecular Quantum Solutions",
-            "duration": "01/2021 - Present",
+            "duration": "01/2021 - present",
             "task": "Tasks:",
             "companyLocation": "Søborg, Denmark",
             "taskDetails": [
@@ -54,7 +54,7 @@
             "companyName": "Taxa 4x35 Copenhagen",
             "duration": "02/2014 - 05/2020",
             "task": "Achievements:",
-            "companyLocation": "Frederiksberg, Denmark",
+            "companyLocation": "Copenhagen, Denmark",
             "taskDetails": [
                 "Learnt how to deal nicely with the customers and work under stress",
                 "Improved communication skills"
@@ -136,9 +136,8 @@
         }
     ],
     "skills": [
-        "Javascript", "Typescript", "React", "Nodejs", "HTML", "CSS", 
-        "MySql", "Knex", "jQuery", "NPM", "Express", "Storybook", "Firebase", "Swagger",
-        "TDD", "Prettier", "Git", "Github", "Heroku"
+        "Javascript", "Typescript", "React", "Nodejs", "Falcon", "Scrapy", "HTML", "CSS", 
+        "MySql", "Postgresql", "Knex", "SQLAlchemy", "jQuery", "NPM", "Express", "Storybook", "Firebase", "Swagger", "Prettier", "Git", "Github", "Heroku", "Docker"
     ],
     "certificates": [
         {
