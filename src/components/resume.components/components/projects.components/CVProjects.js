@@ -1,7 +1,7 @@
 import React from 'react'
 import CVProjectCard from './CVProjectCard';
 import "./cvProjects.styles.css";
-import projectsData from '../../../../assets/resume_eng.json';
+// import projectsData from '../../../../assets/resume_eng.json';
 // import projectsData from '../../../../assets/resume_dk.json';
 
 
@@ -15,18 +15,18 @@ import projectsData from '../../../../assets/resume_eng.json';
 //     }, 
 //     {
 //         duration: 'Weather Application (11/2019 - 11/2019)',
-//         description: 'Weather App where I used my technical skills in JavaScript, REST APIs, HTML and CSS'
+//         description: 'Weather App where I used my technical skills in JavaScrip, REST APIs, HTML and CSS'
 //     }    
 // ]
 
-const CVProjects = () => {
+const CVProjects = (props) => {
 
     return (
         <div className="cvProjectSection">
-            <h3 className='cvProjectTitle'>{projectsData.sectionTitles[2]}</h3>
+            <h3 className='cvProjectTitle'>{props.sectionTitles[2]}</h3>
             <div className="cvProjectContainer">
                 {
-                    projectsData.projects.map((p, index) => {
+                    props.projects.map((p, index) => {
                         return(
                             <CVProjectCard
                                 key={index}
