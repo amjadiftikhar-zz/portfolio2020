@@ -1,7 +1,7 @@
 import React from 'react';
 import ExperienceCard from './ExperienceCard';
 import './workExperience.styles.css';
-import volunteerExperienceData from '../../../../assets/resume_eng.json';
+// import volunteerExperienceData from '../../../../assets/resume_eng.json';
 // import volunteerExperienceData from '../../../../assets/resume_dk.json';
 
 
@@ -28,13 +28,13 @@ import volunteerExperienceData from '../../../../assets/resume_eng.json';
 //     }
 // ]
 
-const VolunteerExperience = () => {
+const VolunteerExperience = (props) => {
 
     return (
         <div className="workExperienceContainer">
-            <h3 className='experienceTitle'>{volunteerExperienceData.sectionTitles[1]}</h3>
+            <h3 className='experienceTitle'>{props.sectionTitles[1]}</h3>
             {
-                volunteerExperienceData.volunteerExperience.map((e, index) => {
+                props.volunteerExperience.map((e, index) => {
                     return(
                         <ExperienceCard
                             key={index}
