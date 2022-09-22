@@ -2,7 +2,7 @@ import React from 'react';
 import ExperienceCard from './ExperienceCard';
 import TaskDescription from './TaskDescription';
 import './workExperience.styles.css';
-import experienceData from '../../../../assets/resume_eng.json';
+// import experienceData from '../../../../assets/resume_eng.json';
 // import experienceData from '../../../../assets/resume_dk.json';
 
 
@@ -55,13 +55,13 @@ import experienceData from '../../../../assets/resume_eng.json';
 //     }
 // ]
 
-const WorkExperience = () => {
+const WorkExperience = (props) => {
 
     return (
         <div className="workExperienceContainer">
-            <h3 className='experienceTitle'> {experienceData.sectionTitles[0]} </h3>
+            <h3 className='experienceTitle'> {props.sectionTitles[0]} </h3>
             {
-                experienceData.experience.map((e, index) => {
+                props.experience.map((e, index) => {
                     return(
                         <ExperienceCard
                             key={index}
