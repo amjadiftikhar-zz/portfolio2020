@@ -74,7 +74,7 @@
       "projectImage": "/images/weatherApp.jpg",
       "projectVideo":"/videos/weatherApp.webm",
       "githubLink":"https://github.com/amjadiftikhar/myProjects",
-      "herokuLink":"https://htmlpreview.github.io/?https://github.com/amjadiftikhar/my_SPAblob/master/weather-App/index.html",
+      "herokuLink":"https://htmlpreview.github.io/?https://github.com/amjadiftikhar/my_SPAs/blob/master/weather-App/index.html",
       "description":"A weather application for daily weather updates, using weather opeweather API and the app is available for the preview. Tools used are API, JavascriptHTML and CSS"
     }, 
     {
