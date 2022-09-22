@@ -6,15 +6,15 @@
     "objective": [
         {
             "name": "Amjad Iftikhar",
-            "jobTitle": "Frontend Developer",
-            "objective": "Curious and talented developer with a flair for creating elegant solutions in the least amount of time and have passion for responsive website design as well as a firm believer in the mobile-first approach. Have contributed in different projects to learn new development techniques and very passionate about new fields in the domain of tech and development."
+            "jobTitle": "React Frontend Developer",
+            "objective": "Curious and talented frontend developer with a flair for creating elegant solutions in the least amount of time and have passion for responsive website design as well as a firm believer in the mobile-first approach. Have contributed in different projects to learn new development techniques and very passionate about new fields in the domain of tech and development."
         }
     ],
     "experience": [
         { 
             "jobTitle": "Frontend Developer",
             "companyName": "Molecular Quantum Solutions",
-            "duration": "01/2021 - present",
+            "duration": "01/2021 - 06/2022",
             "task": "Tasks:",
             "companyLocation": "Søborg, Denmark",
             "taskDetails": [
