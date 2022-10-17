@@ -3,13 +3,13 @@
         "hello":"hej"
     },
     "sectionTitles": [
-        "Erhvervserfaring", "Frivilligt Arbejde", "Projeckter", "Uddannelse", "Kompetencer", "Certificeringer", "Sprog", "Referencer"
+        "Erhvervserfaring", "Frivilligt Arbejde", "Projekter", "Uddannelse", "Kompetencer", "Certificeringer", "Sprog", "Referencer"
     ],
     "objective": [
         {
             "name": "Amjad Iftikhar",
-            "jobTitle": "Frontend Developer",
-            "objective": "En nysgerrig og talentfuld frontend developer med flair til at skabe elegante løsninger i det mindste tid, har en passion for responsivt website design og har bidraget til forskellige projekter for at lære nye udviklingsteknikker og meget lidenskabelig for nye områder inden for teknologi og udvikling."
+            "jobTitle": "Full Stack Udvikler",
+            "objective": "En nysgerrig og talentfuld udvikler med flair til at skabe elegante løsninger, som har en passion for responsivt website design og har bidraget til forskellige projekter for at lære nye udviklingsteknikker og meget lidenskabelig for nye områder inden for teknologi og udvikling."
         }
     ],
     "experience": [
@@ -20,10 +20,9 @@
             "task": "Opgaver:",
             "companyLocation": "Søborg, Denmark",
             "taskDetails": [
-                "Arbejder som frontend udvikler og ansvarlig for udvikling af MQS platform som er vært for forskellige tools for R&D",
+                "Arbejdede som frontend udvikler og ansvarlig for udvikling af MQS platform som er vært for forskellige tools for R&D",
                 "Planlægning og opsætning af frontend arkitektur",
-                "Udvikling design og samarbejde med design team",
-                "Test skrivning i React testing library"
+                "Udvikling design og samarbejde med design team"
             ]
         },
         {
@@ -53,7 +52,11 @@
             "jobTitle":"Taxachauffør",
             "companyName": "Taxa 4x35 Copenhagen",
             "duration": "02/2014 - 05/2020",
-            "companyLocation": "København, Denmark"
+            "task": "Præstationer:",
+            "companyLocation": "København, Denmark",
+            "taskDetails": ["Lært at håndtere kunderne pænt og arbejde under stress",
+            "Forbedrede kommunikationsevner"
+            ]
         }
     ],
     "volunteerExperience": [
@@ -74,17 +77,17 @@
             "task": "Opgaver:",
             "companyLocation": "København, Denmark",
             "taskDetails": [
-                "Application udviklede i Paython, HTML, CSS tilbyder service for prissammenligning mellem forskellige telecom virksomheder i Denmark. Jeg er ansvarlig om opbygger frontend for appen."
+                "Applikation udviklede i Python, HTML, CSS tilbyder service for prissammenligning mellem forskellige telecom virksomheder i Denmark. Jeg er ansvarlig om opbygger frontend for appen."
             ]
         }
     ],
     "projects": [
         {
             "duration": "Movie Catalogue (10/2020 - 10/2020)",
-            "description": "Application udviklede i React ved brug af star wars API for at vise movie & moviekarakterers specifikationer og også karakterers specs og osv."
+            "description": "Applikation udviklede i React ved brug af star wars API for at vise movie & moviekarakterers specifikationer og også karakterers specs og osv."
         },
         {
-            "duration": "www.seasony.dk (02/2020 - 04/2020)",
+            "duration": "Dashboard for seasony - www.seasony.dk (02/2020 - 04/2020)",
             "description": "Udviklede en dashboard applikation (https://fp-class11.herokuapp.com/dashboard) for Seasony ved bruge af JavaScript, Node JS, React, MySql, Knex.js, Storybook, Express JS, Swagger, HTML og "
         },
         {
@@ -92,8 +95,8 @@
             "description": "Udviklede en applikation (https://my-meal-sharing-app.herokuapp.com/) ved brug af tech-stack dvs. JavaScript-, Express JS, HTML / CSS, Git, Github og MySql."
         }, 
         {
-            "duration": "Weather Application (11/2019 - 11/2019)",
-            "description": "Applikationen viser vejropdateringer ved hjælp af openweathermap API. Og de anvendte teknologier er JavaScript, REST API'er, HTML og CSS"
+            "duration": "Weather Applikation (11/2019 - 11/2019)",
+            "description": "Weather App udviklet under akademisk session i JavaScript, REST API'er (openweathermap), HTML og CSS"
         }    
     ],
     "education": [
@@ -130,7 +133,7 @@
     ],
     "skills": [
         "Javascript", "Typescript", "React", "Nodejs", "Falcon", "Scrapy", "HTML", "CSS", 
-        "MySql", "Postgresql", "Knex", "SQLAlchemy", "jQuery", "NPM", "Express", "Storybook", "Firebase", "Swagger", "Prettier", "Git", "Github", "Heroku", "Docker"
+        "MySql", "Postgresql", "Knex", "SQLAlchemy", "jQuery", "NPM", "Express", "Three.js", "REST", "Storybook", "Firebase", "Swagger", "Prettier", "Git", "Github", "Heroku", "Docker"
     ],
     "certificates": [
         {
@@ -153,7 +156,7 @@
         }, 
         {
             "language": "Urdu",
-            "level": "Modersmåls-eller tosprogsfærdighed"
+            "level": "Modersmål-eller tosproget færdighed"
         }        
     ],
     "references": [
