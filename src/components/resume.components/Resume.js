@@ -11,8 +11,8 @@ import VolunteerExperience from './components/experience.components/VolunteerExp
 import EducationExperience from './components/experience.components/EducationExperience';
 
 
-import objectData from "../../assets/resume_eng.json";
-// import objectData from "../../assets/resume_dk.json";
+// import objectData from "../../assets/resume_eng.json";
+import objectData from "../../assets/resume_dk.json";
 
 import '../../i18n/i18n';
 
