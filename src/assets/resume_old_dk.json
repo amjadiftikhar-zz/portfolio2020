@@ -1,0 +1,169 @@
+{
+    "danish": {
+        "hello":"hej"
+    },
+    "sectionTitles": [
+        "Erhvervserfaring", "Frivilligt Arbejde", "Projekter", "Uddannelse", "Kompetencer", "Certificeringer", "Sprog", "Referencer"
+    ],
+    "objective": [
+        {
+            "name": "Amjad Iftikhar",
+            "jobTitle": "Frontend Udvikler",
+            "objective": "En nysgerrig og talentfuld frontend udvikler med flair til at skabe elegante løsninger i det mindste tid, har en passion for responsivt website design og har bidraget til forskellige projekter for at lære nye udviklingsteknikker og meget lidenskabelig for nye områder inden for teknologi og udvikling."
+        }
+    ],
+    "experience": [
+        { 
+            "jobTitle": "Frontend Udvikler",
+            "companyName": "Molecular Quantum Solutions",
+            "duration": "01/2021 - 06/2022",
+            "task": "Opgaver:",
+            "companyLocation": "Søborg, Denmark",
+            "taskDetails": [
+                "Arbejder som frontend udvikler og ansvarlig for udvikling af MQS platform som er vært for forskellige tools for R&D",
+                "Planlægning og opsætning af frontend arkitektur",
+                "Udvikling design og samarbejde med design team",
+                "Test skrivning i React testing library"
+            ]
+        },
+        {
+            "jobTitle": "Frontend Udvikler",
+            "companyName": "Unifounder",
+            "duration": "11/2020 - 01/2021",
+            "task": "Opgaver:",
+            "companyLocation": "Frederiksberg, Denmark",
+            "taskDetails": [
+                "Som frontend udvikler var jeg ansvarlig for udvikling af frontend til ders platform",
+                "Implementering fra koncept til implementering med en responsiv, mobil første approach",
+                "Planlægning, udfør kodevurderinger og arbejde tæt sammen med udviklingsteamet såvel designere",
+                "Refactoring og decomposing af eksisterende kode og struktur"
+            ]
+        },
+        {
+            "jobTitle":"Student Frivillig",
+            "companyName": "Hack Your Future-Copenhagen",
+            "duration": "08/2019 - idag",
+            "task": "Opgaver:",
+            "companyLocation": "København, Denmark",
+            "taskDetails": [
+                "Lektiehjælp og kode/PRs review"
+            ]
+        },
+        {
+            "jobTitle":"Taxachauffør",
+            "companyName": "Taxa 4x35 Copenhagen",
+            "duration": "02/2014 - 05/2020",
+            "companyLocation": "København, Denmark"
+        }
+    ],
+    "volunteerExperience": [
+        { 
+            "jobTitle":"Frontend Udvikler",
+            "companyName": "https://www.smartdeveloper.dk/",
+            "duration": "11/2020 - 02/2021",
+            "task": "Opgaver:",
+            "companyLocation": "København, Denmark",
+            "taskDetails": [
+                "Applikation udviklet i React og arbejdede jeg fra scratch til deployment og gjort færdig i bestemt tidspunkt."
+            ]
+        },
+        {
+            "jobTitle":"Frontend Udvikler",
+            "companyName": "https://www.mobiletilbud.dk/",
+            "duration": "12/2020 - 01/2021",
+            "task": "Opgaver:",
+            "companyLocation": "København, Denmark",
+            "taskDetails": [
+                "Application udviklede i Python, HTML, CSS tilbyder service for prissammenligning mellem forskellige telecom virksomheder i Denmark. Jeg er ansvarlig om opbygger frontend for appen."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "duration": "Movie Catalogue (10/2020 - 10/2020)",
+            "description": "Application udviklede i React ved brug af star wars API for at vise movie & moviekarakterers specifikationer og også karakterers specs og osv."
+        },
+        {
+            "duration": "www.seasony.dk (02/2020 - 04/2020)",
+            "description": "Udviklede en dashboard applikation (https://fp-class11.herokuapp.com/dashboard) for Seasony ved bruge af JavaScript, Node JS, React, MySql, Knex.js, Storybook, Express JS, Swagger, HTML og "
+        },
+        {
+            "duration": "Meal Sharing Application (02/2020 - 02/2020)",
+            "description": "Udviklede en applikation (https://my-meal-sharing-app.herokuapp.com/) ved brug af tech-stack dvs. JavaScript-, Express JS, HTML / CSS, Git, Github og MySql."
+        }, 
+        {
+            "duration": "Weather Application (11/2019 - 11/2019)",
+            "description": "Applikationen viser vejropdateringer ved hjælp af openweathermap API. Og de anvendte teknologier er JavaScript, REST API'er, HTML og CSS"
+        }    
+    ],
+    "education": [
+        { 
+            "jobTitle":"Full Stack Webudvikling",
+            "companyName": "Hack Your Future-Copenhagen",
+            "duration": "08/2019 - 04/2020",
+            "companyLocation": "København, Denmark",
+            "task": "Fag:",
+            "taskDetails": [
+                "Javascript, React, Nodejs, HTML, CSS, mySql"
+            ]
+        },
+        {
+            "jobTitle":"Kandidat i Datateknologi",
+            "companyName": "Halmstad University",
+            "duration": "01/2008 - 03/2010",
+            "companyLocation": "Halmstad, Sverige",
+            "task": "Fag:",
+            "taskDetails": [
+                "Advanced Routing, Multilayer Switching"
+            ]
+        },
+        {
+            "jobTitle":"Bachelor i Datalogi",
+            "companyName": "AIOU University Islamabad",
+            "duration": "09/2000 - 03/2005",
+            "companyLocation": "Islamabad, Pakistan",
+            "task": "Fag:",
+            "taskDetails": [
+                "C++, Java, Visual C++, Oracle SQL, VBasic"
+            ]
+        }
+    ],
+    "skills": [
+        "Javascript", "Typescript", "React", "Nodejs", "Falcon", "Scrapy", "HTML", "CSS", 
+        "MySql", "Postgresql", "Knex", "SQLAlchemy", "jQuery", "NPM", "Express", "Three.js", "REST", "Storybook", "Firebase", "Swagger", "Prettier", "Git", "Github", "Heroku", "Docker"
+    ],
+    "certificates": [
+        {
+            "duration": "Microsoft Certificeret Professional, MCP ID: 8074395 (01/2011 - 04/2012)",
+            "description": "MCSE, MCSA, MCP og MCTS (windows 2007)"
+        },
+        {
+            "duration": "CCNA og CCNP (Akademiske) (09/2008 - 03/2009)",
+            "description": "CCNP (Cisco Certificeret Netværk Professional) & CCNA (Cisco Certificeret Netværk Associate)"
+        }        
+    ],
+    "languages": [
+        {
+            "language": "Englsk",
+            "level": "Fuld faglig dygtighed"
+        },
+        {
+            "language": "Dansk",
+            "level": "Professionel praktisk færdighed"
+        }, 
+        {
+            "language": "Urdu",
+            "level": "Modersmåls-eller tosprogsfærdighed"
+        }        
+    ],
+    "references": [
+        {
+            "reference": "Mark Nicholas Jones (CEO MQS )",
+            "email": "mark@mqs.dk "
+        },
+        {
+            "reference": "Rahim Ismaili (Developer at Dwarf)",
+            "email": "ismailirahim6@gmail.com"
+        }       
+    ]    
+}
