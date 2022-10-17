@@ -7,7 +7,7 @@ import './workExperience.styles.css';
 
 
 
-// export const educationData 
+// export const educatinData 
 //tle:'Full Stac Developer Program',
 //     ,
 // sk: 'Courses:',
