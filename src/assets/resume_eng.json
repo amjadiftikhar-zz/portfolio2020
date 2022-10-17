@@ -6,8 +6,8 @@
     "objective": [
         {
             "name": "Amjad Iftikhar",
-            "jobTitle": "React Frontend Developer",
-            "objective": "Curious and talented frontend developer with a flair for creating elegant solutions in the least amount of time and have passion for responsive website design as well as a firm believer in the mobile-first approach. Have contributed in different projects to learn new development techniques and very passionate about new fields in the domain of tech and development."
+            "jobTitle": "Frontend Engineer",
+            "objective": "A curious and talented front-end engineer with a flair for creating elegant solutions in the least amount of time and have a passion for responsive website design and a firm believer in the mobile-first approach. Have contributed to different projects to learn new development techniques and very passionate about new fields in the tech and development domain."
         }
     ],
     "experience": [
@@ -31,11 +31,10 @@
             "task": "Tasks:",
             "companyLocation": "Frederiksberg, Denmark",
             "taskDetails": [
-                "Responsible for developing the design also help designing the platform",
-                "Implementation from concept through deployment, with a responsive, mobile first approach",
-                "Refactoring and decomposing exiting code and structure",
-                "Perform code reviews, coordinating with designers and development team",
-                "Diagnosing, troubleshooting and resolving technical issues"
+                "Implementation from concept through deployment, with a responsive and mobile first approach",
+                "Responsible for developing the design and helping designing the platform",
+                "Performing code reviews, coordinating with designers and development team",
+                "Refactoring and decomposing existing code and structure"
             ]
         },
         {
@@ -45,8 +44,8 @@
             "task": "Tasks:",
             "companyLocation": "Copenhagen, Denmark",
             "taskDetails": [
-                "Reviewning PRs",
-                "Helping students with their weekly assignments"
+                "Helping students with their weekly assignments",
+                "Reviewning PRs"
             ]
         },
         {
@@ -69,9 +68,9 @@
             "task": "Tasks:",
             "companyLocation": "Copenhagen, Denmark",
             "taskDetails": [
-                "A signle page application, developed in React",
-                "I succssfully completed it and got a deep insight of working with React.js from scratch to deployment",
-                "Making reusable components and wrote tests using React testing library"
+                "Built a single page application in React",
+                "I successfully completed it and got a deep insight of working with React.js from scratch to deployment",
+                "Made reusable components and wrote tests using React testing library"
             ]
         },
         {
@@ -81,26 +80,26 @@
             "task": "Tasks:",
             "companyLocation": "Copenhagen, Denmark",
             "taskDetails": [
-                "Participated developing frontend for the application using HTML and CSS"
+                "Participated in developing frontend for the application using HTML and CSS"
             ]
         }
     ],
     "projects": [
         {
             "duration": "Movie Catalogue (10/2020 - 10/2020)",
-            "description": "Application built in React using Star Wars API to show movies and movie characters as well as character specs. Tool used are, Javascript, React, HTML, CSS and API, Git, Github."
+            "description": "Application built in React and used Star Wars API to show movies and movie characters as well as character specs. Tool used are, Javascript, React, HTML, CSS and API, Git, Github."
         },
         {
             "duration": "www.seasony.dk (02/2020 - 04/2020)",
-            "description": "Seasony is a startup specializing in vertical farming with robotics. A dashboard application (https://fp-class11.herokuapp.com/dashboard) for Seasony and tools used are, JavaScript, NodeJS, React, MySql, Knex.js, Storybook, Express, Swagger, HTML and"
+            "description": "Final project in collaboration with Seasony company. A dashboard application (https://fp-class11.herokuapp.com/dashboard) for Seasony and the tools used are: JavaScript, NodeJS, React, MySql, Knex.js, Storybook, Express, Swagger, HTML"
         },
         {
             "duration": "Meal Sharing Application (02/2020 - 02/2020)",
-            "description": "Developed a meal sharing application (https://my-meal-sharing-app.herokuapp.com), using JavaScript, HTML/CSS, MySql, Express, Git, Github, NPM, Webpack skills "
+            "description": "Developed a meal sharing application (https://my-meal-sharing-app.herokuapp.com), using JavaScript, HTML/CSS, MySql, Express, Git, Github, NPM etc"
         }, 
         {
             "duration": "Weather Application (11/2019 - 11/2019)",
-            "description": "Weather App where I used my technical skills in JavaScript, REST APIs, HTML and CSS"
+            "description": "Weather App developed during academic session using JavaScript, REST APIs, HTML and CSS"
         }    
     ],
     "education": [
@@ -136,8 +135,8 @@
         }
     ],
     "skills": [
-        "Javascript", "Typescript", "React", "Nodejs", "Falcon", "Scrapy", "HTML", "CSS", 
-        "MySql", "Postgresql", "Knex", "SQLAlchemy", "jQuery", "NPM", "Express", "Storybook", "Firebase", "Swagger", "Prettier", "Git", "Github", "Heroku", "Docker"
+        "Javascript", "Typescript", "React", "Nodejs", "REST", "HTML", "CSS", 
+        "MySql", "Postgresql", "Knex", "Falcon", "Scrapy", "SQLAlchemy", "jQuery", "NPM", "Express", "Three.js", "Storybook", "Firebase", "Swagger", "Prettier", "Git", "Github", "Heroku", "Docker"
     ],
     "certificates": [
         {
@@ -165,7 +164,7 @@
     ],
     "references": [
         {
-            "reference": "Mark Nicholas Jones (CEO MQS )",
+            "reference": "Mark Nicholas Jones (CEO MQS)",
             "email": "mark@mqs.dk "
         },
         {
