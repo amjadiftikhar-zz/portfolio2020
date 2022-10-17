@@ -16,7 +16,7 @@ import './workExperience.styles.css';
 //             'Responsible for hat hosts different tools f',
 //             ' Planning and setting up frontend architecture, diagnosing, troubleshooting and resolving technical issues',
 //             'Developing design and claboration with the design team',
-//             'Making reusable components and writing test using React test
+//             'Making reusable components and writig test using React test
 //     {
 //         jobTitle:'Frontend Developer',
 //         companyName: 'Unifounder',
