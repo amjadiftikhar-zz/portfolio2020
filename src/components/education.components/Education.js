@@ -10,7 +10,7 @@ const Education = () => {
 
 
     //{
-    // .changeLanguage(language)
+    // changeLanguage(language)
     // }
     
     return (
