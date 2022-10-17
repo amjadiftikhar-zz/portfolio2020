@@ -15,7 +15,7 @@ import "./cvProjects.styles.css";
 //     }, 
 //     {
 //         duration: 'Weather Application (11/2019 - 11/2019)',
-//         description: 'Weather App where I used my technical skills in JavaScrip, REST APIs, HTML and CSS'
+//         description: 'Weather App where I used my technical skills in JavaScri, REST APIs, HTML and CSS'
 //     }    
 // ]
 
