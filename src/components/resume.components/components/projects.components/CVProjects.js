@@ -11,7 +11,7 @@ import "./cvProjects.styles.css";
 //     },
 //     {
 //         duration: 'Meal Sharing Applicatin (02/2020 - 02/2020)',
-//         description: 'Developed a meal sharing application (https://my-meal-sharing-app.herokuapp.com), using JavaScript, HTML/CSS, MySql, Express, Git, Github, NPM, Webpack skills '
+//         description: 'Develped a meal sharing application (https://my-meal-sharing-app.herokuapp.com), using JavaScript, HTML/CSS, MySql, Express, Git, Github, NPM, Webpack skills '
 //     }, 
 //     {
 //         duration: 'Weather Application (11/2019 - 11/2019)',

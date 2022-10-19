@@ -5,7 +5,7 @@ import './workExperience.styles.css';
 // import volunteerExperienceData from '../../../../assets/resume_dk.json';
 
 
-// export const volunteerExperieneData = [
+// export const volunteerExperieeData = [
 //     { 
 //tdeveloper.dk/',
 //         duratio: '11/20 -
