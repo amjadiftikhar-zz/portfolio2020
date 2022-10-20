@@ -12,7 +12,7 @@ import './workExperience.styles.css';
 //   ,
 //         taskDetails: [
 //             'A signle page application, developed in React',
-//             'I succssfully compleedgot s from scratch to deployment',
+//             'I succssfully compleedgot s  scratch to deployment',
 //             'Made reusable components and wrote tests using React testing library',
 //         ]
 //     },
