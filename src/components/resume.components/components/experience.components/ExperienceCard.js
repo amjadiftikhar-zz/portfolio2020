@@ -6,7 +6,7 @@ import './workExperience.styles.css';
 // const taskDetailsData = [ 
 //     [
 //         'Responsible for the frontend tasks related to building a platform that hosts different tools for R & D',
-//         ' Planning and setting up frontend architecture, diagnosing, troubleshooting and resolving technical issues',
+//         ' Planning and seting up frontend architecture, diagnosing, troubleshooting and resolving technical issues',
 //         'Developing design and collabration witthe design team',
 //         'Making reusable components and writing test using React testing library'
 //     ],
