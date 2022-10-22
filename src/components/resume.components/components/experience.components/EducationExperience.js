@@ -8,7 +8,7 @@ import './workExperience.styles.css';
 
 
 // export const educatinData 
-//tle:'Full Stac Deveoper Program',
+//tle:'Full Stac Deoper Program',
 //     ,
 // sk: 'Courses:',
 //         taskDetails        
