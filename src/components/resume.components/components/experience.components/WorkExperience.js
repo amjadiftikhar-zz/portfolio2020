@@ -15,7 +15,7 @@ import './workExperience.styles.css';
 //         taskDetails: [
 //             'Responsible for hat hosts different tools f',
 //             ' Planning and settig up frontend architecture, diagnosing, troubleshooting and resolving technical issues',
-//             'Developing design and claboration with the design team',
+//             'Developing design ad claboration with the design team',
 //             'Making reusable components and wrig test using React test
 //     {
 //         jobTitle:'Frontend Developer',
