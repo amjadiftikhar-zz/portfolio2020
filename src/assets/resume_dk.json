@@ -8,8 +8,8 @@
     "objective": [
         {
             "name": "Amjad Iftikhar",
-            "jobTitle": "Full Stack Udvikler",
-            "objective": "En nysgerrig og talentfuld udvikler med flair til at skabe elegante løsninger, som har en passion for responsivt website design og har bidraget til forskellige projekter for at lære nye udviklingsteknikker og meget lidenskabelig for nye områder inden for teknologi og udvikling."
+            "jobTitle": "Frontend UI Specialist",
+            "objective": "En nysgerrig og talentfuld frontend udvikler med flair til at skabe elegante løsninger, som har en passion for responsivt website design og har bidraget til forskellige projekter for at lære nye udviklingsteknikker og meget lidenskabelig for nye områder inden for teknologi og udvikling."
         }
     ],
     "experience": [
@@ -88,7 +88,7 @@
         },
         {
             "duration": "Dashboard for seasony - www.seasony.dk (02/2020 - 04/2020)",
-            "description": "Udviklede en dashboard applikation (https://fp-class11.herokuapp.com/dashboard) for Seasony ved bruge af JavaScript, Node JS, React, MySql, Knex.js, Storybook, Express JS, Swagger, HTML og "
+            "description": "Udviklede en dashboard applikation (https://fp-class11.herokuapp.com/dashboard) for Seasony ved bruge af JavaScript, Node JS, React, MySql, Knex.js, Storybook, Express JS, Swagger, HTML & CSS"
         },
         {
             "duration": "Meal Sharing Application (02/2020 - 02/2020)",
@@ -96,7 +96,7 @@
         }, 
         {
             "duration": "Weather Applikation (11/2019 - 11/2019)",
-            "description": "Weather App udviklet under akademisk session i JavaScript, REST API'er (openweathermap), HTML og CSS"
+            "description": "Weather App udviklet under akademisk session i JavaScript, REST API'er (openweathermap), HTML & CSS"
         }    
     ],
     "education": [
