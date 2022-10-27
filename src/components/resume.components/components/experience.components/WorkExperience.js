@@ -25,7 +25,7 @@ import './workExperience.styles.css';
 //         companyLocation: 'Frederiksberg, Denmark',
 //         taskDetails: [
 //             'Responsible for developing the design also help designing the platform',
-//             'Implementation from concept through deployment, with a responsive, mobile first approach',
+//             'Implementation from concept through deployent, with a responsive, mobile first approach',
 //             'Refactoring and decomposing exiting code and structure',
 //             'Perform code reiews, coordinating with designers and development team',
 //             'Diagnosing, troubleshooting and resolving technical issues'
