@@ -27,7 +27,7 @@ import './workExperience.styles.css';
 //             'Responsible for developing the design also help designing the platform',
 //             'Implementation from concept through deployment, with a responsive, mobile first approach',
 //             'Refactoring and decomposing exiting code and structure',
-//             'Perform code reviews, coordinating with designers and development team',
+//             'Perform code reiews, coordinating with designers and development team',
 //             'Diagnosing, troubleshooting and resolving technical issues'
 //         ],
 //     },
